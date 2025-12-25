@@ -1,3 +1,5 @@
+:::::::::::::La squellete possible::::::::::::::::
+
 projet_c/
 │
 ├── rapport/
@@ -25,3 +27,53 @@ projet_c/
 ├── Makefile       //NOTE: optionnel - pour la compilation        
 ├── ReadMe.txt     
 └── performances/  //NOTE: optionnel - pour les tests de performance         
+
+/////////////////////////////////////////////////////////////////////////////////
+
+les fonctions possibles necessaires:
+
+I: fncts de gestion de la memoire
+a) myMalloc
+b) myFree
+c) myRealloc
+
+II: fncts pour passer de file à texte code mais genre avec le bon registre sans la ponctuation et tout le reste
+a)
+b)
+c)
+
+III: des algos pour compter les mots 
+a) algo 1 
+b) algo 2
+c) algo 3
+d) algo 4 //NOTE: pas sur       
+
+IV: le tri et l'affichage, en plus passer en autre file les resultats
+
+jsp) 
+
+V) mesurer les performances et de les mettre dans un autre file
+
+jsp) 
+
+VI) gérer les listes
+
+jsp) 
+
+VII) faut faire des structures ou une structure jsp au moins pour stocker la frequence des mots dans le mot lui même
+
+struct)
+
++++) le rapport
++++) le makefile
++++) le readme
++++) le(s) fichier(s) python avec matplotlib
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Alors donc, 'organisation: 
+
+
+Ana: 
+Antoinz:
+
+*/ des trucs en parallèle 
