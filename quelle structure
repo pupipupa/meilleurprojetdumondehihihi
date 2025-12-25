@@ -1,0 +1,27 @@
+projet_c/
+│
+├── rapport/
+│   └── rapport.pdf          
+│
+├── src/
+│   ├── main.c              
+│   ├── gererMem.c           
+│   ├── algorithme1.c       
+│   ├── algorithme2.c        
+│   ├── algorithme3.c        
+│   └── ...                  
+│
+├── include/
+│   └── gererMem.h          
+│
+├── scripts/
+│   └── visualisation.py     
+│
+├── tests/
+│   ├── texte1.txt           
+│   ├── texte2.txt
+│   └── ...
+│
+├── Makefile       //NOTE: optionnel - pour la compilation        
+├── ReadMe.txt     
+└── performances/  //NOTE: optionnel - pour les tests de performance         
