@@ -1,3 +1,6 @@
+#include <inttypes.h>
+#include <stdio.h>
+
 //NOTE: CA COMMENCE 
 
 
