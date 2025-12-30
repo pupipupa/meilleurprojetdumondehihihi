@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//NOTE: CA COMMENCE 
+//NOTE: CA COMMENCE ctrl s
 
 
 int test(int yap){
