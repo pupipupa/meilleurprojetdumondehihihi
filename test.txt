@@ -1,3 +1,23 @@
-Hello
-C is brutal
-but beautiful
+HELLO, World!!!   This    is    a TEST.
+
+C-is GREAT; C is brutal, but BEAUTIFUL.
+Some people say: "Why would you ever use C??"
+Others reply — because CONTROL, speed, and PAIN.
+
+	Random tabs	are here,	and here,		and here.
+Newlines too:
+Line one.
+Line TWO!!!
+Line three???
+
+Numbers: 123 4567, 89.00 — should they stay?
+MixOfUpperAndLowerCASEletters EVERYWHERE.
+
+French stuff: L'été, c'est génial!!! Mais l'hiver... bof.
+Apostrophes ' should vanish, right?
+Quotes "double", ‘single’, weird unicode — boom.
+
+Multiple     spaces      should      maybe      collapse?
+Or maybe not — depends on your logic.
+
+End-of-file test here!!!

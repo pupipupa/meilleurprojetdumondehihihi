@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
 
 
 char* ouvrir_file(const char* path){
@@ -60,17 +63,43 @@ char* ouvrir_file(const char* path){
     return ch;
 }
 
+
+int normalisation_texte(char *s){
+    int write = 0;
+    size_t read;
+    for(read=0; read<strlen(s); ++read){
+        if(s[read] == '\n' || s[read] == '\t')  s[write++] = ' ';
+        else if(s[read] <= 'z' && s[read] >= 'a') {
+            s[write] = s[read];
+            write++;}
+        else if(s[read] <= 'Z' && s[read] >= 'A'){
+            s[write] = tolower(s[read]);
+            write++;}
+        else if(s[read] == ' ') s[write++] = ' ';
+    }
+
+    if(s[write]!='\0') s[write]='\0';
+    return 0;
+}
+
+void printtestcontenu(char *content){
+    printf("=== CONTENU DU FICHIER ===\n");
+    printf("%s\n", content);
+    printf("==========================\n");
+}
+
+
+
 int main(void){
     char *content = ouvrir_file("test.txt");
+    normalisation_texte(content);
 
     if(content == NULL){
         fprintf(stderr, "Erreur: ouvrir_file a échoué\n");
         return 1;
     }
 
-    printf("=== CONTENU DU FICHIER ===\n");
-    printf("%s\n", content);
-    printf("==========================\n");
+    printtestcontenu(content);
 
     free(content);
     return 0;
