@@ -59,5 +59,3 @@ char* ouvrir_file(const char* path){
     fclose(f);
     return ch;
 }
-
-//TODO: fncts pour passer de file à texte code mais genre avec le bon registre sans la ponctuation et tout le reste
