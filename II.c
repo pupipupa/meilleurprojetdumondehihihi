@@ -59,3 +59,19 @@ char* ouvrir_file(const char* path){
     fclose(f);
     return ch;
 }
+
+int main(void){
+    char *content = ouvrir_file("test.txt");
+
+    if(content == NULL){
+        fprintf(stderr, "Erreur: ouvrir_file a échoué\n");
+        return 1;
+    }
+
+    printf("=== CONTENU DU FICHIER ===\n");
+    printf("%s\n", content);
+    printf("==========================\n");
+
+    free(content);
+    return 0;
+}
