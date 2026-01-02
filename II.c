@@ -82,6 +82,35 @@ int normalisation_texte(char *s){
     return 0;
 }
 
+int normalisation_texte_v2(char *s){
+    int write = 0;
+    size_t read;
+    int est_mot = 1;
+    for(read=0; read<strlen(s); ++read){
+        c = s[read]
+
+
+
+        
+        if(tolower(s[read]) >= 'a' && tolower(s[read]) <= 'z') est_mot = 1;
+        while(est_mot){    if(s[read] == '-' && s[read+1] != ' '){
+                s[write++]='-';
+                read++;
+            }
+            else if(s[read] == '\n' || s[read] == '\t' || s[read] == '-' ){
+                s[write++]=' ';
+                est_mot = 0;
+            }
+            else{
+                s[write++]=tolower(s[read++]);
+            }
+        }
+    }
+
+    if(s[write]!='\0') s[write]='\0';
+    return 0;
+}
+
 void printtestcontenu(char *content){
     printf("=== CONTENU DU FICHIER ===\n");
     printf("%s\n", content);
@@ -91,8 +120,9 @@ void printtestcontenu(char *content){
 
 
 int main(void){
+        
     char *content = ouvrir_file("test.txt");
-    normalisation_texte(content);
+    normalisation_texte_v2(content);
 
     if(content == NULL){
         fprintf(stderr, "Erreur: ouvrir_file a échoué\n");
