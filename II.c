@@ -82,6 +82,17 @@ int normalisation_texte(char *s){
     return 0;
 }
 
+int switch_fr(unsigned char c){
+    switch (c) {
+        case 0xA0: case 0xA2: case 0xA4: return 'a'; // à â ä
+        case 0xA7: return 'c';                       // ç
+        case 0xA8: case 0xA9: case 0xAA: case 0xAB: return 'e'; // è é ê ë
+        case 0xAE: case 0xAF: return 'i';             // î ï
+        case 0xB4: case 0xB6: return 'o';             // ô ö
+        case 0xB9: case 0xBB: case 0xBC: return 'u';  // ù û ü
+        default: return 0;
+    }
+}
 int normalisation_texte_v2(char *s){
     int write = 0;
     size_t read;
@@ -102,8 +113,18 @@ int normalisation_texte_v2(char *s){
             s[write++] = c;
         
 
-        else if(c == '-' && (next >= 'a' && next <= 'z') && (prev >= 'a' && prev <= 'z'))
+        else if(c == '-' && (next >=     'a' && next <= 'z') && (prev >= 'a' && prev <= 'z'))
             s[write++] = '-';
+
+        else if((unsigned char)s[read] == 0xC3 && s[read + 1] != '\0'){
+            unsigned char b2 = (unsigned char)s[read + 1];
+            int element_francais = switch_fr(b2);
+            if(element_francais!=0){
+                s[write++] = element_francais;
+                read++;
+            }
+        }
+
 
         else if((c == '\n' || c == '\t' || c == ' ' || c == '\'') && (write > 0 && s[write - 1] != ' '))
             s[write++] = ' ';    
