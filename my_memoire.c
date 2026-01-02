@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 
 typedef struct {
     size_t cumul_alloc;
@@ -35,6 +36,16 @@ void* myRealloc(void* ptr, size_t new_size, InfoMem* infoMem, size_t old_size) /
 }
 
 
-void  myFree(void* ptr, InfoMem* infoMem, size_t old_size);
+void myFree(void* ptr, InfoMem* infoMem, size_t old_size) // BUT : libère un bloc mémoire et met à jour la structure
+{
+    if (ptr == NULL) return; // rien à faire si le pointeur est NULL
+
+    if (infoMem != NULL) {
+        infoMem->cumul_desalloc += old_size; // incrémente le compteur de mémoire désallouée
+    } else {
+        fprintf(stderr, "infoMem est NULL, cumul_desalloc non mis à jour\n"); // Message préventif
+    }
+    free(ptr); // libération de la mémoire
+}
 
 
