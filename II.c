@@ -88,7 +88,7 @@ int normalisation_texte_v2(char *s){
     char c, prev, next;
     
 
-    for(read=0; read<strlen(s); ++read){
+    for(read=0; s[read] != '\0'; ++read){
         c = tolower((unsigned char)s[read]); //тюловер принимает только анчаир сар
         prev = (read != 0)
             ? tolower((unsigned char)s[read - 1])
@@ -105,11 +105,11 @@ int normalisation_texte_v2(char *s){
         else if(c == '-' && (next >= 'a' && next <= 'z') && (prev >= 'a' && prev <= 'z'))
             s[write++] = '-';
 
-        else if(c == '\n' || c == '\t' || c == ' ')
+        else if((c == '\n' || c == '\t' || c == ' ' || c == '\'') && (write > 0 && s[write - 1] != ' '))
             s[write++] = ' ';    
         }
     
-    if(s[write]!='\0') s[write]='\0';
+    s[write]='\0';
     return 0;
     }
 
