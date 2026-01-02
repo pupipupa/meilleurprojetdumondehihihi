@@ -1,23 +1,67 @@
-HELLO, World!!!   This    is    a TEST.
+CHAPITRE I — INTRODUCTION (2026)
 
-C-is GREAT; C is brutal, but BEAUTIFUL.
-Some people say: "Why would you ever use C??"
-Others reply — because CONTROL, speed, and PAIN.
+Bonjour!!!   Ceci est un MEGA-TEST: on veut vérifier la normalisation, la ponctuation, les tirets, les apostrophes, les espaces multiples,
+les TABs	qui sont ici	et ici	et encore ici, puis des retours à la ligne.
 
-	Random tabs	are here,	and here,		and here.
-Newlines too:
-Line one.
-Line TWO!!!
-Line three???
+On a des mots simples: chat, chien, maison, ordinateur.
+On a des mots composés: porte-monnaie, chef-d'œuvre, arc-en-ciel, end-of-file, rock-n-roll.
+On a des faux-tirets: -debut, fin-, --double, mot---mot, mot- -mot, mot -mot (avec espaces).
 
-Numbers: 123 4567, 89.00 — should they stay?
-MixOfUpperAndLowerCASEletters EVERYWHERE.
+On a des apostrophes ASCII: l'été, c'est, j'aime, d'accord, qu'on, aujourd'hui.
+On a aussi des apostrophes typographiques: l’été, c’est, j’aime, d’accord, qu’on, aujourd’hui.
+On veut que ça devienne lisible: l ete, c est, j aime... (selon tes règles).
 
-French stuff: L'été, c'est génial!!! Mais l'hiver... bof.
-Apostrophes ' should vanish, right?
-Quotes "double", ‘single’, weird unicode — boom.
+FRANÇAIS AVEC ACCENTS:
+à â ä  é è ê ë  ç  î ï  ô ö  ù û ü
+Voilà! François, Noël, naïf, façade, rôle, où, sûrement, déjà, crème brûlée.
 
-Multiple     spaces      should      maybe      collapse?
-Or maybe not — depends on your logic.
+ENCORE DES PHRASES:
+— “Salut… ça va ?” demanda-t-elle.
+« Oui, très bien! Et toi? »
+(Parenthèses), [crochets], {accolades}; : ; , . ! ? … !!! ??? ///
 
-End-of-file test here!!!
+LIGNE 2:
+Le C est BRUTAL, mais magnifique. C-is GREAT; end-of-file; test-driven; mega-test; ultra-test.
+Attention aux séparateurs: commas, periods... and weird—dashes—everywhere.
+
+LIGNE 3:
+Des chiffres doivent DISPARAÎTRE (selon le projet): 0 1 2 3 4 5 6 7 8 9, 12345, 3.14159, 2026-01-02, 42ème.
+Mais on garde les lettres: version, chapitre, section, paragraphe.
+
+LIGNE 4:
+Suite de mots pour tester les espaces:
+mot     mot      mot       mot        mot
+mot	mot	mot	mot	mot	(tabulations)
+mot
+mot
+mot
+
+LIGNE 5:
+Mots répétés pour tester la stabilité:
+alpha alpha alpha; beta beta; gamma—gamma; delta-delta; epsilon; zeta; eta; theta.
+alpha-beta gamma-delta epsilon-zeta eta-theta.
+
+LIGNE 6 (UTF-8 “bruit”):
+emoji 🙂 😂 🚀 should become separators.
+symbols © ® ™ € £ ¥ should become separators too.
+math ∑ ∆ √ ≠ ≤ ≥ and arrows → ← ↑ ↓ should be separators.
+
+LIGNE 7:
+Grand bloc de texte (avec beaucoup de ponctuation):
+Ceci, vraiment, est un texte; très: très; très... long!!! Il sert à tester: les règles de découpe,
+les mots-avec-tiret, les mots avec espaces, les mots’avec apostrophe, et les caractères accentués.
+Si tout marche, on doit obtenir une chaîne claire, en minuscules, sans ponctuation, sans chiffres,
+avec des tirets conservés seulement quand ils sont entre deux lettres.
+
+LIGNE 8:
+fin. FIN! FIn?? fiN... F-I-N (et là, attention: les tirets).
+End-of-file test here!!! End-of-file test here!!! End-of-file test here!!!
+
+LIGNE 9:
+Encore des accents en rafale:
+ààà âââ äää ééé èèè êêê ëëë ççç îîî ïïï ôôô ööö ùùù ûûû üüü
+Français Français français FRANÇAIS.
+
+LIGNE 10:
+Dernier test: "C'est l'été—vraiment—incroyable!", dit François; puis il ajouta: “OK… on y va”.
+THE END.
