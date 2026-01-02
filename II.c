@@ -40,6 +40,54 @@ Dico* initDico(size_t capacite_initiale, InfoMem* mem) // BUT : crée et initial
     return dico;
 }
 
+// 1. Cherche si le mot existe déjà
+// 2. Si oui -> incrémente occurrences
+// 3. Sinon -> ajoute le mot
+// 4. Redimension si nécessaire
+
+void ajouterMot(Dico* dico, const char* mot, InfoMem* mem) // BUT : ajoute un mot au dictionnaire ou incrémente son compteur
+{
+    if (dico == NULL || mot == NULL) return; // rien à faire si paramètres invalides
+
+    //Cherche si le mot existe déjà
+    for (size_t i = 0; i < dico->nb_mots; ++i) {//Boucle pour parcourir toute la structure
+        if (strcmp(dico->mots[i].mot, mot) == 0) { //Horrible vrmt mais en gros strcmp permet de comparer les chaînes de caractères par caractère. Juste c'est pas zinzin quand t'apprends son existence après 1 heure à coder une fonction qui le fait à sa place mais voilà après je dis pas que mes problèmes sont plus graves que ceux des autres mais un peu quand même. Cette expérience m'a fortement influencé mentalement et je ne crains en rien le fait de comparer l'étendue de mon traumatisme avec la pire des tortures contemporaine : la goutte d'eau c'est rien du tout à côté du sévice que m'inflige la L2 informatique
+            dico->mots[i].occurrences++;
+            return; // Le mot exite alors on ferme 
+        }
+    }
+
+    // 2) Redimensionnement si nécessaire
+    if (dico->nb_mots == dico->taille) { //recupère les données de taille 
+        size_t oldS = dico->taille;
+        size_t newS = (oldS == 0) ? 1 : oldS * 2;
+        size_t oldB = oldS * sizeof(Mot);
+        size_t newB = newS * sizeof(Mot);
+
+
+        Mot* newP = myRealloc(dico->mots, newB, mem, oldB); // On agrandi le tableau
+        if (newP == NULL) {
+            fprintf(stderr, "Erreur : réallocation du tableau de mots échouée\n"); //j'ai la flemme de faire un double pull oui je l'avoue face cam
+            return;
+        }
+        dico->mots = newP;
+        dico->taille = newS;
+    }
+
+    // 3) Alloue et copie la chaîne du mot
+    size_t len = strlen(mot); // Mtn que je sais crois moi que plus rien ne m'arrête
+    char* copie = myMalloc(len + 1, mem);
+    if (copie == NULL) {
+        fprintf(stderr, "Erreur : allocation du mot échouée\n");
+        return;
+    }
+    memcpy(copie, mot, len + 1);
+
+    // 4) Les paramètres + ajouter nouveau mot
+    dico->mots[dico->nb_mots].mot = copie; //ajoute copie (chaîne de caractère) à la fin de la liste de mot
+    dico->mots[dico->nb_mots].occurrences = 1;
+    dico->nb_mots++;
+}
 
 char* ouvrir_file(const char* path){
     FILE *f;
