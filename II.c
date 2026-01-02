@@ -36,7 +36,6 @@ char* ouvrir_file(const char* path){
 
     size_t len = (size_t)len_long; //size_t не бывает нешативным
     // ПРОВЕРКА ЕЛАСИ СРАБОТАЛО 
-
     rewind(f);
 
     char* ch = (char*)malloc(len+1); //ANCHOR: НИКОГДА НАХУЙ НЕ ЗАБЫВАЙ +1 ПЖЖЖЖЖЖЖЖЖЖ ДЛЯ '\0'
@@ -58,7 +57,6 @@ char* ouvrir_file(const char* path){
     }
 
     ch[len] = '\0';
-
     fclose(f);
     return ch;
 }
