@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include "my_memoire.h"
 
 typedef struct {
     char* mot; // le mot lui-même
@@ -13,6 +14,32 @@ typedef struct {
     size_t nb_mots; // combien de mots sont stockés actuellement
     size_t taille; // capacité actuelle du tableau
 } Dico;
+
+//Franchement, pour être franc, sans aucune retenu, j'ai connu des moments plus sympas
+
+Dico* initDico(size_t capacite_initiale, InfoMem* mem) // BUT : crée et initialise un dictionnaire de mots
+{
+    // Alloue la structure Dico
+    Dico* dico = myMalloc(sizeof(Dico), mem);
+    if (dico == NULL) { // Si jamais l'allocation n'a pas marché
+        fprintf(stderr, "échec allocation Dico\n");
+        return NULL;
+    }
+
+    // Alloue le tableau de mots
+    dico->mots = myMalloc(capacite_initiale * sizeof(Mot), mem);
+    if (dico->mots == NULL) { // Si jamais l'allocation n'a pas marché
+        fprintf(stderr, "échec allocation tableau de mots\n");
+        myFree(dico, mem, sizeof(Dico)); //évite les fuites de mémoire
+        return NULL;
+    }
+
+    // Initialise les compteurs
+    dico->nb_mots = 0;
+    dico->taille  = capacite_initiale;
+    return dico;
+}
+
 
 char* ouvrir_file(const char* path){
     FILE *f;
