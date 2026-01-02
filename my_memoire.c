@@ -1,13 +1,12 @@
 #include "my_memoire.h"
 #include <stdlib.h>
 #include <stdio.h>
-<<<<<<< HEAD
-=======
 
-typedef struct {
+/*typedef struct {
     size_t cumul_alloc;
     size_t cumul_desalloc;
 } InfoMem;
+*/ //ca je crois doit être dans my_memoire.h
 
 //mémoire_estimee = cumul_alloc - cumul_desalloc
 
@@ -51,5 +50,4 @@ void myFree(void* ptr, InfoMem* infoMem, size_t old_size) // BUT : libère un bl
     free(ptr); // libération de la mémoire
 }
 
->>>>>>> be1c9da2ab6d7737c99295f26c3a1d53e4ef4106
 
