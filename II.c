@@ -85,44 +85,34 @@ int normalisation_texte(char *s){
 int normalisation_texte_v2(char *s){
     int write = 0;
     size_t read;
+    char c, prev, next;
     
 
     for(read=0; read<strlen(s); ++read){
-        char c = tolower((unsigned char)s[read]); //тюловер принимает только анчаир сар
-        char prev = (read != 0)
+        c = tolower((unsigned char)s[read]); //тюловер принимает только анчаир сар
+        prev = (read != 0)
             ? tolower((unsigned char)s[read - 1])
             : 0;
 
-        char next = (s[read + 1] != '\0')
+        next = (s[read + 1] != '\0')
             ? tolower((unsigned char)s[read + 1])
             : 0;
 
         if(c >= 'a' && c <= 'z')
-            s[write] = c;
+            s[write++] = c;
         
 
         else if(c == '-' && (next >= 'a' && next <= 'z') && (prev >= 'a' && prev <= 'z'))
-            s[write] = '-';
+            s[write++] = '-';
 
-            
-
-        while(est_mot){    if(s[read] == '-' && s[read+1] != ' '){
-                s[write++]='-';
-                read++;
-            }
-            else if(s[read] == '\n' || s[read] == '\t' || s[read] == '-' ){
-                s[write++]=' ';
-                est_mot = 0;
-            }
-            else{
-                s[write++]=tolower(s[read++]);
-            }
+        else if(c == '\n' || c == '\t' || c == ' ')
+            s[write++] = ' ';    
         }
-    }
-
+    
     if(s[write]!='\0') s[write]='\0';
     return 0;
-}
+    }
+
 
 void printtestcontenu(char *content){
     printf("=== CONTENU DU FICHIER ===\n");
