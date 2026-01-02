@@ -3,7 +3,16 @@
 #include <string.h>
 #include <ctype.h>
 
+typedef struct {
+    char* mot; // le mot lui-même
+    size_t occurrences; // combien de fois ce mot apparaît
+} Mot;
 
+typedef struct {
+    Mot* mots; // tableau dynamique de mots -> structure de structure
+    size_t nb_mots; // combien de mots sont stockés actuellement
+    size_t taille; // capacité actuelle du tableau
+} Dico;
 
 char* ouvrir_file(const char* path){
     FILE *f;
