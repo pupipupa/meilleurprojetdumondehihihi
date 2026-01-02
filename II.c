@@ -40,10 +40,6 @@ Dico* initDico(size_t capacite_initiale, InfoMem* mem) // BUT : crée et initial
     return dico;
 }
 
-// 1. Cherche si le mot existe déjà
-// 2. Si oui -> incrémente occurrences
-// 3. Sinon -> ajoute le mot
-// 4. Redimension si nécessaire
 
 void ajouterMot(Dico* dico, const char* mot, InfoMem* mem) // BUT : ajoute un mot au dictionnaire ou incrémente son compteur
 {
@@ -57,7 +53,7 @@ void ajouterMot(Dico* dico, const char* mot, InfoMem* mem) // BUT : ajoute un mo
         }
     }
 
-    // 2) Redimensionnement si nécessaire
+    //Redimensionnement si nécessaire
     if (dico->nb_mots == dico->taille) { //recupère les données de taille 
         size_t oldS = dico->taille;
         size_t newS = (oldS == 0) ? 1 : oldS * 2;
@@ -74,7 +70,7 @@ void ajouterMot(Dico* dico, const char* mot, InfoMem* mem) // BUT : ajoute un mo
         dico->taille = newS;
     }
 
-    // 3) Alloue et copie la chaîne du mot
+    //Alloue et copie la chaîne du mot
     size_t len = strlen(mot); // Mtn que je sais crois moi que plus rien ne m'arrête
     char* copie = myMalloc(len + 1, mem);
     if (copie == NULL) {
@@ -83,7 +79,7 @@ void ajouterMot(Dico* dico, const char* mot, InfoMem* mem) // BUT : ajoute un mo
     }
     memcpy(copie, mot, len + 1);
 
-    // 4) Les paramètres + ajouter nouveau mot
+    //Les paramètres + ajouter nouveau mot
     dico->mots[dico->nb_mots].mot = copie; //ajoute copie (chaîne de caractère) à la fin de la liste de mot
     dico->mots[dico->nb_mots].occurrences = 1;
     dico->nb_mots++;
