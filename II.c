@@ -17,6 +17,8 @@ typedef struct {
 
 //Franchement, pour être franc, sans aucune retenu, j'ai connu des moments plus sympas
 
+//YEAAA BUT C EST QUE LE DEBUTTT
+
 Dico* initDico(size_t capacite_initiale, InfoMem* mem) // BUT : crée et initialise un dictionnaire de mots
 {
     // Alloue la structure Dico
