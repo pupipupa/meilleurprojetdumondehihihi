@@ -12,8 +12,20 @@ typedef struct {
 
 //*: les prototypes
 
+//? dicos
 Dico* initDico(size_t capacite_initiale, InfoMem* mem);
 void ajouterMot(Dico* dico, const char* mot, InfoMem* mem);
-
-//void libererDico(Dico* dico, InfoMem* mem); 
+//une fonction libererDico(...); 
 //!il faut l'ajouter sinon y'a trop de pertes de mémoire je crois
+
+//? files
+char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len); //ce prototype pour une nouv version de la fnct avec les myMalloc/free pas encore modifiée
+void normalisation_texte_v2(char* s);
+int switch_fr(unsigned char b2);
+
+//? algos 
+//aucun encore fait ;((((
+
+//? print 
+void printtestcontenu(const char* s);
+
