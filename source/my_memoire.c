@@ -1,15 +1,12 @@
+//* les includes:
+
 #include "my_memoire.h"
 #include <stdlib.h>
 #include <stdio.h>
 
-/*typedef struct {
-    size_t cumul_alloc;
-    size_t cumul_desalloc;
-} InfoMem;
-*/ //ca je crois doit être dans my_memoire.h
+//*les fonctions:
 
-//mémoire_estimee = cumul_alloc - cumul_desalloc
-
+//!1:
 void* myMalloc(size_t size, InfoMem* infoMem) //BUT : alloue une taille et met à jour la structure pour pouvoir retrouvé la mémoire utilisé
 {
     //Pour quand même alloué un truc : evite malloc(0) -> provoque de potentiels bugs
@@ -23,6 +20,7 @@ void* myMalloc(size_t size, InfoMem* infoMem) //BUT : alloue une taille et met �
     return p; //NULL en cas d'échec
 }
 
+//!2:
 void* myRealloc(void* ptr, size_t new_size, InfoMem* infoMem, size_t old_size) // BUT : recadre une taille et met à jour la structure en fonction des modifications d’agrandissement ou de rapetissement
 {
     if (new_size == 0) { // Pour quand même allouer un truc : évite realloc(ptr, 0) -> provoque de potentiels bugs
@@ -38,6 +36,7 @@ void* myRealloc(void* ptr, size_t new_size, InfoMem* infoMem, size_t old_size) /
 }
 
 
+//!3:
 void myFree(void* ptr, InfoMem* infoMem, size_t old_size) // BUT : libère un bloc mémoire et met à jour la structure
 {
     if (ptr == NULL) return; // rien à faire si le pointeur est NULL

@@ -1,3 +1,12 @@
+//*les includes:
+
+#ifndef PROJET_H
+#define PROJET_H
+
+#include <stddef.h>
+#include "my_memoire.h"
+
+
 //*: les structures
 typedef struct {
     char* mot; // le mot lui-même
