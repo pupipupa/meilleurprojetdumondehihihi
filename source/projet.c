@@ -103,6 +103,35 @@ void freeDico(Dico* dico, InfoMem* mem) // BUT : libère entièrement un diction
     myFree(dico, mem, sizeof(Dico));
 }
 
+void ajouterMotTexteADico(char* texte, Dico* dico, InfoMem* mem) // BUT : découpe le texte en mots et les ajoute au dictionnaire
+{
+    if (texte == NULL || dico == NULL) return;
+
+    size_t i = 0;
+    while (texte[i] != '\0') { // tant qu'on n'a pas atteint la fin du texte
+
+        while (texte[i] == ' ') // ignore tous les espaces
+            i++;
+
+        if (texte[i] == '\0') // si jamais on tombe sur la fin du texte après les espaces
+            break;
+
+        size_t start = i; // on mémorise l'index où commence le mot
+        while (texte[i] != ' ' && texte[i] != '\0') // on avance jusqu'à la fin du mot (prochain espace ou fin de texte)
+            i++;
+
+        size_t len = i - start;
+        char* mot = myMalloc(len + 1, mem); // alloue temporairement le mot + '\0'
+        if (mot == NULL)
+            return;
+
+        memcpy(mot, &texte[start], len); // copie les caractères du mot
+        mot[len] = '\0'; // termine la chaîne correctement
+        ajouterMot(dico, mot, mem); // incrémente compteur si existant ou ajoute le nouveau mot
+        myFree(mot, mem, len + 1); // évite fuite mémoire
+    }
+}
+
 
 
 //? le fichier:

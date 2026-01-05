@@ -24,7 +24,8 @@ typedef struct {
 //? dicos
 Dico* initDico(size_t capacite_initiale, InfoMem* mem);
 void ajouterMot(Dico* dico, const char* mot, InfoMem* mem);
-//une fonction libererDico(...); 
+void freeDico(Dico* dico, InfoMem* mem);
+void ajouterMotTexteADico(char* texte, Dico* dico, InfoMem* mem);
 //!il faut l'ajouter sinon y'a trop de pertes de mémoire je crois
 
 //? files
