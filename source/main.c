@@ -72,13 +72,8 @@ int main(void)
         printf("Fuite memoire \n");
 
     return 0;
-} */
+} 
 
-
-
-#include "projet.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 int main(void) {
     InfoMem mem = {0, 0};
@@ -119,10 +114,14 @@ int main(void) {
     free(texte);
 
     // Bilan mémoire
-    printf("\n=== MEMOIRE ===\n");
+    printf("\n --- MEMOIRE --- \n");
     printf("Alloue : %zu octets\n", mem.cumul_alloc);
-    printf("Désalloue : %zu octets\n", mem.cumul_desalloc);
-    printf("%s\n", (mem.cumul_alloc == mem.cumul_desalloc) ? "Memoire OK" : "Fuite memoire !");
+    printf("Desalloue : %zu octets\n", mem.cumul_desalloc);
+    
+    if (mem.cumul_alloc == mem.cumul_desalloc)
+        printf("Memoire OK \n");
+    else
+        printf("Fuite memoire \n");
 
     return 0;
-}
+} */
