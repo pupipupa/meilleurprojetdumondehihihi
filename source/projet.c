@@ -136,7 +136,7 @@ void ajouterMotTexteADico(char* texte, Dico* dico, InfoMem* mem) // BUT : décou
 
 // LETTSSS GO ALGO 2 :
 
-int comparerMots(const void *mot1, const void *mot2) // BUT : trier les cellules de mots tout simplement
+int comparerMots(const void *mot1, const void *mot2) // BUT : Déterminer l’ordre entre deux mots en fonction de leur nombre d’occurrences 
 {
     const Mot *m1 = (const Mot *)mot1; // const -> la fonction ne doit pas modifier les données
     const Mot *m2 = (const Mot *)mot2;
@@ -150,6 +150,20 @@ int comparerMots(const void *mot1, const void *mot2) // BUT : trier les cellules
     // Si égalité -> on trie par ordre alphabétique
     return strcmp(m1->mot, m2->mot);
 }
+
+void trierDicoParOccurences(Dico* dico) // BUT : Trier le dictionnaire de mots par nombre d’occurrences décroissant
+{
+    if (dico == NULL || dico->nb_mots == 0)
+        return;
+
+    qsort(
+        dico->mots, // le tableau à trier
+        dico->nb_mots, // combien d'éléments
+        sizeof(Mot), // taille d'un élément
+        comparerMots // La règle de comparaison
+    );
+}
+
 
 
 

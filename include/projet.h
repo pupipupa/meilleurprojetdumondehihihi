@@ -28,6 +28,11 @@ void freeDico(Dico* dico, InfoMem* mem);
 void ajouterMotTexteADico(char* texte, Dico* dico, InfoMem* mem);
 //!il faut l'ajouter sinon y'a trop de pertes de mémoire je crois
 
+//Algo 2 : tri
+
+int comparerMots(const void* mot1, const void* mot2);
+void trierDicoParOccurences(Dico* dico);
+
 //? files
 char* ouvrir_file(const char* path);
 //char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len); //ce prototype pour une nouv version de la fnct avec les myMalloc/free pas encore modifiée
