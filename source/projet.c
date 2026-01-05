@@ -103,6 +103,8 @@ void freeDico(Dico* dico, InfoMem* mem) // BUT : libère entièrement un diction
     myFree(dico, mem, sizeof(Dico));
 }
 
+
+// fonction pour algo 1 :
 void ajouterMotTexteADico(char* texte, Dico* dico, InfoMem* mem) // BUT : découpe le texte en mots et les ajoute au dictionnaire
 {
     if (texte == NULL || dico == NULL) return;
@@ -130,6 +132,23 @@ void ajouterMotTexteADico(char* texte, Dico* dico, InfoMem* mem) // BUT : décou
         ajouterMot(dico, mot, mem); // incrémente compteur si existant ou ajoute le nouveau mot
         myFree(mot, mem, len + 1); // évite fuite mémoire
     }
+}
+
+// LETTSSS GO ALGO 2 :
+
+int comparerMots(const void *mot1, const void *mot2) // BUT : trier les cellules de mots tout simplement
+{
+    const Mot *m1 = (const Mot *)mot1; // const -> la fonction ne doit pas modifier les données
+    const Mot *m2 = (const Mot *)mot2;
+
+    // On trie d'abord par nombre d'occurrences (décroissant)
+    if (m1->occurrences < m2->occurrences)
+        return 1;
+    if (m1->occurrences > m2->occurrences)
+        return -1;
+
+    // Si égalité -> on trie par ordre alphabétique
+    return strcmp(m1->mot, m2->mot);
 }
 
 
