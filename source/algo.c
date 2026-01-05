@@ -106,14 +106,15 @@ int main(void)
 //I WILL TRY 
 //ARBRE binaire: 
 
+//? structures:oooooooooooooooooooooooooooooo
+
 typedef struct Noeud Noeud;
 
-struct {
+struct Noeud {
   Mot data;
   Noeud* gauche;  
   Noeud* droite;
-
-} Noeud;
+};
 
 typedef struct {
    Noeud* racine;
@@ -125,3 +126,24 @@ typedef struct{
     int k;
     int occupes;
 } TopK;
+
+//? oooooooooooooooooooooooooooooooooooooo
+
+//* fonctions 
+
+Noeud* creer_noeud(char * mot, InfoMem* infoMem){
+    Noeud * nouv_noeud = (Noeud*)myMalloc(sizeof(Noeud), infoMem);
+
+    if(nouv_noeud == NULL){
+        fprintf(stedrr, "erreur: malloc n'a pas réussi à allouer de la mémoire!");
+        return NULL;
+    }
+
+    char* copy_mot = (char*)myMalloc(sizeof(char*) * strlen(mot));
+    nouv_noeud -> data.mot = mot;//ok
+    nouv_noeud -> data.occurrences = 1;
+    nouv_noeud -> gauche = NULL;
+    nouv_noeud -> droite = NULL;
+    return nouv_noeud;
+}
+
