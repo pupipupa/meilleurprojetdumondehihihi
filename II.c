@@ -226,13 +226,12 @@ void printtestcontenu(char *content){
 int main(void){
         
     char *content = ouvrir_file("test.txt");
-    normalisation_texte_v2(content);
-
     if(content == NULL){
         fprintf(stderr, "Erreur: ouvrir_file a échoué\n");
         return 1;
     }
 
+    normalisation_texte_v2(content);
     printtestcontenu(content);
 
     free(content);
