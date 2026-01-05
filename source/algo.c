@@ -132,15 +132,26 @@ typedef struct{
 //* fonctions 
 
 Noeud* creer_noeud(char * mot, InfoMem* infoMem){
+    
+    if (mot == NULL) return NULL;
+
     Noeud * nouv_noeud = (Noeud*)myMalloc(sizeof(Noeud), infoMem);
 
     if(nouv_noeud == NULL){
-        fprintf(stedrr, "erreur: malloc n'a pas réussi à allouer de la mémoire!");
+        fprintf(stderr, "erreur: malloc n'a pas réussi à allouer de la mémoire!");
         return NULL;
     }
 
-    char* copy_mot = (char*)myMalloc(sizeof(char*) * strlen(mot));
-    nouv_noeud -> data.mot = mot;//ok
+    char* copy_mot = (char*)myMalloc(sizeof(char) * (strlen(mot)+1), infoMem);
+
+    if(copy_mot == NULL){
+        fprintf(stderr, "erreur: malloc num2 n'a pas réussi à allouer de la mémoire!");
+        myFree(nouv_noeud, infoMem, old_size);
+        return NULL;
+    }
+    strcpy(copy_mot, mot);
+
+    nouv_noeud -> data.mot = copy_mot;//ok
     nouv_noeud -> data.occurrences = 1;
     nouv_noeud -> gauche = NULL;
     nouv_noeud -> droite = NULL;
