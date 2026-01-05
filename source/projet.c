@@ -83,6 +83,27 @@ void ajouterMot(Dico* dico, const char* mot, InfoMem* mem) // BUT : ajoute un mo
 //!3: 
 //le freedico??
 
+void freeDico(Dico* dico, InfoMem* mem) // BUT : libère entièrement un dictionnaire
+{
+    if (dico == NULL) return; // rien à faire si le dictionnaire est NULL
+
+    // Libère chaque mot
+    for (size_t i = 0; i < dico->nb_mots; ++i) {
+        if (dico->mots[i].mot != NULL) {
+            myFree(dico->mots[i].mot, mem, strlen(dico->mots[i].mot) + 1);
+        }
+    }
+
+    // Libère le tableau de mots
+    if (dico->mots != NULL) {
+        myFree(dico->mots, mem, dico->taille * sizeof(Mot));
+    }
+
+    // Libère la structure Dico
+    myFree(dico, mem, sizeof(Dico));
+}
+
+
 
 //? le fichier:
 
