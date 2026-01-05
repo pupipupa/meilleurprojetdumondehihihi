@@ -15,8 +15,14 @@ all: $(TARGET)
 $(TARGET): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $(OBJ)
 
+#clean:
+#	powershell -NoProfile -Command "Remove-Item -Force -ErrorAction SilentlyContinue $(OBJ) $(TARGET) $(TARGET).exe"
 clean:
-	rm -f $(OBJ) $(TARGET)
+	-cmd /C del /Q $(subst /,\,$(OBJ)) $(TARGET).exe 2>NUL
+	-cmd /C del /Q $(TARGET) 2>NUL
+
+
+
 
 #NOTE: COMMENT CA MARCHE????? JUSTEMENT POUR COMPILER MTN T'AS BESOIN DECRIRE JUSTE //make// dans le terminal, un seul mot hihi
 #NOTE: ensuite, pour clean tout compilé: //make clean//

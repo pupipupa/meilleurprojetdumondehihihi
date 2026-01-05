@@ -28,8 +28,9 @@ void ajouterMot(Dico* dico, const char* mot, InfoMem* mem);
 //!il faut l'ajouter sinon y'a trop de pertes de mémoire je crois
 
 //? files
-char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len); //ce prototype pour une nouv version de la fnct avec les myMalloc/free pas encore modifiée
-void normalisation_texte_v2(char* s);
+char* ouvrir_file(const char* path);
+//char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len); //ce prototype pour une nouv version de la fnct avec les myMalloc/free pas encore modifiée
+int normalisation_texte_v2(char* s);
 int switch_fr(unsigned char b2);
 
 //? algos 
@@ -38,3 +39,4 @@ int switch_fr(unsigned char b2);
 //? print 
 void printtestcontenu(const char* s);
 
+#endif

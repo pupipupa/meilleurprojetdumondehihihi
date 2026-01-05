@@ -5,9 +5,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 //* le main:
 
 int main(){
+    printf("CA MARCHE??????????");
     return 0;
 }
 
