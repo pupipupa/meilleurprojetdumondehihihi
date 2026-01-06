@@ -10,7 +10,7 @@
 typedef struct {
     size_t cumul_alloc;
     size_t cumul_desalloc;
-    //ils ont dit d'ajouter n'importe quel truc utile, mais jsp y'a quoi
+    size_t max_alloc; //ils ont dit d'ajouter n'importe quel truc utile, mais jsp y'a quoi // Trust
 } InfoMem;
 
 //* les prototypes:
