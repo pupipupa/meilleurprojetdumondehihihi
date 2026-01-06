@@ -156,3 +156,43 @@ Noeud* creer_noeud(char * mot, InfoMem* infoMem){
     nouv_noeud -> droite = NULL;
     return nouv_noeud;
 }
+
+Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem){
+    if(!arbre || !mot) return NULL;
+
+    if(!arbre->racine){
+        arbre->racine = creer_noeud(mot, infoMem);
+        if(!arbre->racine) return NULL;
+        arbre->nb_mots_uniques++;
+        return arbre->racine;
+    }
+    Noeud* cur = arbre->racine;
+
+    while(1){//не 0 иначе выкл
+        int comp = strcmp(mot, cur->data.mot); //обьявление compa в обязаловку
+        if (comp == 0){
+            cur->data.occurrences++;
+            return cur;
+        }
+        else if(comp < 0){ //genre si mot < arbre mot
+            if (!cur->gauche){
+                cur->gauche = creer_noeud(mot, infoMem);
+                if(!cur->gauche) return NULL;
+                arbre->nb_mots_uniques++;
+                return cur->gauche;
+            }
+            else cur = cur->gauche;
+        }
+        else{
+            if (!cur->droite){
+                cur->droite = creer_noeud(mot, infoMem);
+                if(!cur->droite) return NULL;
+                arbre->nb_mots_uniques++;
+                return cur->droite;
+            }
+            else cur = cur->droite;
+        }
+    }
+    
+}
+
