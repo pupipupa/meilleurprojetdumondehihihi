@@ -240,7 +240,7 @@ void print_topk(TopK * topk){
 
     for(kk = 0; kk<topk->occupes; ++kk){
         max_i = 0;
-        while(printed[max_i] == 1 && max_i < topk->occupes) max_i++;
+        while(print_topk(TopK * topk) && printed[max_i] == 1 ) max_i++;
         if (max_i >= topk->occupes)
             break;
 
