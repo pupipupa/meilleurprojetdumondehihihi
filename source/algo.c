@@ -195,6 +195,32 @@ void print_topk(TopK * topk){
     }
 }
 
+void fprint_topk(FILE *out, TopK *topk){
+    if (!out || !topk || topk->occupes == 0) return;
+
+    int max_i = 0, i, kk;
+    int printed[topk->occupes];
+    for (i = 0; i < topk->occupes; ++i) printed[i] = 0;
+
+    for (kk = 0; kk < topk->occupes; ++kk) {
+        max_i = 0;
+        while (max_i < topk->occupes && printed[max_i] == 1) max_i++;
+        if (max_i >= topk->occupes) break;
+
+        for (i = 1; i < topk->occupes; ++i) {
+            if (printed[i] != 1) {
+                if (topk->classement[i]->data.occurrences > topk->classement[max_i]->data.occurrences)
+                    max_i = i;
+            }
+        }
+        printed[max_i] = 1;
+        fprintf(out, "%s %zu\n",
+                topk->classement[max_i]->data.mot,
+                topk->classement[max_i]->data.occurrences);
+    }
+}
+
+
 static int est_lettre(char c){
     return (c >= 'a' && c <= 'z');
 }

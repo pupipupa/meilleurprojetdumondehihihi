@@ -39,6 +39,7 @@ typedef struct{
     int k;
     int occupes;
 } TopK;
+
 //*: les prototypes
 
 //? dicos
@@ -74,6 +75,8 @@ void liberer_arbre(Noeud *noeud, InfoMem *mem);
 //? print 
 void printtestcontenu(const char* s);
 void print_topk(TopK* topk);
+void fprint_topk(FILE *out, TopK *topk);
+
 
 void print_help(char *prog);
 int afficher_resultats(Dico *dico, size_t nb_max_mots, const char *fichier_sortie, const char *nom_fichier_entree);

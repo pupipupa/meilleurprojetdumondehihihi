@@ -9,125 +9,7 @@
 
 //* le main:
 
-/*int main(){
-    printf("CA MARCHE??????????");
-    return 0;
-}*/
-
-
-
-//NOTE: ANCIEN MAIN QU IL FAUT ADAPTER:
-
-/*
-
-int main(void){
-        
-    char *content = ouvrir_file("test.txt");
-    if(content == NULL){
-        fprintf(stderr, "Erreur: ouvrir_file a échoué\n");
-        return 1;
-    }
-
-    normalisation_texte_v2(content);
-    printtestcontenu(content);
-
-    free(content);
-    return 0;
-}
-
-
-Main algo 1 :
-
-
-int main(void)
-{
-    InfoMem mem = {0, 0};
-    const char* fichier = "../data/test.txt";
-    char* texte = ouvrir_file(fichier);
-    if (texte == NULL) {
-        fprintf(stderr, "Erreur lecture fichier\n");
-        return 1;
-    }
-    normalisation_texte_v2(texte);
-    Dico* dico = initDico(16, &mem);
-    if (dico == NULL) {
-        free(texte);
-        return 1;
-    }
-    ajouterMotTexteADico(texte, dico, &mem);
-    printf("\n --- DICTIONNAIRE ---\n");
-    for (size_t i = 0; i < dico->nb_mots; ++i) {
-        printf("%s : %zu\n",
-               dico->mots[i].mot,
-               dico->mots[i].occurrences);
-    }
-    freeDico(dico, &mem);
-    free(texte);
-    printf("\n --- MEMOIRE --- \n");
-    printf("Alloue : %zu octets\n", mem.cumul_alloc);
-    printf("Desalloue : %zu octets\n", mem.cumul_desalloc);
-    
-    if (mem.cumul_alloc == mem.cumul_desalloc)
-        printf("Memoire OK \n");
-    else
-        printf("Fuite memoire \n");
-
-    return 0;
-} 
-
-
-int main(void) {
-    InfoMem mem = {0, 0};
-    const char* fichier = "../data/test.txt";
-    size_t k = 20; // nombre de mots à afficher
-
-    // Lecture du fichier
-    char* texte = ouvrir_file(fichier);
-    if (!texte) {
-        fprintf(stderr, "Erreur lecture fichier\n");
-        return 1;
-    }
-
-    // Normalisation du texte
-    normalisation_texte_v2(texte);
-
-    // Initialisation du dictionnaire
-    Dico* dico = initDico(16, &mem);
-    if (!dico) {
-        free(texte);
-        return 1;
-    }
-
-    // Remplissage du dictionnaire
-    ajouterMotTexteADico(texte, dico, &mem);
-
-    // Tri des mots par nombre d'occurrences décroissant
-    trierDicoParOccurences(dico);
-
-    // Affichage des k mots les plus fréquents
-    printf("--- TOP %zu MOTS ---\n", k);
-    for (size_t i = 0; i < dico->nb_mots && i < k; ++i) {
-        printf("%s : %zu\n", dico->mots[i].mot, dico->mots[i].occurrences);
-    }
-
-    // Libération mémoire
-    freeDico(dico, &mem);
-    free(texte);
-
-    // Bilan mémoire
-    printf("\n --- MEMOIRE --- \n");
-    printf("Alloue : %zu octets\n", mem.cumul_alloc);
-    printf("Desalloue : %zu octets\n", mem.cumul_desalloc);
-    
-    if (mem.cumul_alloc == mem.cumul_desalloc)
-        printf("Memoire OK \n");
-    else
-        printf("Fuite memoire \n");
-
-    return 0;
-} */
-
-// MAIN FINAL ?!?!?! ( spoiler : non )
+// MAIN FINAL ?!?!?! ( spoiler : non ) (OUIIIIIIIIIIII)
 
 int main(int argc, char **argv) {
 
@@ -138,7 +20,9 @@ int main(int argc, char **argv) {
     char *outfile = NULL;
     char *perffile = NULL;
 
-    char **files = (char **)malloc(sizeof(char*) * argc);// Tableau temporaire pour stocker les fichiers
+    InfoMem mem_files = (InfoMem){0, 0, 0};
+    size_t files_bytes = sizeof(char*) * (size_t)argc;
+    char **files = (char **)myMalloc(files_bytes, &mem_files); // Tableau temporaire pour stocker les fichiers
     if (!files) {
         fprintf(stderr, "Erreur allocation tableau fichiers\n");
         return 1;
@@ -149,7 +33,7 @@ int main(int argc, char **argv) {
     for (int i = 1; i < argc; ++i) {
         if (strcmp(argv[i], "--help") == 0) {
             print_help(argv[0]);
-            free(files);
+            myFree(files, &mem_files, files_bytes);
             return 0;
         } else if (strcmp(argv[i], "-n") == 0 && i + 1 < argc) {
             topN = (size_t)atoi(argv[++i]);
@@ -161,7 +45,7 @@ int main(int argc, char **argv) {
             else if (strcmp(argv[i], "algo3") == 0) algo = 3;
             else {
                 fprintf(stderr, "Algorithme inconnu '%s'\n", argv[i]);
-                free(files);
+                myFree(files, &mem_files, files_bytes);
                 return 1;
             }
         } else if (strcmp(argv[i], "-s") == 0 && i + 1 < argc) {
@@ -175,7 +59,7 @@ int main(int argc, char **argv) {
 
     if (nfiles == 0) {
         fprintf(stderr, "Aucun fichier fourni. Utilisez --help.\n");
-        free(files);
+        myFree(files, &mem_files, files_bytes);
         return 1;
     }
 
@@ -185,7 +69,9 @@ int main(int argc, char **argv) {
 
         InfoMem mem = {0,0,0};
 
-        char *texte = ouvrir_file(input);
+        size_t texte_len = 0;
+        char *texte = ouvrir_file(input, &mem, &texte_len);
+
         if (!texte) {
             fprintf(stderr, "Impossible de lire '%s'\n", input);
             continue;
@@ -195,26 +81,61 @@ int main(int argc, char **argv) {
 
         //!ALGO 3 ARBRES:
         if (algo == 3) {
+            size_t total_mots = compter_mots(texte);
+
             Arbre arbre;
             arbre.racine = NULL;
-            arbre.nb_mots_uniques = 0;  
+            arbre.nb_mots_uniques = 0;
 
+            clock_t t0 = clock();
             inserer_texte_dans_arbre(texte, &arbre, &mem);
             TopK topk = creer_topK((int)topN, &mem);
             parcours_arbre(arbre.racine, &topk);
-            print_topk(&topk);
+            clock_t t1 = clock();
+            double elapsed = (double)(t1 - t0) / CLOCKS_PER_SEC;
+
+            if (outfile) {
+                FILE *out = fopen(outfile, "a");
+                if (out) {
+                    fprint_topk(out, &topk);
+                    fprintf(out, "\n");
+                    fclose(out);
+                } else {
+                    perror("fopen sortie");
+                }
+            } else {
+                print_topk(&topk);
+            }
+
+            size_t total_alloc = mem.cumul_alloc + mem_files.cumul_alloc;
+            size_t total_desalloc = mem.cumul_desalloc + mem_files.cumul_desalloc;
+            size_t total_max = mem.max_alloc + mem_files.max_alloc;
+
+
+            if (perffile) {
+                ecrire_perf_csv(perffile,
+                                "algo3",
+                                input,
+                                total_mots,
+                                arbre.nb_mots_uniques,
+                                elapsed,
+                                total_alloc,
+                                total_desalloc,
+                                total_max);
+            }
 
             detruire_topK(&topk, &mem);
             liberer_arbre(arbre.racine, &mem);
-            free(texte);
+            myFree(texte, &mem, texte_len);
             continue;
+
         }
 
 
         Dico *dico = initDico(16, &mem);
         if (!dico) {
             fprintf(stderr, "Erreur initDico pour %s\n", input);
-            free(texte);
+            myFree(texte, &mem, texte_len);
             continue;
         }
 
@@ -229,10 +150,18 @@ int main(int argc, char **argv) {
         clock_t t1 = clock();
         double elapsed = (double)(t1 - t0) / CLOCKS_PER_SEC;
 
+        if (algo == 1) {
+            trierDicoParOccurences(dico); 
+        }
+        
         // Affichage ou fichier
         if (afficher_resultats(dico, topN, outfile, input) != 0) {
             fprintf(stderr, "Erreur écriture résultats pour %s\n", input);
         }
+
+        size_t total_alloc = mem.cumul_alloc + mem_files.cumul_alloc;
+        size_t total_desalloc = mem.cumul_desalloc + mem_files.cumul_desalloc;
+        size_t total_max = mem.max_alloc + mem_files.max_alloc;
 
         
         if (perffile) { // Perf
@@ -243,9 +172,9 @@ int main(int argc, char **argv) {
                             total_mots,
                             dico->nb_mots,
                             elapsed,
-                            mem.cumul_alloc,
-                            mem.cumul_desalloc,
-                            mem.max_alloc);
+                            total_alloc,
+                            total_desalloc,
+                            total_max);
         }
 
         // Récapitulatif
@@ -255,12 +184,12 @@ int main(int argc, char **argv) {
                total_mots,
                dico->nb_mots,
                elapsed,
-               mem.max_alloc);
+               total_max);
 
         freeDico(dico, &mem);
-        free(texte);
+        myFree(texte, &mem, texte_len);
     }
 
-    free(files);
+    myFree(files, &mem_files, files_bytes);
     return 0;
 }

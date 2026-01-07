@@ -275,14 +275,14 @@ int afficher_resultats(Dico *dico, size_t nb_max_mots, const char *fichier_sorti
         fermer_fichier = 1;
     }
 
-    fprintf(sortie, "--- RESULTATS pour %s ---\n", nom_fichier_entree ? nom_fichier_entree : ""); // Titre des résultats
+    //fprintf(sortie, "--- RESULTATS pour %s ---\n", nom_fichier_entree ? nom_fichier_entree : ""); // Titre des résultats
 
     size_t nb_a_afficher = (nb_max_mots == 0 || nb_max_mots > dico->nb_mots) ? dico->nb_mots : nb_max_mots;  // Combien de mots on affiche réellement
 
     for (size_t i = 0; i < nb_a_afficher; ++i) { // Affichage des mots
         fprintf(sortie, "%s %zu\n", dico->mots[i].mot, dico->mots[i].occurrences);
     }
-    fprintf(sortie, "\n");
+    //fprintf(sortie, "\n");
 
     if (fermer_fichier) // On ferme le fichier seulement si on l'a ouvert nous-même
         fclose(sortie);
