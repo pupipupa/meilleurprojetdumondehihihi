@@ -264,6 +264,7 @@ int afficher_resultats(Dico *dico, size_t nb_max_mots, const char *fichier_sorti
 
     FILE *sortie = stdout;   // par défaut -> affichage à l'écran
     int fermer_fichier = 0;  // est-ce qu'on devra fermer le fichier à la fin ?
+    (void)nom_fichier_entree;
 
     // Si un fichier de sortie est demandé
     if (fichier_sortie != NULL) {

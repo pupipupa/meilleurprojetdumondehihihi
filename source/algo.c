@@ -175,7 +175,9 @@ void print_topk(TopK * topk){
     if (!topk || topk->occupes == 0) return;
 
     int max_i = 0, i, kk; 
-    int printed[topk->occupes] = {0};
+    int printed[topk->occupes];
+    for (i = 0; i < topk->occupes; ++i) printed[i] = 0;
+
 
     for(kk = 0; kk<topk->occupes; ++kk){
         max_i = 0;

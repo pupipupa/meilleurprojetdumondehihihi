@@ -4,6 +4,7 @@
 #define PROJET_H
 
 #include <stddef.h>
+#include <stdio.h>
 #include "my_memoire.h"
 
 
