@@ -165,6 +165,119 @@ void trierDicoParOccurences(Dico* dico) // BUT : Trier le dictionnaire de mots p
 }
 
 
+// Tout ce qui touche à la gestion des options dans le main : 
+
+void print_help(char *prog) { // BUT : Affiche les aides tout simplement
+    printf("\nUsage: %s [-n int] [-a algo1|algo2|algo3] [--help] [-s sortie.txt] [-l perf.csv] fichiers...\n", prog);
+    printf("\n  -n int        Nombre de mots à afficher (top N). Default: 20\n");
+    printf("  -a algoX      Choix de l'algorithme : algo1 (tableau non trié), algo2 (tableau + tri). Default: algo1\n");
+    printf("  -s fichier    Ecrire les résultats (mot occurrences) dans ce fichier (append).\n");
+    printf("  -l fichier    Ecrire les performances (CSV) dans ce fichier (append).\n");
+    printf("  --help        Affiche cette aide.\n");
+}
+
+int afficher_resultats(Dico *dico, size_t nb_max_mots, const char *fichier_sortie, const char *nom_fichier_entree) // BUT : Afficher les top N mots les plus fréquents, soit à l’écran soit dans un fichier
+{
+    if (dico == NULL) return -1;
+
+    FILE *sortie = stdout;   // par défaut -> affichage à l'écran
+    int fermer_fichier = 0;  // est-ce qu'on devra fermer le fichier à la fin ?
+
+    // Si un fichier de sortie est demandé
+    if (fichier_sortie != NULL) {
+        sortie = fopen(fichier_sortie, "a"); // append
+        if (sortie == NULL) {
+            perror("fopen sortie");
+            return -1;
+        }
+        fermer_fichier = 1;
+    }
+
+    fprintf(sortie, "--- RESULTATS pour %s ---\n", nom_fichier_entree ? nom_fichier_entree : ""); // Titre des résultats
+
+    size_t nb_a_afficher = (nb_max_mots == 0 || nb_max_mots > dico->nb_mots) ? dico->nb_mots : nb_max_mots;  // Combien de mots on affiche réellement
+
+    for (size_t i = 0; i < nb_a_afficher; ++i) { // Affichage des mots
+        fprintf(sortie, "%s %zu\n", dico->mots[i].mot, dico->mots[i].occurrences);
+    }
+    fprintf(sortie, "\n");
+
+    if (fermer_fichier) // On ferme le fichier seulement si on l'a ouvert nous-même
+        fclose(sortie);
+
+    return 0;
+}
+
+int ecrire_perf_csv(
+    const char *chemin_perf, // chemin du fichier CSV
+    const char *nom_algo, // "algo1", "algo2", ...
+    const char *nom_fichier, // fichier texte analysé
+    size_t nb_mots_total, // nombre total de mots (tokens)
+    size_t nb_mots_distincts, // nombre de mots différents
+    double temps_exec, // temps d'exécution en secondes
+    size_t mem_allouee, // cumul mémoire allouée
+    size_t mem_desallouee, // cumul mémoire libérée
+    size_t pic_memoire // pic mémoire utilisé
+)
+{
+    if (chemin_perf == NULL) return -1; // pas de fichier -> stop
+
+    int fichier_nouveau = 0; // Vérifie si le fichier existe déjà
+    FILE *test = fopen(chemin_perf, "r");
+    if (test == NULL)
+        fichier_nouveau = 1;
+    else
+        fclose(test);
+
+    FILE *f = fopen(chemin_perf, "a"); // Ouvre le fichier en ajout
+    if (f == NULL) {
+        perror("fopen perf");
+        return -1;
+    }
+
+    if (fichier_nouveau) { // Écrit l'en-tête si le fichier est nouveau
+        fprintf(f, "algo,inputfile,total_words,distinct_words,"
+                   "time_s,cumul_alloc,cumul_desalloc,max_alloc\n");
+    }
+
+    // Écrit une ligne de données
+     fprintf(f, "%s,%s,%zu,%zu,%.6f,%zu,%zu,%zu\n",
+            nom_algo ? nom_algo : "", // si nom_algo NULL, écrit chaîne vide
+            nom_fichier ? nom_fichier : "", // idem pour le nom du fichier
+            nb_mots_total, // nombre total de mots dans le texte
+            nb_mots_distincts, // nombre de mots uniques
+            temps_exec, // durée d'exécution
+            mem_allouee, // cumul des allocations
+            mem_desallouee, // cumul des désallocations
+            pic_memoire); // pic mémoire observé
+
+    fclose(f); // ferme le fichier proprement
+    return 0;
+}
+
+
+
+size_t compter_mots(const char *texte) // BUT : compte le nombre de mots dans un texte
+{
+
+    if (texte == NULL) return 0;
+
+    size_t pos = 0;      // position actuelle dans la chaîne de caractères
+    size_t nb_mots = 0;  // compteur de mots
+
+    while (texte[pos] != '\0') { // Parcours toute la chaîne jusqu'au caractère de fin '\0'
+        while (texte[pos] == ' ') pos++;
+
+        if (texte[pos] == '\0') break;
+
+        while (texte[pos] != ' ' && texte[pos] != '\0') pos++;
+        nb_mots++;
+    }
+    return nb_mots;
+}
+
+
+
 
 
 //? le fichier:
