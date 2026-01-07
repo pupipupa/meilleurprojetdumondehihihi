@@ -204,3 +204,22 @@ int detruire_topK(topK* topk, InfoMem * infoMem){
     topk->k = 0;   
     return 0;
 }
+
+int mettre_a_jour_topK(Noeud* n, TopK* topk){
+    if(!n || !topk) return 1;
+    if(topk->occupes < topk->k){
+        topk->classement[topk->occupes++] = n;
+        return 0;
+    }
+
+    int i, min_i = 0;
+    for(i=1; i<topk->k; ++i){
+        if(topk->classement[i]->data.occurrences < topk->classement[min_i]->data.occurrences) min_i = i;
+    }
+
+    if(n->data.occurrences > topk->classement[min_i]->data.occurrences){
+        topk->classement[min_i] = n;    
+    }
+
+    return 0;
+}
