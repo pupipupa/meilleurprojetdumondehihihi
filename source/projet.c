@@ -164,6 +164,88 @@ void trierDicoParOccurences(Dico* dico) // BUT : Trier le dictionnaire de mots p
     );
 }
 
+//?ALGO4:
+
+Noeud* creer_noeud(const char * mot, InfoMem* infoMem){
+
+    if (!mot) return NULL; //только ли нулль?
+
+    Noeud * nouv_noeud = (Noeud*)myMalloc(sizeof(Noeud), infoMem);
+    if(!nouv_noeud){
+        fprintf(stderr, "erreur: malloc n'a pas réussi à allouer de la mémoire!");
+        return NULL;
+    }
+
+    char* copy_mot = (char*)myMalloc(sizeof(char) * (strlen(mot)+1), infoMem);
+    if(!copy_mot){
+        fprintf(stderr, "erreur: malloc num2 n'a pas réussi à allouer de la mémoire!");
+        myFree(nouv_noeud, infoMem, sizeof(Noeud));
+        return NULL;
+    }
+
+    strcpy(copy_mot, mot);
+
+    nouv_noeud -> data.mot = copy_mot;//ok
+    nouv_noeud -> data.occurrences = 1;
+    nouv_noeud -> gauche = NULL;
+    nouv_noeud -> droite = NULL;
+    return nouv_noeud;
+}
+
+Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem){
+    if(!arbre || !mot) return NULL;
+
+    if(!arbre->racine){
+        arbre->racine = creer_noeud(mot, infoMem);
+        if(!arbre->racine) return NULL;
+        arbre->nb_mots_uniques++;
+        return arbre->racine;
+    }
+    Noeud* cur = arbre->racine;
+
+    while(1){//не 0 иначе выкл
+        int comp = strcmp(mot, cur->data.mot); //обьявление compa в обязаловку
+        if (comp == 0){
+            cur->data.occurrences++;
+            return cur;
+        }
+        else if(comp < 0){ //genre si mot < arbre mot
+            if (!cur->gauche){
+                cur->gauche = creer_noeud(mot, infoMem);
+                if(!cur->gauche) return NULL;
+                arbre->nb_mots_uniques++;
+                return cur->gauche;
+            }
+            else cur = cur->gauche;
+        }
+        else{
+            if (!cur->droite){
+                cur->droite = creer_noeud(mot, infoMem);
+                if(!cur->droite) return NULL;
+                arbre->nb_mots_uniques++;
+                return cur->droite;
+            }
+            else cur = cur->droite;
+        }
+    }
+    
+}
+
+void liberer_arbre(Noeud *noeud, InfoMem *mem)
+{
+    if (!noeud || !mem) return;
+
+    liberer_arbre(noeud->gauche, mem);
+    liberer_arbre(noeud->droite, mem);
+
+    if (noeud->data.mot) {
+        size_t len = strlen(noeud->data.mot) + 1;
+        myFree(noeud->data.mot, mem, len);
+        noeud->data.mot = NULL;
+    }
+
+    myFree(noeud, mem, sizeof(Noeud));
+}
 
 // Tout ce qui touche à la gestion des options dans le main : 
 

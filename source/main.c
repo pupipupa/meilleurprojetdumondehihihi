@@ -157,7 +157,8 @@ int main(int argc, char **argv) {
         } else if (strcmp(argv[i], "-a") == 0 && i + 1 < argc) {
             ++i;
             if (strcmp(argv[i], "algo1") == 0) algo = 1;
-            else if (strcmp(argv[i], "algo2") == 0) algo = 2; // A modifier pour l'ajout d'algo
+            else if (strcmp(argv[i], "algo2") == 0) algo = 2;
+            else if (strcmp(argv[i], "algo3") == 0) algo = 3;
             else {
                 fprintf(stderr, "Algorithme inconnu '%s'\n", argv[i]);
                 free(files);
@@ -192,6 +193,20 @@ int main(int argc, char **argv) {
 
         normalisation_texte_v2(texte);
 
+        //!ALGO 3 ARBRES:
+
+        Arbre arbre;
+        arbre.racine = NULL;
+        arbre.nb_mots_uniques = 0;  
+        
+        inserer_texte_dans_arbre(texte, &arbre, &mem);
+        TopK topk = creer_topK((int)topN, &mem);
+        parcours_arbre(arbre.racine, &topk);
+        print_topk(&topk);
+        
+        detruire_topK(&topk, &mem);
+        liberer_arbre(arbre.racine, &mem);
+
         Dico *dico = initDico(16, &mem);
         if (!dico) {
             fprintf(stderr, "Erreur initDico pour %s\n", input);
@@ -218,7 +233,8 @@ int main(int argc, char **argv) {
         
         if (perffile) { // Perf
             ecrire_perf_csv(perffile,
-                            (algo == 1) ? "algo1" : "algo2", // A modifier pour l'ajout d'algo
+                            (algo == 1) ? "algo1" :
+                            (algo == 2) ? "algo2" : "algo3", // A modifier pour l'ajout d'algo
                             input,
                             total_mots,
                             dico->nb_mots,

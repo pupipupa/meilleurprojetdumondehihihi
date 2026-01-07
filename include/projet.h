@@ -65,7 +65,16 @@ int switch_fr(unsigned char b2);
 Noeud* creer_noeud(const char * mot, InfoMem* infoMem);
 Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem);
 
+void parcours_arbre(Noeud* noeud, TopK* topk);
+void print_topk(TopK* topk);
+int detruire_topK(TopK* topk, InfoMem* infoMem);
+TopK creer_topK(int k, InfoMem* infoMem);
+int mettre_a_jour_topK(Noeud* n, TopK* topk);
+void inserer_texte_dans_arbre(char *texte, Arbre *arbre, InfoMem *mem);
+void liberer_arbre(Noeud *noeud, InfoMem *mem);
+
 //? print 
 void printtestcontenu(const char* s);
+void print_topk(TopK* topk);
 
 #endif
