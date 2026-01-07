@@ -233,3 +233,25 @@ void parcours_arbre(Noeud * noeud, TopK * topk){
     if(noeud->droite)
         parcours_arbre(noeud->droite, topk);
 }
+
+void print_topk(TopK * topk){
+    int max_i = 0, i, kk; 
+    int printed[topk->occupes] = {0};
+
+    for(kk = 0; kk<topk->occupes; ++kk){
+        max_i = 0;
+        while(printed[max_i] == 1 && max_i < topk->occupes) max_i++;
+        if (max_i >= topk->occupes)
+            break;
+
+        i = 0;
+        for(i = 1; i<topk->occupes; ++i){
+            if(printed[i]!=1){
+                if(topk->classement[i]->data.occurrences > topk->classement[max_i]->data.occurrences)
+                max_i = i;
+            }
+        }
+        printed[max_i] = 1;
+        printf("%s: %d\n", topk->classement[max_i]->data.mot, topk->classement[max_i]->data.occurrences);
+    }
+}
