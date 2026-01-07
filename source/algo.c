@@ -177,3 +177,30 @@ Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem){
     
 }
 
+TopK creer_topK(int k, ){
+    TopK topk;
+
+    topk.classement = NULL;
+    topk.occupes = 0;
+    topk.k = k;   
+
+    if(k<=0) return topk;
+
+    Noeud** classement = (Noeud**)myMalloc(sizeof(Noeud*) * k, ...);
+    if(classement){
+        topk.classement = classement;
+        fprintf(stderr, "le malloc n'a pas marché");
+    }
+    return topk;
+}
+
+int detruire_topK(topK* topk, InfoMem * infoMem){
+    if(topk == NULL || topk->classement == NULL) return 0;
+
+    myFree(topk->classement, infoMem, sizeof(Noeud*) * topk->k);
+
+    topk->classement = NULL;
+    topk->occupes = 0;
+    topk->k = 0;   
+    return 0;
+}
