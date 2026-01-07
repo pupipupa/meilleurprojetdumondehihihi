@@ -19,6 +19,26 @@ typedef struct {
     size_t taille; // capacité actuelle du tableau
 } Dico;
 
+//? pour algo4:
+
+typedef struct Noeud Noeud;
+
+struct Noeud {
+  Mot data;
+  Noeud* gauche;  
+  Noeud* droite;
+};
+
+typedef struct {
+   Noeud* racine;
+   size_t nb_mots_uniques;
+  } Arbre;
+
+typedef struct{
+    Noeud** classement; 
+    int k;
+    int occupes;
+} TopK;
 //*: les prototypes
 
 //? dicos
@@ -41,6 +61,9 @@ int switch_fr(unsigned char b2);
 
 //? algos 
 //aucun encore fait ;((((
+//!4
+Noeud* creer_noeud(const char * mot, InfoMem* infoMem);
+Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem);
 
 //? print 
 void printtestcontenu(const char* s);

@@ -13,6 +13,8 @@ typedef struct {
     size_t max_alloc; //ils ont dit d'ajouter n'importe quel truc utile, mais jsp y'a quoi // Trust
 } InfoMem;
 
+
+
 //* les prototypes:
 
 void* myMalloc(size_t size, InfoMem* infoMem);

@@ -108,30 +108,11 @@ int main(void)
 
 //? structures:oooooooooooooooooooooooooooooo
 
-typedef struct Noeud Noeud;
-
-struct Noeud {
-  Mot data;
-  Noeud* gauche;  
-  Noeud* droite;
-};
-
-typedef struct {
-   Noeud* racine;
-   size_t nb_mots_uniques;
-  } Arbre;
-
-typedef struct{
-    Noeud** classement; 
-    int k;
-    int occupes;
-} TopK;
-
 //? oooooooooooooooooooooooooooooooooooooo
 
 //* fonctions 
 
-Noeud* creer_noeud(char * mot, InfoMem* infoMem){
+Noeud* creer_noeud(const char * mot, InfoMem* infoMem){
 
     if (!mot) return NULL; //только ли нулль?
 
