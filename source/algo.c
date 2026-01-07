@@ -223,3 +223,13 @@ int mettre_a_jour_topK(Noeud* n, TopK* topk){
 
     return 0;
 }
+
+void parcours_arbre(Noeud * noeud, TopK * topk){
+    if(!noeud) return;
+    
+    parcours_arbre(noeud->gauche, topk);
+    mettre_a_jour_topK(noeud, topk);
+
+    if(noeud->droite)
+        parcours_arbre(noeud->droite, topk);
+}
