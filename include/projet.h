@@ -62,7 +62,7 @@ int switch_fr(unsigned char b2);
 
 //? algos 
 //aucun encore fait ;((((
-//!4
+//!3
 Noeud* creer_noeud(const char * mot, InfoMem* infoMem);
 Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem);
 
@@ -72,6 +72,9 @@ TopK creer_topK(int k, InfoMem* infoMem);
 int mettre_a_jour_topK(Noeud* n, TopK* topk);
 void inserer_texte_dans_arbre(char *texte, Arbre *arbre, InfoMem *mem);
 void liberer_arbre(Noeud *noeud, InfoMem *mem);
+
+//!4
+int tri_noeuds_selection(Arbre *arbre, size_t topN, InfoMem *mem);
 
 //? print 
 void printtestcontenu(const char* s);

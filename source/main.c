@@ -43,6 +43,7 @@ int main(int argc, char **argv) {
             if (strcmp(argv[i], "algo1") == 0) algo = 1;
             else if (strcmp(argv[i], "algo2") == 0) algo = 2;
             else if (strcmp(argv[i], "algo3") == 0) algo = 3;
+            else if (strcmp(argv[i], "algo4") == 0) algo = 4;
             else {
                 fprintf(stderr, "Algorithme inconnu '%s'\n", argv[i]);
                 myFree(files, &mem_files, files_bytes);
@@ -136,7 +137,38 @@ int main(int argc, char **argv) {
             continue;
         }
 
-
+        //!ALGO.4:
+        if (algo == 4) {
+            size_t total_mots = compter_mots(texte);
+        
+            Arbre arbre;
+            arbre.racine = NULL;
+            arbre.nb_mots_uniques = 0;
+        
+            clock_t t0 = clock();
+            inserer_texte_dans_arbre(texte, &arbre, &mem);
+            tri_noeuds_selection(&arbre, topN, &mem);  
+            clock_t t1 = clock();
+            double elapsed = (double)(t1 - t0) / CLOCKS_PER_SEC;
+        
+            size_t total_alloc = mem.cumul_alloc + mem_files.cumul_alloc;
+            size_t total_desalloc = mem.cumul_desalloc + mem_files.cumul_desalloc;
+            size_t total_max = mem.max_alloc + mem_files.max_alloc;
+        
+            if (perffile) {
+                ecrire_perf_csv(perffile, "algo4", input, total_mots,
+                                arbre.nb_mots_uniques, elapsed,
+                                total_alloc, total_desalloc, total_max);
+            }
+        
+            printf("Fichier : %s | algo: algo4 | total_mots : %zu | distinct : %zu | time : %.6fs | max_mem : %zu bytes\n",
+                   input, total_mots, arbre.nb_mots_uniques, elapsed, total_max);
+        
+            liberer_arbre(arbre.racine, &mem);
+            myFree(texte, &mem, texte_len);
+            continue;
+        }
+        
         Dico *dico = initDico(16, &mem);
         if (!dico) {
             fprintf(stderr, "Erreur initDico pour %s\n", input);
@@ -172,7 +204,8 @@ int main(int argc, char **argv) {
         if (perffile) { // Perf
             ecrire_perf_csv(perffile,
                             (algo == 1) ? "algo1" :
-                            (algo == 2) ? "algo2" : "algo3", // A modifier pour l'ajout d'algo
+                            (algo == 2) ? "algo2" : 
+                            (algo == 3) ? "algo3" : "algo4",
                             input,
                             total_mots,
                             dico->nb_mots,
@@ -185,7 +218,9 @@ int main(int argc, char **argv) {
         // Récapitulatif
         printf("Fichier : %s | algo: %s | total_mots : %zu | distinct : %zu | time : %.6fs | max_mem : %zu bytes\n",
                input,
-               (algo == 1) ? "algo1" : "algo2", // A modifier pour l'ajout d'algo
+               (algo == 1) ? "algo1" :
+               (algo == 2) ? "algo2" :
+               (algo == 3) ? "algo3" : "algo4",
                total_mots,
                dico->nb_mots,
                elapsed,

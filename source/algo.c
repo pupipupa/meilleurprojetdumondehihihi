@@ -101,7 +101,6 @@ int main(void)
 
 //!3
 
-//!4(?)
 
 //I WILL TRY 
 //ARBRE binaire: 
@@ -245,4 +244,69 @@ void inserer_texte_dans_arbre(char *texte, Arbre *arbre, InfoMem *mem){
         insert_ou_incrementer(arbre, start, mem);
         *p = tmp;
     }
+}
+
+//!4:
+
+static void compter_noeuds(Noeud *n, size_t *c){
+    if(!n) return;
+
+    compter_noeuds(n->gauche, c);
+    (*c)++;
+    compter_noeuds(n->droite, c);
+}
+
+static void remplir_tableau(Noeud *n, Noeud **tab, size_t *idx){
+    if(!n) return;
+
+    remplir_tableau(n->gauche, tab, idx);
+    tab[(*idx)++] = n;
+    remplir_tableau(n->droite, tab, idx);
+}
+
+void tri_noeuds_par_occurrences(Noeud **tab, size_t n){
+    size_t i, j, max_i;
+
+    for(i = 0; i < n; ++i){
+        max_i = i;
+        for(j = i + 1; j < n; ++j){
+            if(tab[j]->data.occurrences > tab[max_i]->data.occurrences){
+                max_i = j;
+            }
+        }
+
+        if(max_i != i){
+            Noeud *tmp = tab[i];
+            tab[i] = tab[max_i];
+            tab[max_i] = tmp;}
+    }
+}
+
+
+int tri_noeuds_selection(Arbre *arbre, size_t topN, InfoMem *mem){
+    if(!arbre || !arbre->racine) return 0;
+
+    size_t n = 0;
+    compter_noeuds(arbre->racine, &n);
+    if(n == 0) return 0;
+
+    Noeud **tab = (Noeud**)myMalloc(sizeof(Noeud*) * n, mem);
+    if(!tab){
+        fprintf(stderr, "myMalloc pas réussi");
+        return 1;
+    }
+
+    size_t ii = 0;
+    remplir_tableau(arbre->racine, tab, &ii);
+
+    tri_noeuds_par_occurrences(tab, n);
+
+    size_t limit = (topN < n) ? topN : n;
+    for(size_t i = 0; i < limit; ++i){
+        printf("%s: %zu\n", tab[i]->data.mot, tab[i]->data.occurrences);
+
+    }
+
+    myFree(tab, mem, sizeof(Noeud*) * n);
+    return 0;
 }

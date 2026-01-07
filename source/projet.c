@@ -250,9 +250,9 @@ void liberer_arbre(Noeud *noeud, InfoMem *mem)
 // Tout ce qui touche à la gestion des options dans le main : 
 
 void print_help(char *prog) { // BUT : Affiche les aides tout simplement
-    printf("\nUsage: %s [-n int] [-a algo1|algo2|algo3] [--help] [-s sortie.txt] [-l perf.csv] fichiers...\n", prog);
+    printf("\nUsage: %s [-n int] [-a algo1|algo2|algo3|algo4] [--help] [-s sortie.txt] [-l perf.csv] fichiers...\n", prog);
     printf("\n  -n int        Nombre de mots à afficher (top N). Default: 20\n");
-    printf("  -a algoX      Choix de l'algorithme : algo1 (tableau non trié), algo2 (tableau + tri). Default: algo1\n");
+    printf("  -a algoX      Choix de l'algorithme : algo1, algo2, algo3, algo4. Default: algo1\n");
     printf("  -s fichier    Ecrire les résultats (mot occurrences) dans ce fichier (append).\n");
     printf("  -l fichier    Ecrire les performances (CSV) dans ce fichier (append).\n");
     printf("  --help        Affiche cette aide.\n");
