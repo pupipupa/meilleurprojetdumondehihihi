@@ -66,7 +66,6 @@ Noeud* creer_noeud(const char * mot, InfoMem* infoMem);
 Noeud* insert_ou_incrementer(Arbre*arbre, const char* mot, InfoMem* infoMem);
 
 void parcours_arbre(Noeud* noeud, TopK* topk);
-void print_topk(TopK* topk);
 int detruire_topK(TopK* topk, InfoMem* infoMem);
 TopK creer_topK(int k, InfoMem* infoMem);
 int mettre_a_jour_topK(Noeud* n, TopK* topk);
@@ -76,5 +75,11 @@ void liberer_arbre(Noeud *noeud, InfoMem *mem);
 //? print 
 void printtestcontenu(const char* s);
 void print_topk(TopK* topk);
+
+void print_help(char *prog);
+int afficher_resultats(Dico *dico, size_t nb_max_mots, const char *fichier_sortie, const char *nom_fichier_entree);
+int ecrire_perf_csv(const char *chemin_perf, const char *nom_algo, const char *nom_fichier, size_t nb_mots_total, size_t nb_mots_distincts, double temps_exec, size_t mem_allouee, size_t mem_desallouee, size_t pic_memoire);
+size_t compter_mots(const char *texte);
+
 
 #endif

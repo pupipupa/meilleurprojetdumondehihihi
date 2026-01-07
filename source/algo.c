@@ -122,7 +122,7 @@ TopK creer_topK(int k, InfoMem* infoMem){
 
     if(k<=0) return topk;
 
-    Noeud** classement = (Noeud**)myMalloc(sizeof(Noeud*) * k, ...);
+    Noeud** classement = (Noeud**)myMalloc(sizeof(Noeud*) * k, infoMem);
     if (!classement) {
         fprintf(stderr, "le malloc n'a pas marché\n");
         return topk;
@@ -191,7 +191,7 @@ void print_topk(TopK * topk){
             }
         }
         printed[max_i] = 1;
-        printf("%s: %d\n", topk->classement[max_i]->data.mot, topk->classement[max_i]->data.occurrences);
+        printf("%s: %zu\n", topk->classement[max_i]->data.mot, topk->classement[max_i]->data.occurrences);
     }
 }
 
