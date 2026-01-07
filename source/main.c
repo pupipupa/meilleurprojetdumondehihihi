@@ -127,8 +127,13 @@ int main(int argc, char **argv) {
             detruire_topK(&topk, &mem);
             liberer_arbre(arbre.racine, &mem);
             myFree(texte, &mem, texte_len);
+            printf("Fichier: %s | algo: algo3 | total_mots : %zu | distinct : %zu | time : %.6fs | max_mem : %zu bytes\n",
+                input,
+                total_mots,
+                arbre.nb_mots_uniques,
+                elapsed,
+                total_max);
             continue;
-
         }
 
 

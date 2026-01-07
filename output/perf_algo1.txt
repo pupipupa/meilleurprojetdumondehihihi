@@ -1,0 +1,9 @@
+algo,inputfile,total_words,distinct_words,time_s,cumul_alloc,cumul_desalloc,max_alloc
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test.txt,30148,7527,0.287000,692614,304149,388471
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test2.txt,14822,2736,0.055000,330231,149370,180871
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test3.txt,19881,3662,0.088000,386059,173183,212887
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test4.txt,37472,8277,0.405000,1040368,472168,568217
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test5.txt,63387,7978,0.564000,1040391,463695,576704
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test6.txt,49757,5520,0.352000,871641,395788,475858
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test7.txt,74602,9530,0.816000,1437549,653379,784183
+algo1,C:\Users\hwaru\OneDrive\Bureau\projectooooooo\data\test8.txt,26062,4114,0.162000,611481,277610,333880

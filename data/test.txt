@@ -1,67 +1,1161 @@
-CHAPITRE I — INTRODUCTION (2026)
+Reminder of your request:
 
-Bonjour!!!   Ceci est un MEGA-TEST: on veut vérifier la normalisation, la ponctuation, les tirets, les apostrophes, les espaces multiples,
-les TABs	qui sont ici	et ici	et encore ici, puis des retours à la ligne.
 
-On a des mots simples: chat, chien, maison, ordinateur.
-On a des mots composés: porte-monnaie, chef-d'œuvre, arc-en-ciel, end-of-file, rock-n-roll.
-On a des faux-tirets: -debut, fin-, --double, mot---mot, mot- -mot, mot -mot (avec espaces).
+Downloading format: : Text
 
-On a des apostrophes ASCII: l'été, c'est, j'aime, d'accord, qu'on, aujourd'hui.
-On a aussi des apostrophes typographiques: l’été, c’est, j’aime, d’accord, qu’on, aujourd’hui.
-On veut que ça devienne lisible: l ete, c est, j aime... (selon tes règles).
+View 1 to 136 on 136
 
-FRANÇAIS AVEC ACCENTS:
-à â ä  é è ê ë  ç  î ï  ô ö  ù û ü
-Voilà! François, Noël, naïf, façade, rôle, où, sûrement, déjà, crème brûlée.
+Number of pages: 136
 
-ENCORE DES PHRASES:
-— “Salut… ça va ?” demanda-t-elle.
-« Oui, très bien! Et toi? »
-(Parenthèses), [crochets], {accolades}; : ; , . ! ? … !!! ??? ///
+Full notice
 
-LIGNE 2:
-Le C est BRUTAL, mais magnifique. C-is GREAT; end-of-file; test-driven; mega-test; ultra-test.
-Attention aux séparateurs: commas, periods... and weird—dashes—everywhere.
+Title : Dissertation sur les attributs de Vénus . Qui a obtenu l'accessit au jugement de l'Académie royale des inscriptions & belles-lettres, à la séance publique du mois de novembre 1775. Par M. l'abbé de La Chau, bibliothécaire...
 
-LIGNE 3:
-Des chiffres doivent DISPARAÎTRE (selon le projet): 0 1 2 3 4 5 6 7 8 9, 12345, 3.14159, 2026-01-02, 42ème.
-Mais on garde les lettres: version, chapitre, section, paragraphe.
+Author : La Chau, Géraud de (1750 ?-1...). Auteur du texte
 
-LIGNE 4:
-Suite de mots pour tester les espaces:
-mot     mot      mot       mot        mot
-mot	mot	mot	mot	mot	(tabulations)
-mot
-mot
-mot
+Publisher : A Paris, de l'imprimerie de Prault, imprimeur du Roi, quai de Gêvres. Et se trouve chez Pissot, libraire, rue du Hurepoix. M. DCC. LXXVI
 
-LIGNE 5:
-Mots répétés pour tester la stabilité:
-alpha alpha alpha; beta beta; gamma—gamma; delta-delta; epsilon; zeta; eta; theta.
-alpha-beta gamma-delta epsilon-zeta eta-theta.
+Publication date : 1776
 
-LIGNE 6 (UTF-8 “bruit”):
-emoji 🙂 😂 🚀 should become separators.
-symbols © ® ™ € £ ¥ should become separators too.
-math ∑ ∆ √ ≠ ≤ ≥ and arrows → ← ↑ ↓ should be separators.
+Set notice : http://catalogue.bnf.fr/ark:/12148/cb39341976x
 
-LIGNE 7:
-Grand bloc de texte (avec beaucoup de ponctuation):
-Ceci, vraiment, est un texte; très: très; très... long!!! Il sert à tester: les règles de découpe,
-les mots-avec-tiret, les mots avec espaces, les mots’avec apostrophe, et les caractères accentués.
-Si tout marche, on doit obtenir une chaîne claire, en minuscules, sans ponctuation, sans chiffres,
-avec des tirets conservés seulement quand ils sont entre deux lettres.
+Type : text
 
-LIGNE 8:
-fin. FIN! FIn?? fiN... F-I-N (et là, attention: les tirets).
-End-of-file test here!!! End-of-file test here!!! End-of-file test here!!!
+Type : printed monograph
 
-LIGNE 9:
-Encore des accents en rafale:
-ààà âââ äää ééé èèè êêê ëëë ççç îîî ïïï ôôô ööö ùùù ûûû üüü
-Français Français français FRANÇAIS.
+Language : french
 
-LIGNE 10:
-Dernier test: "C'est l'été—vraiment—incroyable!", dit François; puis il ajouta: “OK… on y va”.
-THE END.
+Format : [4]-108 p., pl. : ill. ; in-4
+
+Format : Nombre total de vues : 136
+
+Description : Avec mode texte
+
+Rights : Consultable en ligne
+
+Rights : Public domain
+
+Identifier : ark:/12148/bpt6k4246605c
+
+Source : Bibliothèque nationale de France, département Philosophie, histoire, sciences de l'homme, J-5139
+
+Provenance : Bibliothèque nationale de France
+
+Online date : 10/01/2021
+
+The text displayed may contain some errors. The text of this document has been generated automatically by an optical character recognition (OCR) program. The estimated recognition rate for this document is 85%.
+
+1.1227- i. C.
+
+DISSERTATION SUR LES ATTRIBUTS DE VÉNUS.
+
+Grave en /776. dapres le Tableau Ohq mal du Titien, de la ColleeUan du Palau Royal, par Au a.
+
+de J'Aulnn , Graveur du Roi . Dessinateur el Graveur de S. A. J• A[G' le Due d Orléans . »
+
+DISSERTATION
+
+Qui a obtenu P Accessit 5 au jugement de l 3 Académie Royale des Infcriptions & Belles - Lettres ,d la Séance publique du mois de Novembre 1775. Par M. l’Abbé DE LA CHAU, Bibliothécaire, Sécretaire- Interprète & Garde du Cabinet des Pierres - gravées de S. A. S. M". le Duc d’Orléans.
+
+Imprimeur du Roi, quai de Gêvres. Et fe trouve chez P i s s o T, Libraire, rue du Hurepoix.
+
+M. DCC. LXXVI,
+
+AVERTISSEMENT.
+
+/ j e fujet propofépar l'Académie Royale des Infcriptions & Belles - Lettres > pour le Prix quelle a diftribué à la Séance publique de la St. Martin, confiftoit à examiner Quels furent les noms & les Attributs divers de Vénus chez les différens peuples de la Grèce & de l’Italie ; quelles furent l’origine & les raifons de ces attributs ; quel a été fon culte ? L‘ Académie invitoit encore les Auteurs à chercher, Quelles ont été les fta- tues, les Temples, les tableaux célébrés de cette Divinité, & les Artiftes qui fe font illuftrés par ces ouvrages ? Le Prix a été fondé en l'année 1754 par M. le Comte de Caylus. Ce Savant également recommandable par fes connoifances littéraires & par fon ?jle pour les Arts, eut non-feulement en vue d J éclaircir les points obfcurs de la Mythologie, il voulut encore, par cette fondation ,fe rendre utile aux Artiftes, & leur épargner les fautes dans lesquelles l'ignorance du Coftume a fait plus d'une fois tomber les plus habiles d'entr eux. Son intention fut que dans l'examen des fujets propofés , on s'attachât principalement à expliquer par les Auteurs & par les Monumens les ufages des anciens peuples à l'égard du culte de leurs Divinités. Ce projet conçu par un Amateur auffi inftruit, étoit bien digne d'être adopté par une Compagnie favante, à laquelle le dépôt précieux de l'Antiquité eft en quelque forte confié. L'Académie fe prêtant donc aux vues de M. le Comte de Caylus, Lfe conformant à fes intentions, avertit dans un fes Programmes , Qu’elle ne demande point le détail de tout ce que les Mythologues débitent au fujet des Dieux : que dans cette fuite de Differta- tions elle ne les confidère que par rapport aux Monumens. C'eft pour fuivre ce plan que j'ai rejetté beaucoup de détails étrangers à l'hiftoire de Vénus , & abfolument inutiles aux
+
+Avertissement. Artiftes pour leur procurer des connoijfances fur les Attributs de cette Divinité. C'ejl aufji ce qui m'a engagé à faire graver dans cette Differtation quelques médailles & d'autres Mo- numens, dont plufieurs, quoiquaffe^ connus des Savans , n'en font pas moins néceffaires pour U intelligence du fujet. Peu exerce aux combats littéraires, quand je fuis entré en lice , cétoit moins avec l'efpoir de vaincre que pour niejfayer dans un genre analogue à des études auxquelles je me livre depuis quelques années. Occupé, de concert avec M. I'Abbé Le Blond, de la defcription des Pierres gravées du Cabinet de Mv. le Duc d’Orléans, j'ai cru ne point m'écarter de cet objet en examinant la queftion propofée par l'Académie. Je dois être d'autant plus fenfible au témoignage fatteur dont cette illujlre Compagnie a bien voulu honorer l'e jfai que je lui ai préfenté, qu'une pareille diflinction ejl peu ordinaire. Son fuffrage ne peut que ni encourager , & mon affociation avec un de fes Membres , dont elle a tant de fois couronné les travaux, me donne lieu d'efpérer que le Public accueillera favorablement le choix des morceaux intércjfans de Jim- menfe collection que nous nous propofons de faire pcroître incef- famment : ouvrage beaucoup plus important que nous n'avons entrepris qu'avec la permiffion & fous les aufpices d'un Prince Protecteur des Arts, & qui en pojféde tant de chef-d' œuvres.
+
+=*=*
+
+DISSERTATION
+
+SUR LES ATTRIBUTS DE VÉNUS, Quæ quidem licet Amorum volupratumque mater omnium crederetur, t^men eidem deferebant pudicitie principatum, Martian. Capella Lib. 1. Si les idées que les Poètes nous ont données de leurs DM nités font conformes à la tradition & à l’opinion commune de leur temps, ainfi qu’il y a lieu de le croire, il fera toujours difficile de trouver un fil qui ferve à nous conduire dans le labyrinthe de la Théologie ancienne. Quand on a vu que Jupiter étoit le plus grand des Dieux , & que Vénus avoit pris naiffance du commerce qu’il eut avec Dioné, (i) comment (0 Homere, Iliad. 3. Théocrite , Idyll. 15.Denys le Périégéte , Apollodore, Liv. r: nomment Vénus Arycic , ou ils disent qu’elle étoit fille de Jupiter & de Dioné. Virgile,' Ecl. ix. v. 47. appelle Céfar Dionœus pour marquer fon extraction de Venus ; ~Ecce Dionai procejjit Cafaris afirum. & Horace, Liv. 2, Od, 1, pour désigner l’antre de Vénus, le fert de l’expreflion Dianaum antrum^
+
+2
+
+Dissertation
+
+fe déterminer à croire que cette même Vénus tire fon origine de l’accident funeste arrivé à Cœlus ? ( i ) Et fi ce dernier fenti- ment étoit celui qu’il fallût admettre, commentferoit-elle encore la mère de tous les êtres & la plus puiffante des Divinités ? S’il y a eu plufieurs Vénus, quels font les moyens de donner à chacune la place qui lui convient ? Que l’on diftingue tant que l’on voudra des temps de Théif- me, & d’autres de Polythéifme, on fera forcé d’avouer que la Mythologie eft environnée d'épaiffes ténèbres : il n’eft guéres poflible de fuppofer que les Anciens euffent fur cela un plan formé & un fyftême raifonnable , même en admettant les allégories , & en cherchant à concilier les fictions des Mythologues avec les idées des Physiciens. Ce défaut dans le principe qui détruit l’ordre & l’enchaînement des conféquences , eft le ca- ractère de toutes ces fauffes religions, qui ne différent entr’elles que par le nombre d’abfurdités plus ou moins grand qu’elles préfentent. Les Grecs & les Romains ont fçu donner du moins à la Mythologie un air de vérité qui féduit; fi elle eft mêlée de quelques infipidités , elle contient auffi des chofes merveilleu- fes, & s’il a fallu des fables à l’homme, il femble que des fables fublimes , qui peuvent l'amufer en l'inftruifant, doivent être préférées à d’autres qui ne feroient qu’ennuieufes. Celles qui font racontées par Héfiode, par Homere ou par Ovide nous flattent encore en nous faifant chérir les erreurs de la Grèce ; mais qui pourra jamais prendre quelqu’intérêt aux rêveries de l'Alcoran, à celles du Zend-avesta, & d’autres ouvrages fem- blables, qui font autant de Codes de la folie humaine ? Il s’eft trouvé des détracteurs de la Fable, parce qu’il y a toujours eu
+
+(2) Cælus, felon Héfiode, fut mutilé par Saturne ton fils » & Vénus naquit de cet accident, comme on le verra bientôt»
+
+SUR LES ATTRIBUTS DE VÉNUS. 3 des ignorans & des hommes fans goût; mais fi ion eût prof- crit l’ancienne Mythologie, fi les Grecs ne l'euffent pas embellie . fi les Romains ne fe fuflent pas fait un devoir de mas, cher fur leurs traces, s’ils ne nous euffent pas tranfmis leurs idées , quel peuple oferoit prétendre à la gloire d’y fubftituer les fiennes , & que feroient devenus nos Arts les plus agréables ? Que l’on voie combien la fable feule de Vénus peut fournir d’images, & l’on fera étonné de la richeffe du fujet. Cependant foit que l’on dife que cette Divinité ait été formée de l’écume de la mer, ou qu’elle doive fa naiffance à Jupiter & à Dioné, foit qu’on la confidére comme la Nature elle- même , il n'en fera pas moins vrai que c’eft un être chimérique, qui n’a exifté que dans l’imagination brillante des Poëtes, lef- quels l’ont perfonnifiée en l’invoquant comme une des plus importantes divinités, & en lui donnant la plus grande influence dans l’économie de l’univers. Ainsi les idées des anciens fur Vénus & fur les autres Dieux, ne font autre chofe que le ré- fultat d’un mélange étonnant & varié d’allégories & d’opinions populaires ornées par les fictions des Poëtes. Si l’on pouvoit débrouiller ce cahos & tracer la marche qui a été fuivie dans ces combinaifons, on auroit tout à la fois des exemples frappans de l’élévation de l’efprit humain & de fa foibleffe. On verroit d’un côté beaucoup de génie, de l’autre une crédulité aveugle, & l’on pourroit marquer les dégrés par lef- quels la fuperftition eft parvenue à exercer un fi grand empire. Mais comme l’objet de cet ouvrage eft d’éclaircir la Mythologie ancienne, en expliquant les attributs de Vénus , & de préfenter en même temps aux Artiftes modernes les règles du coftume qu’ils doivent fuivre dans les différentes repréfenta- tions de cette Déeffe , il faudra nous prêter nous-même à l’il- lufion, nous tranfporter dans, les temples de la Grèce & de A ij
+
+4 Dissertation Rome, puifer dans les fources où font consignés les principes de la Religion de ces Peuples , rechercher avec foin les monu- mens qui nous en offrent des exemples authentiques, & adopter en quelque forte leurs idées. Quant au plan que nous nous prefcrivons , nous effaierons de fuivre dans l’énumération des attributs de Vénus l’ordre le plus naturel : c'eft-à-dire , qu'a- près avoir expofé les opinions communes fur fa naiffance, nous expliquerons à cette occasion les attributs qui en dépendent, & ainfi de fuite à l’égard des autres qui font relatifs à fon pouvoir & à fes diverfes influences. Par cette manière de procéder, on ne fatisfera pas moins l’efprit obfervateur du Philofophe qui defireroit avoir des notions fur l’origine de la Divinité de Vénus , que la curiofité de l’Antiquaire ou de l'Artifte qui s’attachent plus volontiers à la defcription d’un monument, ou à la connoiffance des ufages. L'hiftoire d’une Divinité telle que Vénus doit néceffairement entraîner dans des détails qui pourroient paroître quelquefois licencieux ; mais il feroit aifé de fe juftifier par l’exemple des Pères Clem. Ale- de l'Eglife & particulièrement de Clément d’Alexandrie, qui xandrin. edit. 2 - Power, p. 13. ne craignoit pas, difoit-il, de révéler des myftères qui avoient pour objet le culte public. Quoique l’on ne confidere point ici la Mythologie fous le même point de vue que les Écrivains Ecclésiaftiques , qui vouloient la réfuter ou la rendre ridicule; le but qu’on fe propofe n’en eft pas moins utile, & alors tous les mots doivent être égaux pour les oreilles de la pudeur. Nous éviterons donc également & une liberté cynique, & une retenue trop fcrupuleufe, I l n’eft point étonnant que l’origine d’un être purement imaginaire foit obfcure : ce qu'il y auroit de curieux, feroit d’indiquer comment les fables ont pu s’accréditer & acquérir
+
+SUR LES ATTRIBUTS DE VÉNUS. 5 l’état de confiftance dont elles ont paru jouir. Si nous conful- tons les Auteurs anciens qui ont parlé des Dieux, ils font fi obfcurs ou fi peu d’accord entr'eux, qu’il n’en refte fouvent que des doutes. Platon reconnoiffoit deux Vénus : une plus s8Yun?Rom“s. ancienne, fille de Cœlus , fans mere, & que nous appelions, p. 180. dit-il, Vénus Célejle ; l’autre, plus récente , fille de Jupiter & de Dioné, que nous nommons Vénus Vulgaire. Le Poëte Epiménides en admet une différente de celles de Platon, 6c la fienne eft fille de Saturne & d'Evonyme. ( i ) Cicéron, dans fon ouvrage fur la Nature des Dieux, ( 2) affure qu’il y en a quatre. Apulée ( 3 ) la confond avec Cérès, Diane , Proferpine, ce qui prouve qu’aucun n’avoit fur cette Déeffe des notions bien claires, 6c en effet aucun n’en pouvoit avoir. Mais conformons-nous au langage de la Mythologie , 6c voyons d’abord quelles font les idées qui peuvent naître de l’étymologie du nom Grec de Vénus. Ce qu’Héfiode raconte de fa naiffance Theogon.v. a un rapport affez fensible avec le mot , qui fert à 190 désigner la Déeffe. Selon ce Poëte, les parties de la généra-
+
+(1) Tmuaro S' ‘Evovvunv SaAepar Kpovos &yxvAoufris Ex rs xeAXxopoç yevero XPUOW Aqposir». (2) Venus prima , Cœlo & Die nata , cujus Elide delubrumvidemus : altéra Ipuma procreata , ex qua , & Mercurio Cupidinem fecundum natum accepimus : tertia Jove nata & Dione , quæ nupfit Vulcano , sed ex ea & Marte natus Anteros dicitur : quarta Syria , Tyroque concepta , quæ Aftarte vocatur , quam Adonidi nupfifle traditum eft. Lit. 3. de Nat. Deor. (3) Regina cœli, five tu Ceres aima , frugum parens originalis , quæ repertu lætata filiæ , vetuftæ glandis ferino remoto pabulo , miti commontrato cibo , nunc Eleusiniam glebam percolis : feu tu Cæleitis Venus, quæ primis rerum exordiis lexuum diverfita- tem generato amore fociafti, & æternâ fobole humano genere propagato, nunc cir- cumfluo Paphi facrario coleris: feu Phœbi foror, quæ partu fœtarum medelis lenientibus recreato, populos tantos educâfi , præclarifque nunc veneraris delubris Ephef ; feu nocturnis ululatibus horrenda Proferpina , triformi facie larvales impetus compri- meng, &c. Apul. Lib, Kl.
+
+6 Dissertation
+
+Oppian. Cy-
+
+neg. Hefiod
+
+Plutarch.
+
+. 200. In Protrept. edit. Potter. p» 13.
+
+tion de Cœlus étant tombées dans la mer, après avoir été cou- pées par Saturne fon fils, il s’en forma une écume qui donna l’être à Vénus. Homere , ( i ) Mufée , ( 2) Virgile, ( 3 ) Ovide, (4) Tibulle, (s) Catulle, (6) Horace (7) lui donnent cette meme origine, & ils lui attribuent une grande puiffance fur les eaux de la mer. C’eft pour cela qu’elle a reçu les épithètes d"A@poyevec , de llovloyévaic & d'AXryevns. Il femble même qu’on ait voulu fixer d’une manière plus particulière la circonftance de fon origine par celle de QiXouunons, amans genitalia ; du moins Héfiode le fait-il entendre dans fa Théogonie. ( 8 ) C’eft fans raifon que Clément d’Alexandrie veut attacher un fens obfcène à cette épithéte, dans la defcription allez libre
+
+(1) Hymn, v. in Venerem, (2) ' Ayocstis ïri Kuzps awtoaopoç cri Salaccag Kal xpœrkc movroro. Muf. Leand. & Hero. (3) Fas omne ef?, Cytherea, mets te fidere regnis Undè genus ducis. Æneid. v. (4) Ula dédit faciles auras vent ofque fecundos; In mare nimirùm jus habet orta mari. Paris Helen. Solve ratem , Venus orta mari, mare praftat eunti. Sapho Phaoni. Quod timeas non efl , aufo Venus ipfa favebit Sternet ©‘ cequoreas, œquore nata, vias. Hero Leand. Sed Veneris menfem Graio fermone notatum Augurer , à fpumis eft Dca difla maris. Fait. lib. iv. v. (5) Nam fuerit quicunque loquax , is fanguine natam, ls Venerem è rapido fentiet effe mari. Eleg. lib. i. (6) Nunc, 6 Caruleo creata Ponto. Catull. XXXVII. (7) Parmi les Dieux qu’Horace invoque pour obtenir une heureuse navigation à Virgile, ce Poete nomme Vénus la première. Sic te Diva potens Cypri Sic fratres Helenæ lucida fidera Ventorumque regat pater. Lib, I. Od. III. (8) ‘HJ qAouudéa, art undkov
+
+SUR LES ATTRIBUTS DE VÉNUS. 7 qu’il fait de la naiffance de Vénus; il a tort de prétendre que c'eft ce qui fait donner une portion de fel& la figure d’un membre viril à ceux qui font initiés aux myftères de Vénus Marine, comme le fymbole de fa naiffance, & que ceux-ci lui offrent une pièce de monnoie , comme un préfent que des amans fe- roientàleurs maîtreffes. Le témoignage de cet Auteur eft, à la vérité, étayé de ceux de Julius Firmicus ( i ) & d'Arnobe (2) ; mais ce qui nous paroit plus intéreffant , & ce qui a peut-être en effet rapport à l’épithéte dont il s’agit, c’eft une médaille d’argent de Demetrius II, Roi de Syrie, publiée par Haym, & le P. Frœlick , & une autre de moyen bronze frappée pour l’Empereur Antonin dans la ville de Mallus. Elles ont toutes deux pour type une Vénus debout, vêtue d’une longue robe, & entourée de Phalli,
+
+Annal. Reg. Syr, tab. x.n° 25.
+
+Quant au mot Qiouunons , il ne faut pas le confondre avec celui de QioupeOns, autre épithéte de Vénus , fouvent employée par Homere, & qui exprime le penchant que cette Déeffe a pour les ris, & fon goût pour la gaieté, à quoi Horace fait
+
+Ho mer. Iliad. 3. Id. Hymn. in Vener. Q. Calaber €
+
+(î) Statuifle etiam ut quicunque initiari vellet fecreto Veneris fibi tradito , affem in manum , mercedis nomine Deæ daret. (2) Necnon & Cypriæ Veneris abftrufa illa myfteria prætereamus quorum conditor indicatur Cinyras rex fuifle , in quibus fumentes ea, certas Ripes inferunt ut meretrici, & referunt Phallos propitii numinis ligna donatos. Arnab. Lib. 5.
+
+8 DISSERTATION
+
+vraifemblablement allusfion, lorfqu’il dit : Lib, 1,04,2; Sive tu Erycina ridens, Quam Jocus circumvolat & Cupido, Du nom principal d’AQpoNrn s’enfuivent naturellement les diverfes dénominations de novr/a,, de OaXaccla , de Marina ,(1) de Pelagia, de Limenia, & d’AvaNvouévn , qui ont toutes à-peu- près le même fens. Celle de Limenia ou Limmfia paroît plus reftreinte & bornée feulement aux ports fur lefquels Vénus étoit censée veiller, comme on le voit dans une épigramme de l’Anthologie, (2) & comme on l’apprend de Servius. (3) Corinthiac. Cette derniere épithéte eft citée par Paufanias , qui dit, que Rurk?" edite l'on voyoit à Hermione une ftatue de Vénus Aluevla de marbre blanc, remarquable par fa hauteur & fa beauté. Le titre de Pelagia eft plus étendu , & femble marquer davantage fon domaine fur la mer ; il fe lit fur une infcription recueillie par Pag. 117. Reinelius. Gori a fait graver une pierre qui repréfente une Muf. Florent, femme portée au milieu des mers par un Triton ; & il dit que Gemm. antiq. , -, " tom. z. c eft une Vénus Pelagia. Nous ferions allez portés a croire Vaillant Co- que les Corinthiens ont voulu la figurer fur des médailles X85.P E d’Agrippine, femme de Claude; on y voit une femme nue fur un char marin, conduit par un Triton portant une efpèce de conque, & par une Néréide fonnant de la trompette. Les Corinthiens vouloient par ce monument flatter l’Impératrice,
+
+(2)' ()
+
+Ut tamen noris quibus advoceris Gdudiis, Idus tibi funt agenda-: Qui aies ménfein Venerès Marina Findit Afrilem. Horat. IV. Od. XI. Kump: Qxoupioreipa, qixiéyii , coge pi Kvatr Peucixës non fiGWTl Tp09 Anthol. Lib. i. c. xxxr. Ef Limnepa. Venus qua jwtibus præe. Servius-in Æneid. L qu'ils
+
+SUR LES ATTRIBUTS DE VÉNUS. 9 qu’ils repréfentoient comme une autre Vénus, avec un de fes principaux attributs.
+
+Elle eft donc bien caractérifée comme fille de la mer, ainfi que la nomme Paufanias,& comme en pofédant l’empire, Corinthiacs ainfi que nous l’avons vu par fes autres épithétes. Mais il n’y en a aucune qui paroiffe plus propre à exprimer cette qualité que celle d'Anadyomène, qui eft particulièrement con- facrée à défigner le chef-d’œuvre d’Apelles, admiré de toute la Grèce, & fi célébré par les anciens. ( 1 ) M. le Comte de
+
+(i) Nous réunirons dans cette note des paffages qui ont un rapport dire à Vénus ‘Anadyomène , afin qu’étant rapprochés , on faififfe plus aifément l’idée que s’en formoient les anciens. Nous commencerons par donner la traduction du texte d'He- /iode telle qu'elle eft dans le Mém. de M. de Caylus. On vit alors, dit le Poète, flotter fur la furface des eaux de la mer le grouppe d’une écume blanche qui produiloit & formoit dans ton fein une jeune fille. Cette écume s’approcha d’abord de l'ifle de Cythère ; de-là, pouffée par les flots, elle fut portée fur la côte de l’ifle de Cypre , où le grouppe s’étant tout-à-coup entr'ouvert , on vit fortir de fon fein une jeune Déefle , dont l’éclat, la beauté & la majesté étonnoient les regards. Dès le premier moment de la naiflance , l’aimable Déefle fe prélente à l'a- femblée des Dieux, qui la reçoivent parmi eux ; le Dieu d'Amour l'accompagnoit, & les Plaifirs fuivoient fes pas .... Iere, E P I G R A M M B DE L'A NTHOLOGIE, Liv. IV. Voyez Vénus fortant du fein de l’onde qui vient de lui donner le jour ; c'eftPou- vrage du pinceau d'Appelles: confidérez la Déefle qui a sais de les belles mains, sa chevelure toute trempée 2 comment elle exprime de fes cheveux humides l'écume B
+
+10
+
+Dissertation
+
+Caylus a publié & fait graver dans les Mémoires de l’Académie des Belles-L ettres un petit monument de bronze repré- fentant Vénus Anadyomène : l’explication qu’il en donne, fait
+
+blanche dont elle vient de naître. Minerve & Junon avouant déformais leur défaite,’ diront elles-mêmes : charmante Vénus, nous ne vous disputons plus le prix de la beauté. II e . E P I G R A M M E. Appelles vit Cypris au moment de fa naiffance , lorfqu'elle fortit toute nue dufein de la mer , qui l’avoit enfantée. Le Peintre offre à nos regards la DéefTe , telle qu'il la vit en ce moment, couverte d’écume, & l’exprimant de Ces cheveux avec fes belles mains. III e . Epigramme, Lorque Cypris toute trempée de l’écume qui découle de fes cheveux, fortit nue du fein des flots , elle porta d’abord fes mains fur la chevelure qui couvroit fes belles joues ; elle exprimoit ainsi de fes cheveux humides l’eau écumante de la mer. La DéefTe montroit fon fein à découvert, & tout ce qu’il elt permis d'expofer à la vue. Mais fi Vénus eft auffi belle en effet qu’elle le paroît dans ce tableau , qu’à la vue de la Déefle , toute la fierté du courage de Mars s’étonne & le confonde. IV e . Epigramme. La mer venoit d’accoucher, & la Reine de Paphos qui fortoi t de fon fein , avec le fecours de la main d’Apelles , ouvroit en ce moment pour la première fois fes beaux yeux à la lumière : vous dont les regards font attirés par ce tableau , hâtez-vous de vous en éloigner , de peur que l’écume que la DéefTe exprime de fes cheveux humides, ne rejaillifle fur vous. Si Vénus disputant la pomme, dévoila jamais aux yeux de Paris tous les charmes qu’elle étale ici, c'eft bien injustement que Pallas a ruiné de fond en comble la ville de Troie. Ovide fait allufion aux cheveux mouillés de Vénus dans ces vers de l’Élégie 14 e . du premier livre ; Formofa periere comte, quas vellet Apollo Quas vellet capiti Bacchus inejje fuo, Illis contulerim, quas quondam nuda Dione Pingiiur humenti fuflinuijFe manu. Le même Poëte en parle encore plus clairement au fécond livre des Triftes , Y. 527 a Sic madidos ficcat digitis Venus uda capillos : Et modo materais te£la vidçtw aquis,
+
+SUR LES ATTRIBUTS DE VÉNUS. Il voir qu’il favoit allier les règles de la critique au goût fur qu’il avoit pour les Arts ; & comme il a , pour ainfi dire, épuifé la matière , il fuffiroit d’indiquer fon ouvrage. Nous en détache- rons néanmoins quelques réflexions, qui ne paraîtront point étrangères ici. Cet amateur éclairé , après avoir traduit le texte d'Hésiode , qui traite de la naiffance de Vénus, examine qu'el- les peuvent être les idées que le Poète aura fournies au Peintre, il fait voir à cette occafion l’avantage que la liberté de traiter un fujet, donne au premier fur le fécond. » Je ne » crains point, dit-il, d’avouer que ce beau morceau de poéie Tom, xxx. p. » digne d’être imité, comme il l’a été, avec raifon , par un 449: » fi grand nombre d'Auteurs , concourt à prouver l’étendue » des images que les Poètes ont la liberté de traiter ; mais pour » le fait dont il s’agit, les vers d’Héfiode nous font voir que » ce Poète a fçu occuper l’efprit par la defcription de cette » Vénus, & plaire par les traits , les agrémens, les fufpen- » fions, les fous-entendus , enfin par les avantages de fon ta- » lent ; tandis qu’Apelles a fixé cette Déeffe aux yeux de tous
+
+Au quatrième livre de Ponto , Ep. I, il dit que ce tableau précieux faifoit la gloire d’Apelles. Er Venus artificis labor efi &‘ gloria Coi, Æquoreo madidas qua promit imbre comas. Enfin au troiffème livre de l’Art d’Aimer, il la représente toujours dans la même attitude. Nuda Venus madidas exprimit imbre comas. Q, Calaber, Livre cinquième, ne diffère guéres d’Ovide, Appor er xounciv ?x*o évedvero T0r8. Aufone fe rapproche des uns & des autres dans cette Epigramme , n°. 1o6. Emerfam Pelagi nuper genitalibus undis Cyprin Apellei cerne laboris opus ; Ut complexa manu madidos falis æquore crines Humidulis fpumas dringtt utraque corrtis. Jam tibi nos, Cypri,Juno inquit, • innuba P alias Cedimus, © forma pramia deferimus^
+
+12 Di SS ERTATION » les Grecs par une attitude fimple , mais fi convenable & fi » frappante, que la Grèce entière s’accorda pour donner à » cette Vénus le nom d'Anadyomène , en adoptant le moment » dont il avoit fait choix dans les vers d'Hésode, c'eft-à-dire, » effuiant fes cheveux lorfqu’elle fort de l’écume de la mer » dont elle avoit été formée. Tbid. p. 45° M. de Caylus fait enfuite des réflexions générales fur ce tableau , qu’il décrit ainsi : » La Vénus d'Apelles eft repréfentée » dans le moment qu’elle paroît au jour , elle eft dans l'i- » gnorance de fes charmes, & ne témoigne aucune furprife; » elle n’a befoin ni d’effort, ni de mouvement : Déeffe & fans » paffion, l’ingénuité l’accompagne , & la curiofité ne la peut » animer ; mais fon premier foin eft dé plaire & de paroître à » fon avantage. Dès-lors elle eft occupée de fa parure natu- » relie, elle arrange & difpofe fes cheveux; le foin qu’elle ap- » porte pour les effuier prouve qu’elle vient de fortir de l’eau, » & tout ce qui rappelle une action précédente , eft une preuve » aufi rare que confiante du génie des Artiftes. Que de par- » ties muettes & poflibls, dans le même inftant faut-il réunir » avec fageffe & convenance, pour les faire concourir à l'ex- » preffion d’un objet fixe & immuable , tel qu’il eft pour la » peinture ? Ainfi l’attitude qu’Apelles a préférée eft favante » fans le paroître, faite par une action convenable au fexe & » à l’âge, agréable parce qu’elle eft dans la nature , que l’œil » le plus févere ne peut y remarquer la moindre affecta- » tion, & qu'enfin fous l’enveloppe la plus fimple & la » plus jufte, l’efprit charmé n’a nul befoin de fous-entendre, » & qu’il ne peut y parvenir fans le fecours de la réflexion. Il paroît d’après une des épigrammes de l’Anthologie , qu’Apelles avoit repréfenté fa Vénus à mi - corps, d’où il s’enfuit, dit M. de Caylus , » qu’il a néceffairement donné une fi jufte
+
+SUR SES ATTRIBUTS DE VÉNUS. 13 » idée d’un caractère fimple , noble & naïf, qu’il a exécuté fon » trait avec fi grande précifion , qu’il l’avoit fi bien penfé, que » le Sculpteur du monument de bronze, qui en eft une copie, » a faifi toutes ces imprefions , & nous fait voir encore au- » jourd'hui cette jeune perfonne debout fans aucun contrafte » apparent. Nous nous faifons un devoir de renvoyer à la favante differ- tation de l’Auteur, dans laquelle il fait la defcription de fon petit monument de bronze, en portant un jugement tant fur les anciens Artiftes , que fur les Peintres modernes qui ont of traiter le même fujet, & particulièrement fur le Titien. ( 1 ) Les Peintres & les Statuaires y trouveront des préceptes vrais & un détail conforme aux règles de leur Art. Les Littérateurs admireront l’érudition que l’Auteur a fçu y répandre ; & ils admettront fans peine la critique du paffage de Pline, qui fem- bloit être au défavantage d’un auffi grand Art que celui de la Peinture. Ceux qui voudroient favoir plus de chofes fur Apelles & fur fes ouvrages peuvent confulter le livre de Junius qui traite de la Peinture des anciens , & l’article Apelles dans le Dictionnaire de Bayle. Pline a exalté fes talens , & il en fait l’éloge le plus complet, en difant qu’il a furpaffé tous ceux qui l’ont précédé, & qu’aucun de ceux qui viendront après lui n’égalera fon mérite. ( 2 ) Il eft affez vraifemblable qu'Hésiode a fourni à ce Peintre fameux l’idée de fa Vénus Anadyomène. Quelques-uns difent que ce fut Campafpe, maîtreffe d’Alexandre, qui lui fervit d’original : d’autres croient que ce fut la courtifanne Phryné, c'eft ce qu’il eft affez peu important d’éclaircir. Il fuffit de croire
+
+Plin, xxxVà 10.
+
+Plin. Ibid.
+
+Athen. liba xnx. c. 6.
+
+(1) Le frontilpice de cet ouvrage représente la Vénus du Titien. (2) Verum omnes prius genitos, futurofque poftea fuperavit Apelles.
+
+14 Dissertation qu’après avoir puifé la première idée de fon fujet dans le Poëte Grec, Apelles aura choif le plus beau modèle qu’il aura pu trouver, & qu’il aura profité d’une difpofition convenable pour représenter la Déeffe dans le moment qu’elle fort de la mer, Ibid, p-449. ce qui est, félon M. de Caylus, le plus grand exemple de grâces produites par la jufteffe & la fimplicité, que l’on ne retrouve guères que dans les ouvrages des Grecs. C’eft une question de favoir fi Apelles a fait deux Vénus, dont la première, fi belle & fi parfaite, auroit été placée en- fuite par Auguffe dans le temple deCéfar ; & la fécondé, commencée pour les habitans de l’ifle de Cos, & reftée imparfaite par la mort de l’Auteur , n’auroit été achevée par aucun Ar- tifte. Pline eft prefque le feul qui puifle donner fur cela des Lib. xxxv. éclairciffemens , voici ce qu’il dit : Venerem exeuntem à mari Divus Auguftus dicavit in delubro patris Cœfaris, quœ Anadyo- mene vocatur, verfibus Grœcis tali opéré ( non ) victo ,fed illuft- trato. Hujus inferiorem partem corruptam qui reficeret, non po~ tuit reperiri. Ve ram ipfa injuria ceftit in gloriam artificis. Con- fenuit hcec tabula carie : aliamque pro ed Nero principatu fubfti- tuit fuo Dorothei manu. Apelles inchoaverat aliam Venerem Cois , fuperaturus etiam fuam illam priorem. In vidit mors per- acla parte : nec qui fuccederet operi ad praftcripta lineamenta in- ventus eft. On croit voir deux tableaux indiqués dans ce paf- fage , d’après lequel plufieurs Auteurs ont diftingué la célèbre Vénus Anadyomène , peinte par Apelles, d’une autre Vénus du même Auteur commencée pour les habitans de l’ifle de Cos. Mais il faut obferver 1°. que la belle Vénus Anadyomène avoit été faite pour les habitans de cette ifle, puifque ce fut d’eux qu'Augufte l’acheta cent talens, fuivant le témoignage Lib. xiv. p. de Strabon. 2°. Cicéron, contre Verrès, affurant que l’on ne Cicer. in Verr. trouveroit aucune ville d'Afie ou de Grèce qui voulût céder lib. 4. c. 60.
+
+SUR LES ATTRIBUTS DE VÉNUS. IJ pour de l’argent des ftatues ou des tableaux, fait l’énumération des chefs-d'œuvres de l’art que quelques-unes poffédoient ; & il nomme la Vénus des Rhégiens, l’Europe des Tarentins, le Satyre que l’on admiroit chez ces mêmes peuples , le Cu- pidon des Thefpiens, la Vénus de marbre des Cnidiens , le tableau de la même Déefle chez les habitans de l'ifle de Cos. ( 1 ) 3 °. Ovide avoit fans doute intention de parler du beau tableau d’Apelles en ces vers : Si nunquam T^enerem Cois pinxiffet Apelles ; Merfa fub œquoreis illa lateret aquis. Nous n’ignorons pas que certains 'critiques n’admettent point la leçon Cois , & qu’ils y fubftituent celle de Cous , qui fe rapporte au Peintre ; mais cela ne change rien au fens. 4°. Si c’eût été le fentiment commun, que le fécond tableau d’Apelles fuppofé , dût être fi fupérieur au premier, Properce en parlant de celui-ci n’auroit pas dit : lu Keneris tabula fumruaru fibi ponit Apelles , ce qui exclut tous fes autres ouvrages. Il pourroit donc le faire que Pline eût multiplié les êtres fans nécefité , comme le penfe Bayle, & ce qui aura donné lieu à cette mé- prife, c'eft que la Vénus Anadyomène n’étoit repréfentée qu’à mi-corps , félon une des épigrammes de l’Anthologie, elle n’étoit donc cenfée dans un état de perfection qu’à l’égard de la partie fupérieure. 6 Les différens textes des Auteurs concourent à fixer la manière dont la Vénus Anadyomène doit être repréfentée d’après la defcription d'Hésiode & le tableau d’Apelles, c'eft-à-dire , fortant nue de l’écume de la mer, & preffant fes cheveux avec fes mains , comme pour en faire découler l’eau. C’eft donc fans raifon que Gori a publié pour une Vénus
+
+De art. Am. Lib. ni. v. 401.
+
+Lib. in. Eleg. 9»
+
+Articl. Apelles.’
+
+(1) Quid ut pictam Coos ?
+
+16 DISSERTATION
+
+Anadyomène cette belle ftatue qui fait l’honneur du cabinet Muf Florent, de Florence ; fes cheveux font arrangés avec trop d’art & de otat. lab. 7 P r xXVI. grâces pour une femme que l’on fuppoferoit fortir de l’eau. Nous ne pouvons nous refufer au defir de placer ici la
+
+defcription qu’en fait un Auteur qui l’avoit vue, & qui étoit
+
+Winckelman Hil. de l’Art, tom. I. p. 279.
+
+fi capable d’en juger. » Vénus eft plus fouvent repréfentée , » dit il, que les autres Déeffes , & fous des âges plus différens. » La Vénus de Médicis à Florence reffemble à une rofe qui
+
+» s’épanouit doucement au lever du Soleil. Elle femble quit- » ter cet âge qui eft rude & âpre comme les fruits avant leur » maturité, c’eft ce qu’indique fon fein qui a déjà plus d'é- » tendue & de plénitude que celui d’une jeune fille. En la » voyant je me repréfente cette Laïs qu’Apelles initioit aux » mystères de l'Amour , 6c je me l’imagine telle quelle étoit » pour la première fois aux yeux de l'Artifte. Telle eft en- » core la Vénus du Capitole , mieux confervée que toutes les » autres, puifqu'il ne lui manque que quelques doigts, fans » aucun autre endommagement. Telles font auffi celle de la » ville Albani, 6c celle de Menophantus, copiée d’après. celle » de Troas : la dernière a pourtant cette particularité , que la » main droite eft plus près du fein, le plus grand doigt en » touchant le milieu ; la main gauche foutient un vêtement. » Mais celles-ci font repréfentées plus grandes 6c d’un âge plus » mûr que la Vénus de Médicis. Cette.ftatue admirable n’a d’autre attribut que la beauté, ( i ) car les Génies qui fe jouent fur un Dauphin pofé derrière la
+
+(1) On peut lui faire l’application d’un paffage de Plaute (In Epidico, Act. V.
+
+Scen. i.) ab unguiculo ad capillum fummun eft fefilvijjima..
+
+U femble aufi qu’Ovide y falfe allufion :
+
+Ipfa Vernit pubem, quotiet Velamina ponit >
+
+Yrotegitur lava femiredutia manu. De Art. Amand. Lib. 2.
+
+• Statue.
+
+b
+
+SUR LES ATTRIBUTS DE VÉNUS.
+
+17
+
+Statue y font plutôt placés comme ornement & pour faire grouppe, que comme attribut; & dans la comparaifon que l’on fait de cet acceffoire avec la figure à laquelle il eft joint, on ne fauroit reconnoître la même main. Quoiqu’il foit très-pofible, & que nous foyons même perfuadés que cette fameufe Statue repréfentoit Vénus, c’eft ici néanmoins le lieu de s’élever contre l’abus dans lequel on tombe très - fouvent en prenant de simples femmes nues pour des Vénus. On ne voit pas non plus pourquoi la pierre gravée dans le même recueil feroit une Vénus Anadyomène, comme l'af- fure Gori. En effet, quoique la femme qui y eft repréfentée tienne un gouvernail de la main droite, ce qui femble figni- fier l’empire de la mer, & qu’elle ait devant elle un Cupidon qui lui foutient le pied, autre trait de convenance avec Vé- nus ; néanmoins la figure principale étant fur un plan & adoffée à un arbre, & le Cupidon lui-même ayant un genou en terre, nous penfons que le Graveur n’auroit point atteint le but en fe propofant de faire une Vénus Anadyomène. Les cheveux d’une telle Vénus ne doivent pas être fi élégamment arrangés, il faut qu’ils paroiffent mouillés, ainfi que nous en avons cité tant d’exemples, & elle doit y porter les deux mains comme pour en exprimer l’écume & les fécher ; telle par exemple que celle qui fe voit fur une pierre gravée au tome premier du Cabinet du Grand-Duc, & fur tant d’autres monumens. Comme la première idée que les Anciens aient eue fur la divinité de Vénus eft celle qui la fait naître de la mer ; aufi eft-il vraifemblable que la première forme fous laquelle on l’a re- préfentée chez les Grecs, eft celle de l'inftant où elle fort de cet élément. Nous parlons du temps où l’art de la Sculpture & de la. Peinture avoit déjà fait des progrès ; car nous verrons bientôt- que la Vénus de Paphos étoit bien différente, quoique peut- G
+
+Tom. î. des P err. gr ivées, planche27.n°s z.
+
+Pl. 41,
+
+Corinthiac.
+
+T. Eliac, cap. XI.
+
+Dido Æn. v. 57.
+
+18 Dissertation être la plus ancienne. Paufanias dit qu’à Corinthe, dans le temple de Neptune, la figure de Vénus fortant de l’eau étoit fculptée fur l'un des côtés de la bafe qui foutenoit le chariot de ce Dieu. Or, ce temple & ce chariot étoient des plus vieux monumens de la Grèce. Selon le même Auteur, on la voyoit aufli repréfentée de cette forte fur la bafe du trône de Jupiter Olympien. Ce qui vient d’être expofé juftifie fuffifamment la dénomination & l’étymologie du mot ‘AQpoNrn , quoiqu’Euripide ( i ) & Ariftote ( 2 ) femblent en indiquer une différente. Suivant la defcription que fait Héfiode de la naiffance de Vénus , l’écume dont la Déeffe fut formée s’approcha d’abord de Cythère. Soit que le nom de cette ifle ait de l’analogie avec des effets que l’on attribue à Vénus (3), foit que le culte de la Déeffe y ait été fondé plutôt que dans un autre pays, les Poètes en admettant cette tradition ont moins cherché à la difcuter & à l’éclaircir, qu’à la préfenter avec grâce. On en voit un exemple dans Ovide, où Didon reprochant à Enée fa perfidie, s’exprime ainfi : Nec violaffe fidem tentantibus ce quor a prodefi, Perfidiœ pœnas exigit ille locus ; Prœcipuè cum lœfus Amor : quia mater Amoris Nuda Cytheriacis édita fertur aquis.
+
+(1) Euripide le dérive d‘‘Açpoci» , parce que dit-il, ceux qui éprouvent les effets de l’Amour font comme infensés. (i) Ariflote , à la vérité, fait venir ce nom d‘‘Aqpès, écume, mais la raifon qu’il en donne , c’eft que la nature de la femence eft d’être écumeufe. (3) Voyez les étymologies que donnent de ce nom Phurnutus , édition de Gale , page 63 , Gyraldi dans fon Histoire des Dieux , & Alciat dans fes Em- blêmes.
+
+SUR LES ATTRIBUTS DE VÉNUS. 19 Et ailleurs le même Poëte fe plaint en ces termes, de la violence des feux qu’il reffent: Sim licet infamis : dum me moderatius urat Quœ Paphon } & fluclu pulfa Cythera tenet. L’épithète de Cythéréenne paroiffoit fi propre à la désigner, qu’elle eft fouvent employée feule fans le nom de Vénus. ( 1 ) Sur des médailles de Cythère, publiées par Goltzius , on voit la Déefle nue tenant une pomme & armée d’un arc, ce qui s’accorde affez bien avec le témoignage de Paufanias, qui dit qu’à Cythère il y avoit un temple de Vénus Uranie , l’un des plus anciens de la Grèce, dans lequel la flatue étoit repréfen- tée armée. L’Auteur des Recherches Philofophiqires fur les Egyptiens & les Chinois dit, que la Vénus Cythéréenne étoit la Nepthis de l’Egypte, ou la femme de Typhon ; mais ce favant auroit dû entrer dans quelques détails pour prouver cette affertion : il ajoute, que la Dorade lui étoit confacrée chez les Grecs ; nous l’apprenons, en effet, d’Athénée, qui fait mention d’un autre petit poiffon nommé ‘A®in , fort agréable à la Déeffe. Héfiode, après avoir fait aborder Vénus à l’ifle de Cythère, ajoute, que de-là pouflée par les flots, elle fut portée fur la côte de Cypre ; & Callimaque fe fervant d’une périphrafe pour désigner ce pays dit., que c’eft l’ifle où Vénus fut reçue en fortant de l’eau pour la première fois. ( 2 ) Cela pourroit (1) Eüssqavs Kubepei»ç. Homer. Hymn. IV. V. 6. Kucpoyevic Kvbspeicv dticopcs. Ibid. Hymn. IX. v. 1, Ofctila lioavit nata : dehinc talia fatur : Parce meiu Cytherca. Æneid. 1. v. 260. Nec bis cinda Diana placet, née nuda Cythere. _ . • Aufon. Epigram. 393 Et le même, Epigr. 57. 100. Idyll. 332 & 357. (2) Kai %v iaevigara Kuwpes E§ Ta ttfdiTCi, Ci
+
+Amor. lib. ir; Eleg. 17. Y. 2,
+
+Lacon. edits Kuhn, p, 269.
+
+Tom. i. p: 131.
+
+Lib, vit. p; 328. &p. 32^ Hymn, in Del, v. 21,
+
+20 Dissertation s’expliquer, en difant que fon culte paffa d’une ide à l’autre: mais comme il fut établi apparemment dans la dernière avec plus de pompe, & d’une manière plus fpéciale, on aura pu dire qu’elle y étoit née. Héfiode & Homere le marquent formellement en la nommant Kvcrpoy ma ou Kuwpoyevns , épithéte que l’on peut très- TN aille de bien comparer à celle de donnée à Jupiter, comme un monument de fa naiffance dans l'ifle de Crete. Celles de Kùæpis & de Cypria dont fe font fervi les mêmes Poètes, & anelëonagke: plufieurs autres, dérivent de la première , & elles ont à peu- près une acception femblable. JIs Saturn. On lit dans Macrobe que la ftatue de Vénus en Cypre la repréfentoit avec des habits de femme, mais de la taille d’homme & ayant de la barbe, ce qui faifoit croire, dit-il , qu’elle avoit les deux fexes. C’eft le feul Auteur qui faffe la defcrip- tion de la ftatue de Vénus Cyprienne. Elle eft bien différente en apparence de la Vénus Anadyomène ; & l’on voit ici une gradation d’idées dans la féconde manière de repréfenter la Déeffe avec les deux fexes , pour marquer fans doute l’influence qu’elle avoit fur la génération, ce dont nous verrons bientôt des exemples, & ce qui eft cor forme aux opinions des Anciens fur l’élément dont ils fuppofoientque Vénus avoit été formée. Les Cypriens vendoient vraifemblablement aux étrangers & aux voyageurs que la dévotion conduifoit chez eux , de petites ftatues, copies de la principale qu’ils honoroient ; car gkib: Pr Athénée parle d’une, qui ayant été achetée par un voyageur, fit un miracle en faveur de cet homme & de tous ceux qui étoient dans fon vaiffeau. En fait de Mythologie, il ne faut pas trop ajouter foi aux Ecrivains Eccléfiaftiques. Leurs récits font prefque toujours infidelles & outrés, parce que n’ayant pas une connoiffance
+
+SUR LES ATTRIBUTS DE VÉNUS. 21 affez profonde de l’Antiquité, ils manquent néceffairement de critique; ou parce qu’ayant à parler d’une Religion autre que la leur, ils fe laiffent emporter à l’excès de leur zèle. Y a- t-il en effet quelque raifon à dire que Vénus étant née en Cypre, elle y exerça la profellion de Courtifanne qu’elle avoit inftituée ; que les filles de l'ifle à fon exemple continu oient ce commerce indécent, & que l’argent qu’elles enretiroient étoit réfervé pour leur dot ; que dans les fêtes 6c les myftères que l’on célébroit en l’honneur de la Déeffe, on commettoit mille infamies ; que Pygmalion, Roi de Cypre, aveuglé par fa paf- fion avoit violé la ftatue ; qu'enfin Vénus n’étoit autre chofe qu’une femme qui fervoit aux plaifirs de Cinyre, autre Roi de Cypre, & qu’en étant devenu éperduement amoureux, il la fit mettre au nombre des Dieux ? V oilà cependant ce que Clé- ment d’Alexandrie, Arnobe, Lactance , Firmicus 6c leurs imi- tateurs, auffi peu inftruits qu’eux, n’ont pas héfité de publier. C'eft ainfi que mal à propos on a voulu réalifer des chimères ; 6c c’eft ce qui arrivera toujours à ceux qui feront incapables d’un examen férieux, ou qui n’auront pas le courage de remonter aux fources. Confultons plutôt les Anciens qui dévoient mieux connoître la tradition de leur pays, 6c voyons Ce qu’ils nous ont tranfmis du culte de Vénus à Cypre. Il paroît que Cinyre eft l’auteur de ce culte, fuivant un paffage d’Apollodore , un autre du Scholiafte de Pindare fur la fécondé Pythique, ( i ) par une glofe d’Hefychius , au mot KwvvpaOci , ( 2) qui eft le nom des Prêtreffes de Vénus fondées par Cinyre , 6e félon une explication donnée par Hygin. Les origines font toujours obfcures, c’eft pourquoi il peut fe pré- fenter ici des difficultés , pour ne pas dire des contradictions. (I) O de Kvvpas ira; ériv , &y S oi é, Kumro Kivvpaai r O. avikçovro. (2) Kvvpadat , iepeis ‘AçpoJirnç.
+
+Apoll. lib. 33
+
+Fabl. CLXX.
+
+Arcad. p.607.
+
+Théocrite , Idyll. 15. Catull. XXXVI. 14. & LXIV.96. Strab. lib, XXV. p. 683.
+
+Lib. n. 96.
+
+22 Dissertation Si l’on en croit Paufanias, Agapenor conduifit une colonie à Paphos , & il y fit bâtir un temple à Vénus , dont le culte, auparavant , étoit établi chez les Cypriens dans un petit village nommé Golgi, dont en effet il eft parlé dans Théocrite & dans Catulle,comme étant fous la protection de la Déeffe.Quel moyen de concilier ce fentiment avec celui des Auteurs qui difent que ce fut à Paphos que Cinyre établit le culte de Vénus, fi l’on ne diftingue avec Strabon & Mela ( 1 ) deux villes de Paphos, l’une ancienne , & l’autre nouvelle ? Que dira-t-on enfuite de la defcription faite par Macrobe de la ftatue de Vénus Cy- prienne comparée avec l’effigie de cette Déeffe confervée fur lesmonumens de Paphos? Il faudra néceffairement convenir, ou que Macrobe s'eft trompé, ou que cette ftatue n’a pas toujours été repréfentée de la même manière ; mais foit qu’elle ait été figurée avec les deux fexes, foit qu’elle l’ait été feulement comme une borne , on ne conçoit pas aifément comment Pygmalion l’auroit violée. Au refte , quelle que puiffe être la caufe du culte de Vénus en Cypre, il falloir que cela tînt à des circonftances qui fiffent beaucoup de fenfation, puifqu'el- les donnèrent lieu à la fiction de fa naiffance dans ce pays, & quelque part que ce culte fut établi, il ne dut pas tarder à être admis dans toute l’étendue de l'ifle. Il eft bien sûr que Paphos, une de fes principales villes, a donné des marques de fa piété à cet égard : on en peut juger par les monumens qui nous en reftent, par l’Oracle que nous favons y avoir été fondé , par le témoignage des Poètes & des Hifto riens-. Pline parle de fon temple, où l’on voyoit un autel fur lequel la pluie ne tomboit jamais, quoiqu’il fût à découvert.
+
+(1) Et quo primum ex mari Venerem egreffam accolæ affirmant, Palæpaphos,
+
+Mla. n. 17.
+
+SUR LES ATTRIBUTS DE VÉNUS» 23 Apulée ( i ) nomme par préférence la ville de Paphos pour exemple du culte fingulier que l’on y rendoit à Vénus. La defcription la plus complette que nous ayons de Vénus Pa- phienne fe trouve dans Tacite. (2) Selon cet Hiftorien le temple de la Déeffe étoit en fi grande réputation chez les étrangers , que l’Empereur Tite fit un voyage exprès pour le voir. Il étoit défendu de répandre fur l’autel le fang d’aucunes victimes ; on fe contentoit d’y allumer du feu, qui fervoit fans doute à brûler de l’encens, comme Virgile le fait entendre, (3) & l’on y faifoit des prières. La figure de la Déeffe , ajoute l'Hiftorien , a la forme d’un cône , & s’élève comme une borne , fingularité , dit-il, dontlaraifon n’eft point connue. Il eft étonnant que Tacite n’ait pas foupçonné que cette forme groffiere étoit un indice certain d’un culte fort ancien; & que dans ces temps reculés les hommes ignorant encore le deffin , & conféquemment l’art de la Sculpture , n'avoient d’autres moyens de repréfenter leurs Divinités que par un figne
+
+(1) Seu tu Cæleftis Venus, quæ nunc circumfluo Paphi facrario coleris. ApnL Metam. XI. (2) Conditorem templi regem Aeriam vêtus memoria , quidam ipfius Deæ nomen idperhibent. Fama recentior tradit,à Cynira facratum templum , Deamque ipfam conceptam mari, hue appulfam. Sed fcientiam artemque harufpicum accitam , & Ci- licem Thamiram intulifle. Atque ità pactum ,ut familiæ utriufque pofteri cærimoniis præfiderent. Mox , ne honore nullo regiumgenus peregrinam flirpem antecelleret, ipsâ quam intulerant, feientiâ hofpites ceffere : tantum Cyniradesfacerdos confulitur. Ho- tiæ , ut quifque vovit ; fed mares deliguntur. Certiflima fides hædorum fibris. Sangui- nem aræ obfundere vetitum : precibus & igne puro altaria adolentur, nec ullis imbri- bus quamquam in aperto, madefeunt. Simulacrum Deæ non effigie humana : continuus orbis latiore initio tenuem in ambitum , metæ modo exfurgens & ratio in obtcuro. Tacit. Hift. 11. j. (3) Ipja Paphum fublimts abh, fedefque revint Lata fuas ; ubi templum illi, centumque Sabao Ture calent ara > fertifque recentibus hatanr.
+
+24 Dissertation de convention, qui n’étoit fouvent qu’une maffe informe, ou des pierres quarrées , comme faifoient les Arabes ( i ) & les Amazones. (2) Telles étoient la Junon à Thefpie (3) & la Diane à Icare. La Diane Patroa (4) & le Jupiter MUichius à Corinthe n'étoient qu’une efpèce de colonne. Le Jupiter Cafius en Syrie étoit figuré par un rocher, (5) ainfi que la Mère des Dieux à Peflinunte. (6) Bacchus fut auffi honoré fous la figure d’une colonne; (7 ) l’Amour même ( 8 ) & les Grâces ( 9 ) furent repréfentés par des pierres. A Sparte, Caftor & Pollux avoient la figure de deux morceaux de bois parallèles, liés par deux autres morceaux en travers, (10) & cette figure très-ancienne 20 eft encore celle qui désigne les Gémeaux dans le Zodiaque. (11) La defcription que donne Maxime de Tyr ( 12 ) de la. Vénus Paphienne eft affez conforme à celle de Tacite. Il n’y a pas d’apparence que cette figure fingulière repréfente un nombril, comme l'affure Triftan, (13) ou que ce foit un Phallus a fymbole de fécondité, ainfi que l’avanceM. l'Abbé Brotier. (14) Il feroit inutile de foupçonner du mystère dans ces monument
+
+(1) Maxim. Tyr. Differt. VIII. §. 8. Clem. Alexandr. Coh. ad gentes, cap. 18. (2) Apollon. Argon, lib. n. v. 1176. (3) Paufan. lib. vu. p. ^79» Conf. lib. VIII. p. 66^. (4) Id. lib. 11. p. 132. (5) Vaillant. Numi Selea. p. 46. (6) Liv. xxxix. 8. (7) Conf. Schwarz. Mifcell. polit, humanit. p. 673 (8) Pau@n. lib. ix. (9) Id. ibid. (10) Plutarch. de Amore fratern. init. (11) Palmer, Grentemeil. exercit. in auct, Græc. p. 2233 (12) Differt. XXXVIII. (13) Tom. 1. p. 420, (14) Notes fur Tacite,tome 111» p. 407.
+
+groffiers
+
+SUR LES ATTRIBUTS DE VÉNUS. 25 groffiers , qui ne font autre chofe que la production de l’ignorance. Les Editeurs des Antiquités trouvées à Herculanum ont publié un tableau repréfentant une pyramide arrondie , placée au milieu d’une efpèce de niche formée par des colonnes, au- deffus defquelles eft un entablement couronné par des boules ou vafes : le relie du tableau eft orné de plantes , de différentes figures d’hommes & d’animaux. L’érudition qu’ils ont prodiguée fur Vénus Paphienne , qu’ils croient être figurée dans ce monument, ne prouve point du tout ce qu’ils avancent; & ils auroient dû la ménager avec plus d’ordre. D'ailleurs cette borne ou pyramide affez élégante , pofée fur un piédeftal , n'ef point conforme au récit de Tacite , & ne reffemble point à la figure qui fe voit fur les médailles de Paphos.
+
+La fuperftition qui attachoit les peuples à cet ufage religieux l’emporta fur le talent qui auroit pu le modifier avec avantage. Malgré les progrès de l’art, cette forme' bizarre fut employée encore long-temps après, du moins für les médailles, puifque Vaillant Co l’on en connoît de Vespafien , de Tite & de Trajan , frappées on:,P: 20,21 en Cypre , qui ont cette figure pyramidale. ( i) Suétone fait InTit. cap, &
+
+(i) Goltzius a cependant publié une médaille de Paphos, qui a d’un coté une tête de Vénus , & de l’autre un Cupidon armé d’un arc; il relie à lavoir fi elle ef
+
+antique.
+
+26 Dissertation
+
+Rec. des med. de Peupl. & de Vill. tom. 2. pl. 80. n°. 76. & tom. 3. pl.
+
+mention de l’Oracle de Vénus Paphienne. Le culte de cette Déeffe s’étendit dans des pays affez éloignés, comme il eft prouvé par des médailles de Chalcis & ^ÆHa Capitolina,
+
+La légende HIAIH CAPAIANQN , qui eft fur plusieurs VilantNum. médailles , fait voir qu’il fut aufi admis dans la ville de Sar-
+
+Græc. p. 139. des. On lit dans Paufanias , que les habitans de l'ifle de Paphos 145. 155. 11 1 empruntèrent ce culte des Affyriens , les premiers qui aient honoré Vénus Célefte; qu’ils le tranfmirent aux Phéniciens d’Afcalon, & que ceux-ci le communiquèrent aux habitans de Cythère. Nous ne difcuterons point ce récit, qui n’eft pas fort lumineux, parce qu’il n’eft peut-être pas affez fidèle ; il n’eft point question ici de Vénus Célefte ; nous verrons dans la fuite de cet Ouvrage ce qui la concerne, mais il faut fe garder de confondre les idées, & de mêler ainfi les différentes religions. Nous n’avons à examiner que ce qui a rapport à celle des Grecs & des Romains, quoique nous ne foyons cependant point éloignés de parler des opinions des autres peuples fur Vénus, quand les circonftances paroîtront l’exiger. Les inf- tructions nous manquent fur les cérémonies qui fe pratiquoient 685. xiv. p. dans les fêtes de Vénus en Cypre & à Paphos : Strabon nous apprend feulement qu’elles étoient célébrées par un grand concours de peuples qui fe raffembloient des autres villes, & que cette pompe folemnelle partoit de la nouvelle ville Hefychius. de Paphos pour l’ancienne. Le Directeur de ces fêtes étoit ap- pellé ’kyvTu?, nom de fa charge ; il devoit être choifi parmi les defcendans de Cinyre , qui avoir réuni en fa perfonne le Plutarch. in Sacerdoce & la Royauté. C’eft pourquoi Caton crut faire des Caton. offres très - avantageufes au Roi Ptolémée , en lui faisant dire que s’il vouloir céder l’ifle, le Peuple Romain le feroit Prêtre de Vénus. Les autres lieux de l’ifle de Cypre, remarquables par leur vé-
+
+SUR LES ATTRIBUTS DE VÉNUS. 27
+
+nération pour la Déeffe , font la ville ÜldaUum & celle d’Amathonte ( i ) d’où elle a tiré les furnoms üldalia & d'A-
+
+mathufia. On voit, dans Goltzius , une tête de Vénus fur une
+
+médaille qui a pour légende IAAAEQN. C’eft donc avec rai- fon qu’Horace nomme Vénus Diva potens Cypri, & que les Grecs l’ont désignée par la périphrafe xparca Kupy. Elle étoit la Divinité tutélaire & principale de toute fille, qui vrai- femblablement eft le premier pays de la Grèce où elle ait été honorée. Mais pour avoir des notions exactes de fes attributs, continuons d'analyfer l’idée qui lui fait tirer fon origine de la mer. C’étoit l’opinion des plus anciens Philofophes, & particulièrement de Thalès, que l’eau étoit le principe de tout,
+
+Arisfot. 1.1; Phyfic. C. 6,
+
+parce que la femence, fource de la vie des animaux, eft humide ; que les plantes fe defféchant fi elles viennent à manquer de la fève d’où elles tirent leur nourriture , c’eft un indice que l’humidité eft le principe de leur végétation ; qu'enfin le feu même du Soleil & des Aftres , & par confé-
+
+Plutarch, Pla- cit. Philofop. r, 3- . Cicero in Lu- cullo. Idem. lib. i. de Nat, Deor. Stob. Ecl,
+
+quent le monde entier, étoit entretenu par les exhalaifons de Phyf 113- l’eau, ce qui a fait dire à Homere que l’Océan étoit le prin- Jiad- xF
+
+(i) Quæque régi s Golgo s, quæque Idaliumfrondofam. Catull. Ef Amathus, eft celfa mihi Pathos atque Cytkera Idaiiœque domus. Virgil. Tune vicina apris Erycino in vertice feder Fundatur Veneri Idaliæ. Æneid. v. 759. Nam mihi quam dederif duplex Artiathuntia curant- Catull. XLVIII. st. Nam te jaflart, non ep Amathupa nofra Tarn rudir. Vir. Cir. n. 242. Capta viri forma non jam Cythereia curat Litiora: non alto repetit Paphon œquore ctncîam , Pifcofamqae Cnidon, gravidamque Amathunta metallts.. Ovid. Metam. x Voyez aufi Pline ( lib. v. cap. 35-) Dij
+
+28 Dissertation
+
+Sympofac. lib. v. n°. x. edit. Xylandr. p. 685.
+
+Planche 99.
+
+cipe de tous les êtres. Son imagination étoit trop riche pour s’arrêter à cette idée ; & fi dans ce vers on reconnoit le Phi- lofophe qui préfente une opinion fur le fytême du monde, on retrouve bientôt le Poëte , qui par de féduifantes fictions crée des Dieux que le vulgaire fut affez hupide pour adorer comme des êtres réels. Le fentiment par lequel on fuppofe l’eau principe de tout, joint au befoin d’inventer des Dieux, dut fournir aux Poëtes une ample matière ; & il étoit bien naturel qu’en perfonnifiant la Déeffe que bon vouloir faire fervir à exprimer cette idée, on en fit la mère de tous les êtres & une beauté parfaite. Telle eft donc l’origine de la Divinité de Vénus. Les Poëtes, dit Plutarque, ont feint que Vénus droit fon origine de la mer, & que le fel étoit le principe de fon exiftence , pour faire paffer fous cette allégorie l’opinion qu’ils avoientde la vertu générative du fel ; en effet, ajoute-t-il, les Dieux marins font très-féconds, & ils paffent pour avoir beaucoup d’enfans. Parmi les animaux & les oifeaux terreftres il n’en eft aucun non plus qui foit comparable aux aquatiques pour la multiplication de l'ef- pèce ; & pour confirmer ce qu’il vient d’avancer, l’Auteur rap- porte un vers d'Empedocle relatif à ce fujet. ( i ) C’eft peut-être parce que la mer eft plus particulièrement du domaine de Vénus, que l’on a inventé la fable de fa métamor- phofe en poiffon , lorfque les Géans déclarèrent la guerre aux Dieux. ( 2 ) Dom Montfaucon a fait graver, d’après différens Auteurs, plufieurs fujets concernant Vénus Marine, que l’on peut voir dans fon premier volume de l’Antiquité expliquée. Il fuit de-là que la coquille doit être mife au rang des attributs de cette Déeffe. ( 3 )
+
+(1) üxav duscov ayL00 ToAuc7ep60V (2) Pîfce Venus Latuit. Ovid. Metam. liv. V. v. 3 31. Vide Ovid. lib. 11. Faft. v. 461.&feq. Et Manil. lib. IV. v. 577. (3) Et faveas concha Cyprin vefia tua. Tibull. 111, 3. v. 34.
+
+SUR LES ATTRIBUTS DE VÉNUS. 29 Phurnutus & d’autres Auteurs admettent fur l’origine de Vé- De Vénéra nus le fentiment qui vient d’être exposé; (1) on ne fera donc point furpris de la voir honorée comme la Nature elle - même , qui nourrit & vivifie tous les êtres qu’elle renferme dans fon fein : (2) Quæ quoniani rerum naturam fola gubernas : Lucret, lib. 1. Nec fine te quidquam dias in luminis or as Exoritur ; ne^ue fit lœtuni, tienne amabile quicquam.
+
+Que l’on confulte Homere (3) Euripide , (4) Efchyle, (5)
+
+(1) Il nous relie un fragment du Poème de Solin, intitulé Ponticon^ dans lequel l’Auteur donne un réfultat de toute cette doctrine. — Venus aima fove : quæ femine Cœli Parturiente falo, divini germinis æfiu Spumea purpureis dum fanguinat unda profundis Nafceris è Pelago : placide Dea profata mundo. Nam quum prima foret rebus natura profundis in fædus connexa fuum , ne flaret inerti Machina mole vacans , tibi primum candidus æther Afrigeram faciem nitidam gemmavit Olympo. Te fæcunda Jînu tellus amplexa refedit Ponderibus librata fuis : elementaque vifa Ætherias fervare vices : tu fætibus auges CunEla fuis. Totus pariter tibi parturit orbis. (2) C'ef ce qui a fait que quelques Critiques d’après Cicéron, de Nat. Deor, 1. zi ont dérivé le mot Vénus de IV erL i r&> qubd omnia per eam veniant G' oriantur , étymologie qui ne paroît pas bien naturelle. Celle qu’en donne S. Auguitin ef auffi fenfée que tout ce qu’il a écrit fur les Dieux dans fon chef-d’œuvre de la Cité de Dieu : quàdine ejus vi , dit-il , fæmina virgo ejfe non dejinat. D’autres croient que Venus vient du mot grec Bivos , en faisant un léger changement , & ils fe fondent particulièrement fur ce paflage de Suidas, Bivos Zvoy.a %eds : fur quoi l’on peut voir Selden Syntagm. de Dits Syris , p. 313-315 & 316, (3) Hymn. iv. in Venerem, (4) In Hyppolit. (5) In Danaid,
+
+Plutarch. Amator. Gruter. p. 59. Homer.Hy mn. in Ven. Euripi. Hyp- polit. Ælchyl. Da- naid. Lucian. Dia- log. Mort. & Charid. & de Imagin. Ovid, Paris Helen. Virgil. Æneld. x. v. 16. Dio. lib. $ 9* Athen. lib. XII. Phurnut. édit. Gal, p. 64.
+
+30 Dissertation l’Auteur des Hymnes attribués à Orphée, ( 1 ) Artemidore ,(2) on verra qu’ils en donnent tous cette idée, qui eft très-bien rendue par l’épithéte de Z«Jopo. que Plutarque cite d'Empe- docle. Celles de de Xpvo*, ^aurea i de Baclicca, de & de 7ovbea qui fe lifent dans les Auteurs ou fur les monumens, expriment tout à la fois fa bonté, fa fécondité, fa puiffance , fon ancienneté & fon immenfité. Mais fur-tout celle & Alma que Lucrèce lui donne au commencement de fon Poëme fur la Nature, lui convient très-bien fous ces diffé- rens rapports. La fublime invocation qu’il fait à cette Déelfe mérite d’être comparée avec le même fujet traité par Ovide, qui a réuni dans des vers charmans tout ce que l’on en avoir dit. (3 ) Ainfi les Anciens croy oient que la Monarchie de Vé- nus s’étendoit plus que celle d’aucune autre Divinité. Le Ciel fut le partage de Jupiter, la Mer celui de Neptune , l’Enfer celui de Pluton , mais Vénus regnoit dans ces trois mondes, elle étoit Pâme de la Nature. Cette allégorie avec celle de l’Amour eft, fans contredit, une des plus belles & des plus ingé- nieufes qui aient été inventées. Il eft fâcheux que dans les dif- férentes applications que l’on en peut faire, dans la fable de
+
+(i) Hymn. 54. Cet Auteur dit la même chose de Cœlus, & de Jupiter ailleurs. (2) Lib. 2» cap. 48. (4) Illa quidem totum dignifima temperat orbem e Illa tenet nullo reg na minora Deo ; Juraquc dat Cœlo , terra , natalibus undis ; Perque fuos initus tantinet omne genus. Illa Deos omnes ( longum emimcrare ) creavtt : Illa fatis caujfat arbcribtifqne dédit : Illa rudes animas hominum contraxit in unum Et docuit jungi cum pare quemque [uâ. Qaîd genus omne créât volucrum, ni blanda voluptas? Nec coeant pecudes, fi levis abfit Amor. Fait, lib. iv. V.9o & feqq.
+
+SUR LES ATTRIBUTS DE VÉNUS. 31 Pfyché , par exemple, on ne trouve plus d’enchaînement, & qu’elle ne préfente point le fens naturel que l’on defireroit y voir. Que doit-on penfer de Vénus indignée contre Pfyché , parce que la beauté de cette mortelle faifoit déferter fes temples & abandonner fes autels ?(1) Après avoir généralifé les idées des Anciens par rapport à l’influence qu’ils donnoient à Vénus fur toute la Nature, il faut fuivre les fubdivisions qu’ils paroiffent en avoir faites dans ce qui concerne le foin & le gouvernement des jardins, la propagation de l’efpèce humaine, & les détails relatifs à ces objets. Plaute cité par Pline attribue à Vénus la présidence des jardins : (2) on retrouve la même opinion dans Varron (3 ) & Feftus. (4) Selon ce dernier Grammairien, le mot de Vénus eft pris figurément pour fignifier des légumes, de même que celui de Cérès, pour fignifier du pain, & celui de Neptune, des poiffons. L'infcription trouvée dans un jardin de Rome & rapportée par Tomafin , ne prouveroit pas feule que Vénus présidât aux jardins. Un temple que l’on auroit élevé , ou une chapelle que l’on auroit bâtie dans un jardin particulier n'em- porteroit pas cette idée générale, fi elle n’étoit appuiée d’ailleurs par d’autres monumens. Paufanias ( y ) & Lucien ( 6) font
+
+qaoui
+
+De Donar; Veter.
+
+(1) En rerum naturæ prifca parens, en elementorum origo initialis, en orbis totius aima Venus, quæ cum mortali puella partiario majeftatis honore tractor. Apul, Aîetam, lib. IV. (2) Quamquam hortos tutelæ Veneris alignante Plauto. Plin, lib, 19. c. 4. Mais on ne trouve point que Plaute en ait parlé. (3) Horti tutelæ Veneris aflignantur. Varro , lib, 5. deL.L,& de reRuflic. cap. 1. (4) Edi Neptunum , Cererem , Venerem. Fejl, verbo RufiicaVinalia, (5) Er xATots Açesdr*. Paufan. Attic. cap. 19. (6) Lucian. de Imag. tom. 2. edit. Gef. p. 462. Et Dialog. Meret. vu.
+
+32 Dissertation
+
+Tom. 2. Gemm. Antiq. tab. 62. n°. VIII. Præcept. conn.
+
+mention d’une Vénus des jardins, le plus parfait des ouvrages d'Alcamenes , & qui étoit une curiofité des plus remarquables d Athènes. Ni l’un, ni l’autre n’en a fait la defcription ; mais l’on ne fait par quel caractère on doit juger que la femme répréfen- tee fur une pierre gravée du cabinet de Florence feroit une Venus Hortenfis, L'épithéte de naptroçpo dans Sophocle, cité par Plutarque, convient donc très-bien à Vénus. Nous verrons dans la fuite pourquoi le myrte, la rofe, le lys & le pavot lui étoient confacrés. Mercure & Priape ayant auffi une certaine intendance fur les jardins, lui ont été donnés pour affociés dans ce département.
+
+Macrob. Sa- Cincius , dans fon ouvrage fur les Fastes , avoit accufé d'i- jurn.i.cap.i2. gnorance ceux qui penfoient que le mois d’Avril étoit confacré à Vénus , & qu’il tiroit fa dénomination de cette Déeffe, parce que, félon lui, il n’y avoit aucune Fête indiquée, ni aucun
+
+facrifice inftitué pour elle en ce mois : que fon nom même n'étoit nullement célébré dans les Hymnes des Saliens, ainsi que celui des autres Dieux. Varron, dit Macrobe , paroît adopter ce fentiment, en difant que le nom de Vénus n’étoit pas encore connu du temps des Rois de Rome, ni en Grec , ni en Latin; que conféquemment elle ne pouvoir avoir donné le nom au mois d’Avril ; mais que la Nature étant comme dans un engourdiffement pendant l'hyver , & qu’au printemps, le ciel devenant ferein, la mer étant libre pour les navigateurs , la terre enfin ouvrant fon fein pour fes productions , ce changement fubit faifoit croire que la Nature fe ranimoit en fe développant de nouveau , & que la véritable étymologie d'Avril venoit du mot aperire. Ce feroit une témérité que de rejetter la décision du plus favant des Romains fur une matière qui eft de fa compétence ; cependant on pourroit bien admettre fon étymologie, fans être de fon avis pour le relie. Il feroit bien étonnant
+
+SUR LES ATTRIBUTS DE VÉNUS. 33 étonnant en effet que Vénus n’eut pas été connue des anciens Romains, eux qui paffoient pour tirer leur origine de cette Déeffe par Énée, d’où lui vient le furnom d'Alvelas qu’on lit Lib. 1. dans Denys d'Halicarnaffe. Le dogme de fon existence eft trop bien établi dans Cicéron pour que cette croyance n’ait pas eu cours long-temps avant lui. Mais s’il s’agit d’examiner avec les yeux de la critique l’étymologie contestée par Varron ; il femble qu’on peut lui op- pofer l’autorité d’un Romain, qui n’avoit furement pas moins de connoiffances que lui dans la religion de fon pays. Ovide revendique pour la Déeffe l’honneur qu’on veut lui enlever d’avoir donné le nom au mois d’Avril, ( i ) ce qui feroit préférer le premier fentiment que Macrobe avoit propofé, ( 2 ) puis qu’il eft confirmé d’ailleurs par deux autorités d’un auffi grand poids que celles d’Ovide & de Lucrèce. ( 3 ) Les fêtes de Vé- () Quo non livor abit? Sunt qui ribi menfts honorent r EriYwjJe velint, invideantque, Venus. Nam quia ver aperit tune omnia , denfaque cedit Frigoris afperitas , fataque terra parit ; Aprilem memorant ab aperto tempore di^lum : Quem Venus injetta vindicat aima manu. Fait. lib. IV. v. 85. & feqq. (2) Secundum menfem nominavit (Romulus) Aprilem ut quidam putant cum ad- fpiratione, quafi Aphrilem, a /puma quam Græci Afron vocant, undè orta Venus creditur : & banc Romuli fuiffe afferunt rationem , ut primum quidem menfem a pâtre fuo Marte , fecundum ab Æneæmatre Venere nominaret; & hi potiffimum anni prin- cipia fervarent à quibus effet Romani nominis origo. Saturnal, II. cap. 12.
+
+(3) Nam flmul ac fpecies patefa^a eft verra diei : Et refer ata viget genitabilis aura Favori : Aeria primum volucres te Diva , tuumque Signifiant initum, perculfa corda tua vi. Inde fer ce pecudes perfultant pabula lata : Et rapides tranant amnes ; iia capta lepore, le fequitur cupide qub quamque inducere per gis. Deniquè per maria ac montes , fluviofque rapaces Frondiferafqtie demos avium, campofque virentes , Omnibus incutiens blandum per peciora amorem. Lib, 1.
+
+34 Dissertation
+
+‘Apollodor. 1» 3. p. 206. Æneid 1.V. 621. & III. V» 475. Bochart. de Æneæ adventu in Ital. Mediobarb. in Jul. Fulv. Urfin. P- 11. Triftan 3 tom. 1.p.22.
+
+nus commençoient le premier jour du mois d’Avril, qui pour cela fe nommoit Menfis Tenerls. Les jeunes filles faifoient des veillées pendant trois nuits confécutives , elles fe parta- geoient en plufieurs bandes , & l’on formoit dans chaque bande plufieurs chœurs. Le temps s’y paffoit à danfer & à chanter des hymnes en l’honneur de laDéeffe. (1) Au refie, quelque parti que l’on prenne à cet égard, on ne doit pas moins en reconnoître Vénus pour la caufe efficiente des productions de la terre. Elle fut également regardée comme celle de la fécondité des hommes ; & c'eft à cette occasion qu’elle a reçu le titre de , TevebvXu's , TeveONuos , ou de Genitrix , que l’on a cru qu’elle étoit une des Divinités qui préfidoient aux noces, & qu’on l’a confondue avec Junon. il ne faut pas prendre l'épithéte Genitrix dans un fens différent de celui qui efi relatif à la fécondité , quoique l’on en ait fouvent modifié l’acception pour des raifons particulières. Perfonne n’ignore l'hiftoire fabuleufe des amours de Vénus & d'Anchife; elle étoit fi accréditée chez les Romains, que l’on voit ce fujet fur des monumens. La médaille de Céfar qui porte au revers le nom de L. BVCA, repréfente le rendez-vous des deux Amans au pied du mont Ida..
+
+(i) Sed cum fol emerfit ab inferioribus partibus terræ, Vernalifque æquinotii tranf- greditur fines augendo diem : tune eft & Venus læta & pulcra virent arva fegetibus, prata herbis, arbores foliis ; ideo majores noftri Aprilem menem Veneri dicaverunt.
+
+Macrob. Samrn, i. cap. 21,
+
+SUR LES ATTRIBUTS DE VÉNUS. 3; Une autre de Julia Domna, bien remarquable & frappée dans la ville $ Ilium, les repréfente l’un & l’autre avec leurs noms.
+
+Rec. de Med; de Peupl. & de Vill. tom. irr. pl. cxxxiv.n 0 . 7.
+
+Cette fable, que nous ne prétendons point expliquer, &dont on voit dans Homere une peinture fi intéreffante , a fait fur- nommer cette Déeffe Genitrix , ( i ) à caufe d’Énée, de qui les Romains tiroient vanité de defcendre. Quelques-uns lui ont donné le titre de Romaine. Jules Céfar affectoit d’avoir pour elle une vénération fingulière , ce qui fait que la tête de Vénus eft fi fouvent répétée fur les médailles de cet Empereur. Avant la bataille de Pharfale il lui voua un temple, qu’il fit élever enfuite en lui dédiant les dépouilles des ennemis : il inftitua en fou honneur des fpectacles & des jeux que Dion remarque avoir été célébrés fous Augufte. Ce magnifique édifice que Céfar lui éleva étoit dans le huitième quartier ; & la place nommée Forum Caefarisj qui étoit elle-même fuperbement ornée, lui fervoit comme de parvis.
+
+, r ol
+
+Prud. in Sym- mach. Trifan. t, r; p. 16 & 23. OiCel. Tab; XLIV. &c. Dio. lib. xliii; cap. 2z. Appian. Civil, lib. 3. p. 544. Lib. XLIX, cap.4 2. P, Victor,
+
+(1) Æneadum Genitrix. Lucret lib. 1. Arma rogo Genitrix nato. Æneid. vin. v. 338. — Venerifque ab origine proies Julia descendit cœlo , cœlumque replevit. Manil. 1. v. 7966 Cumque hodic in facris Martem patrem, Venerem Genitricem vocemus, Macrob. Sai, i. 12. Eij
+
+Vaillant in Salonin. Sabin, Jul. Paul. Salonin, &c.
+
+Stat. Tab. XXXII. p. 39.
+
+Iliad. V. v. 430. Odyf. 1. 20. Plut. Quæft. Rom. I. Muf. Leand. Hero. AucorEtymol. Paufap. Co- rinth. p. 193-
+
+36 DISSERTATION Une autre acception de l’épithéte Genitrix , ( i ) eft celle qui eft employée fur plufieurs médailles d’Impératrices, quiont pour légende VENVS GENITRIX & VENERI GENETRICI Elle fait ordinairement allufion à la fécondité de l’Impératrice ; ou bien c'ef l'expreffion des vœux que l’on formoit pour obtenir cette fécondité ; mais il eft à remarquer que les figures repréfentées fur ces médailles ne font pas toujours analogues à la légende. Tantôt c’eft une femme qui tient de la droite une petite ftatue, portant de la gauche une hafte , & ayant un enfant à fes pieds. Sur d’autres, elle tient une victoire, & elle s’appuie fur un bouclier. Sur plufieurs, elle paroit tenant un globe ou la pomme d'une main , & s'appuiant de l’autre fur une hafte. C'étoit un excès de flatterie de la part des peuples qui repréfentoient fouvent les Empereurs & les Impératrices fous la figure de Divinités , comme il y en a tant d’exemples. On voit dans le Cabinet du Grand-Duc une ftatue que Gori a publiée fous le nom de Kenus Genitrix , & que nous nous contentons d’indiquer. Les Romains qui avoient ainfi reftreint la dénomination de Genitrix 3 y attachèrent auffi le même fens que les Grecs, c'eft-à-dire, qu’ils donnèrent cet attribut à Vénus pour expri- mer fon influence fur la propagation de l’efpèce humaine , & en la confidérant , ainfi que ces peuples , comme une des Divinités qui préfident aux noces. On trouve cette doctrine établie dans Homere , dans Plutarque & d’autres Ecrivains. Les Grecs adreffoient des vœux à Junon, à Vénus & aux Grâces pour obtenir des enfans. Dans la ville d'Hermione les filles & les veuves faifoient des facrifices à
+
+(i) Ce titre fe lit fur plufieurs infcriptiens publiées par Gruter , Reinelius & Muratori,
+
+SUR LES ATTRIBUTS DE VÉNUS. 37 Vénus avant leurs noces : Perse , dans une de fes Satyres, fait allusion à la coutume des jeunes personnes du fe.xe qui, lorf- qu’elles étoient fur le point de fe marier, lui offroient leurs pou- pées pour fe la rendre favorable, (i) Quelques Auteurs croient que Vénus confidérée fous ce rapport étoit auffi furnommée Llbehùna ou Lubentina. Tibulle, en parlant des peines qu’endurent les criminels dans leTartare, dit que les Danaïdes y expient le crime horrible qu’elles ont commis contre la Divi- nité de Vénus, pour avoir violé la foi conjugale , en égorgeant leurs époux. (2) Nous ne croyons pouvoir mieux placer qu’ici les furnoms de NJuon , de Migonïtis & de Melœnis qui lui font donnés par Paufanias. Le premier n’a pas befoin d’explication: à l’égard du fécond, on prétend que fur le rivage qui eft vis- à-vis de l’ifle de Cranae en Laconie, il y avoit un temple de Vénus, que Pâris avoit fait bâtir après l’enlèvement d'Hélène , pour perpétuer les tranfports de fa joie & de fa reconnoiffance; qu’il donna à cette Vénus l’épithéte â^Migonitis, & nomma le territoire Migonion d’un mot qui fignifioit l’avanture galante qui s’y étoit paffée. ( 3 ) Sur cela, il faut s’en rapporter à Paufanias , ainfi que fur l’épithéte de Melœnis qu’il dit avoir été donnée à Vénus, parce que les hommes choififfent préférablement la nuit pour les myftères amoureux , tandis que les autres animaux s’approchent de leurs femelles pendant le jour. Quoi qu’il en foit, la Déeffe avoit une petite chapelle en Arcadie, & une autre en Bœotie, où elle étoit honorée fous ce titre. Vénus Melœnis ou la Noire, avoit aufi un temple dans:
+
+Varr. de L. L: 5. 6. Cicer. z. de Nat. Deora 61,
+
+Corinth, p. 185. Lacon. p. Bœot.p. 763.
+
+Paufan. Arcade p. 610.
+
+(1) Nempe hoc quoi Veneri donatæ a Virgine Pupæ. PerC. Sat. 2, (1) Et Danai protêt , Venerit quod numtna hxfît In cava Lethxas dolia portât aquat. Lib. 1. Eleg. 112. v. 79.
+
+(3) Ce mot viendroit-il de ukyvvu nnfceo?
+
+38 Dissertation Athen.Kb. 13. un fauxbourg de Corinthe ; ce fut elle qui apparut en fonge à P588t la Courtifanne Laïs , pour lui annoncer l’arrivée d’amans fort Article Laïs. riches. Sur quoi Bayle fait une allez plaifante réflexion : fi le fondement du furnom Melœnis, dit - il, étoit folide, on ne trouveroit pas que Vénus , en tant que Noire, eût dû fe montrer en fonge à la jeune Laïs, qui n’étoit pas deftinée à fe piquer de la diftinction des jours & des nuits. Quelque defirque nous ayons d’interpréter de la manière la plus avantageufe les furnoms de Vénus, nous ne pouvons cependant déguifer que les Anciens n’aient mêlé un peu de galanterie dans le culte qu’ils lui ont rendu. L’idée qu’ils fe for- moient de cette Divinité devoit naturellement les y conduire ; & c’étoit une fuite de la politeffe de leurs mœurs. Selon Ti- bulle ( 1 ) elle exige beaucoup de difcrétion de la part des amans; & Ovide affure qu’elle veut que fes facrifices foient couverts des voiles du myftère. (2) Ainfi nous croyons que l’épithéte de Mvala & celle de Flupo. qu’elle reçut en Grèce, répondent très-bien à cette idée. ( 3 ) Nous ignorons fi c'eftpour Arcad, la même raifon qu’on lui éleva un temple en Arcadie, où elle étoit honorée fous le nom de Mnxavlris. Paufanias dans lequel (1) Celari -unit fua furta Venus. Tibull. lib. i. El. >. (2) Pratiqué Cytherea jubet fua facra taceri 3 Admoneo, ventât ne quis ad illa loquax. Condita fi non funt Veneris myfieria cifiis 3 Nec cava vefanis iftibus ara fonant, Attamen inter nos medio verfantur in ufu Sed fic inter nos, ut latuiffe velint. Ovid. de arc. Amand. n. (3) Le motMvxalu vient de fecejfus , latebra^ abditus locus, Meurfius {Attlc.quæjl,} a fait une longue diatribe fur l’épithéte PiOvpos , fans l’expliquer en aucune manière. Mais il est vraisemblable qu’elle ne peut présenter d’autre fens que celui qui vient d’en être donné. Mercure & Cupidon avoient aufi le titre de Hlevpas. On ne peut admettre la raifon de ceux qui difent que Théfée avoit fait placer ces Divinités à Athènes en mémoire de l’in jufte accusation intentée par Phèdre contre Hyppolite.
+
+SUR LES ATTRIBUTS DE VÉNUS. 39 ce fait eft configné , donne la description de fa ftatue qui étoit de bois , à l’exception de la bouche, des mains & des pieds. Il nous apprend encore que c'étoit un ouvrage de Damophon , mais il n’explique point lepithète de la Déeffe, qui fignifie machinijle, ingénieufe , & que nous ha- zarderons d’interpréter par celle de Aodwonos dont fe fert Sapho, & par des vers d’Ovide, qui prouvent combien le defir de plaire rend induftrieux. ( 1 ) L’explication vague donnée par Athénée du mot , qui a été auffi un des titres de Vénus, nous engage à le placer ici : cette explication eft prife d’Apollodore qui dit, qu’on avoit ainfi qualifié la Déeffe , parce qu’elle raffembloit les amis & les amies, qu’elle formoit leur amitié , & qu’elle cimentoit leur union. En effet, continue Athénée, les femmes honnêtes, & même les jeunes filles, appellent éra.ipa$ les perfonnes avec lefqu elles elles avoient une liaifon plus particulière. Il en cite deux exemples tirés de Sapho, & il dit que l’on avoit élevé plufieurs temples en Grèce à Vénus Eralpa. Vouloit-on marquer par-là qu’elle préfidoit à l’amitié ainfi qu’à l’amour ? Le même Auteur ajoute néanmoins que le mot traipa fignifioit auffi une maîtreffe , une courtifanne , ce qui laiffe dans l'incer- titude fur fa véritable acception. Comme les Anciens avoient attribué à Junon l'inspection fur les mariages, & qu’ils lui avoient même donné à cette oc- cafion plufieurs épithètes qui en étaient un témoignage, il n'eft pas étonnant que fous ce rapport ils aient confondu Vénus avec cette Déeffe, & l’on appercevra aifément l’analogie de leurs idées, quand on fe rappellera que Junon, félon eux, étoit l’air,
+
+Hymn. in Ven. Lib. 13.p. 571,
+
+Mille per hanc artes nota > ftudtoque placendi, Quæ latuere prius, mulia reperta ferunt. Ovid. Fait. IV.
+
+(1)
+
+40
+
+Dissertation
+
+& que Vénus étoit le principe de tous les êtres. Paufanias eft néanmoins le feul auteur qui donne un exemple de ces deux noms réunis , c’eft lorfqu’il parle d’une ftatue antique appellée
+
+Lacon, p. 240. par les habitans de Laconie Vénus Junon , fur laquelle il n'in-
+
+fifte pas davantage. Vénus a été mise par les Anciens au nombre des Divinités infernales, parce qu’ils attribuoient, fans doute, à la même Divinité ce qui concernoit la naifance & la mort des hommes.
+
+In Numa. C’eft ce que fait entendre Plutarque dans fa vie de Numa, & P. 269. mieux encore dans fes Questions Romaines , où il obferve
+
+qu’on voyoit à Delphes une ftatue de Vénus‘Ew rvuGla devant laquelle on faifoit des libations pour les morts. Il eft même très-vraifemblable que la Déeffe Libitina des Latins n’étoit autre chofe que Vénus. ( i ) Toutes ces idées, déduites de la première qui a été préfentée au commencement de ce Mémoire, nous conduifent infenfi- blement à celle qui fait de Vénus la Déeffe de la Volupté , ( 2) la Reine des Grâces , ( 3 ) la mère des Amours, ( 4) qui infpire aux deux fexes des defirs réciproques ( 5 ) en leur donnant la
+
+(1) offert uxores Fabius Chrifiilla maritos t
+
+Funereamque toris quaftat uterque facem. Vidores comynitte Venus > quos ife manebit Exitus, una duos ut Libitina ferai. Martial. Vin. 43. 1,
+
+(2) G) (4)
+
+.— Hominum Divûmque voluptas^ Lucrer. 1. Xepirtv Baclxec. Coluth.
+
+Tenerorum mater Amorum. Ovid. Amor, lib. in. El. 15,
+
+Mater feva Cupidinum. Horat. 1. Carm. Od. 19. Sic igitur Veneris qui telis accipit icium,
+
+Sive puer membris muliebribus tune jaculatur, Seu mulier. toto jaclans è corpore amorem: Undè feriiur eà tendit, gefirque coire , Et jacere humorem in corpus de corpore duflum , Namque voluptatem prafagit multa cupido. Hac Venus eft nobis ; bine duCium nomen Amoris. Lucret. Lib. iv.
+
+douce
+
+SUR LES ATTRIBUTS DE VÉNUS. 41 douce ,(1)& quelquefois la violente impulfion de s’unir, (2) cette Souveraine en un mot, dont la vengeance a été quelquefois fi funefte à ceux qui avoient méprifé fes loix, ou qui avoient voulu fe fouftraire à fon empire. C'eft principalement à cette idée que fe font arrêtés les Poètes quand ils ont per- fonnifié Vénus. C’eft peut-être auffi ce qui a donné lieu à la diftinction d’une Vénus Pudique, & d’une autre qui ne l'étoit pas, à laquelle on imputoit les excès défordonnés de l’amour & les effets honteux du libertinage. Il ne faut pas croire qu’on l’ait pour cela furnommée Hopy» , & que l’on en ait fait une Courtifanne , ainfi que l'ont affuré quelques Commentateurs Girald?,Pa- modernes, qui avoient puifé cette opinion ridicule dans Lac- tin ’ &c * tance. Il eft bien vrai qu’Athénée rapporte d’après Pamphile, que Athen. lib. dansAbyde on avoit élevé un temple à Vénus fous le titre de ‘P 5720 ndpw , parce qu’une Courtifanne avoit adroitement délivré la ville foumife au pouvoir de l’ennemi ; mais c’étoit uniquement pour perpétuer le fouvenir de l’avantage procuré par une per- fonne de cet état;& onnepeutinférerde là qu’on ait donné cette épithète à une Déeffe pour indiquer qu’elle avoit inftitué la profefion de Courtifanne, & qu’elle préfidoit aux mauvais lieux. Il ne falloit donc pas fe plaindre fi amèrement de ce que le Légiflateur Solon avoit établi à Athènes le temple de Vénus la Projlituée , comme le célébré Boffuet l’a fait dans fon In-40 p 256; petit ouvrage fur l’Hiftoire Univerfelle. Il en eft de même des épithètes ‘Avcia & ‘Avô\pdQovos. Elles ne signifient point que Vénus fût impie ou homicide ; elles
+
+(1) Omnibus incutiens blandum per pérora amorem. Lucrec. 1. (2) Jn me tota mens Venus. Horac. Sic vifum Veneri cui placet impayés Formas ai que animas jub juga ahewa Savo minere cum jaco, Horat,
+
+F
+
+42 Dissertation lui furent feulement données par une circonftance particulière. Laïs , cette Courtifanne célébré , dont les charmes avoient en- In Amator. flammé la Grèce, pour fe fervir des termes de Plutarque, étant P 767.768. devenue amoureufe d’un jeune Theffalien nommé Hippolo- chus, elle le fuivit en Theffalie : les femmes de ce pays conçurent une fi grande jalousie de fa beauté, qu’après l’avoir fait entrer de force dans le temple de Vénus, elles l’y tuèrent à coups de pierres. Le Theffalien que Plutarque appelle Hip- 1b.13*P.589. p 0 l 0C p us , eft nommé Paufanias par Athénée. Ils conviennent l’un & l’autre que le temple de Vénus dans lequel Laïs fut tuée acquit un furnom qui conferva la mémoire de ce crime : c’eft, félon Plutarque, le temple de Vénus Homicide/AQpoNlrns »AvOpo©ovs , & félon Athénée, le temple de Vénus Profanée 9 Avoaî^ç Il y a d’autres fentimens fur le genre de mort de Laïs & fur les raifons qui en furent la caufe , nous fommes difpenfès de les examiner ici ; nous ne rapportons cet exemple que pour en faire un parallèle avec l’épithète de 11opvn , & pour montrer qu’elle eft moins une dénomination propre de la Déeffe que l’indication d’un événement, qui n’a qu’un rapport fort éloigné avec elle. Quelque libertinage que l’on fuppofe, on ne pourra non plus imaginer que la proftitution ait jamais été confacrée par la religion; & en ufage parmi tout un peuple policé, ou que des pères & des maris aient confenti à des procédés fi désho- norans , en les juftifiant par l’autorité d’une Divinité qui les au- roit favorifés, quoiqu’en difent Hérodote , Strabon , Juftin & les Écrivains poftérieurs , qui ont tâché de mettre à profit des argumens fi deftitués de bon fens. La feule fable des Propé- tides, habitantes de fille de Cypre, qui paffent pour être les premières qui fe foient proftituées, par un effet de la colère de Vénus, feroit fuffilante pour oppofer à tant d'affertionshazardées
+
+SUR LES ATTRIBUTS DE VÉNUS. 43 fans preuves. Comment donc un tel conte a-t-il pu s’accréditer ? C'eft qu’un Historien crédule & trompé par de fauffes relations , l’aura d’abord publié comme vrai; un fécond l’aura répété fur la foi du premier ; un troisième, l’ayant trouvé plai- faut, n’aura pas manqué de l’embellir : & le témoignage de plufieurs ainfi réuni, fera devenu une autorité pour la tourbe des compilateurs modernes, dont une partie favoit moins pefer les raifons que compter les fuffrages ; & dont l’autre, intéreffée à donner de la vraifemblance à de telles infamies, fe formoit avec une maligne complaifance cette chimère, pour avoir le mérite de la combattre.
+
+On a donné à Vénus l’épithète de Phyfica, qui exprime plus honnêtement fon action fur les deux fexes, ainfi que les defirs réciproques qu’elle fait naître. C’eft pour cela que l’on a dit qu’elle étoit mère de l’Amour ou de Cupidon, figuré par un enfant qui eft toujours à fa fuite ; ( i ) & que l’on a formé fon cortège des Grâces qui ornent tout, & ajoutent encore à la beauté, des Nymphes qui préfentent la Volupté dans les lieux qu’elles habitent, de la Jeuneffe , qui indique l’âge des plaifirs , & de Mercure, ( 2 ) ce Dieu complaifant dont la douce élo-
+
+Reinef. Infcrip. clair. 1. xviii. Hefiod.Theog. v. 101.
+
+(1) — Veneremque & illi Semper harentem puerum canebat. Horat. 1. Carmin. (2) Cette union de Mercure & de Vénus paroît fondée fur ce que la beauté ef encore plus touchante , lorfqu’elle eft accompagnée des grâces du langage & des charmes fé- duiïans du difcours. Plufieurs Auteurs ont accordé le don de l’éloquence àVénus ; Héfiode n’oublie point ce talent dans l’énumération qu’il fait des agrémens qu’elle eut en par-
+
+tage. IIapeevsç r oapsç , ut i S'i uær CC T acaraç re , Tépiv rS yAunepv, qlrsre r , ptcXixliui re. Lucrèce, Lib. 1, la fupplie de répandre fur fes écrits cette grâce qui en fait tout le mérite : Quo magis aternum da diciis ,Diva .leporem. Et ailleurs il invoque la Déeffe en ces termes : Hune tu, Diva, tno recubantem corpore fanblo Circumfufa fuper suaves ex ore loquelas Funde, petens placidam Romanis inclyta pacem. F ij
+
+Theogon. v: 205.
+
+44 . DISSERTATION quence fait fe faire entendre au cœur ; cortège charmant qu’Ho- race a fi heureufement réuni dans une feule fiance. (i)Bacchus a été auffi affocié à Vénus : il étoit convenable que la Déefe des ris & des jeux fut accompagnée d’un Dieu qui les mène à fa fuite. ( 2 ) Elle en eft plus agréable lorfqu’elle eft unie à lui ; ( 3 ) elle ne peut même abfolument fe paffer de fon fe- cours. (4) Et pour terminer ces ingénieufes fictions, y a t-il Iliad. lib. xiv. rien de plus merveilleux que le Cefte enchanteur qu'Homere “* 114e décrit comme un tiffu diversifié qui réceloit tous les charmes ? ( 5 ) Quelle Déeffe ou quelle mortelle auroit ofé impunément lui difputer le prix de la beauté ? La Pomme que Paris lui donna, comme à la plus belle, éternife la victoire qu’elle remporta fur Junon & Pallas. Elle fut vaincre le Dieu
+
+(i) Fervidus tecum puer, & folutis Gtatiæ zonis ,properentque Nymphe, Et parum comis fine te Juventas, Mercwiufque. Carm. i. Od. xXX. (2) Ecetitiæ Bacchus dator. Æneid. i. ! (3) Tepmvoriee ATpodirn ueTc —tovucs. . Lucian. Amor. p. 410. (4) Sine Cerere Eibero friget Venus. Terent. Eun. act. IV. fcen. 5. Hôvs Tl Tiveiv oivoç Apoodirae yaXc. Athen. Lib. X. p. 444. (5) L’Abbé Winckelman a fait fur le Celle ou la Ceinture de Vénus une obfervation. Importante que nous croyons devoir rapporter. » Vénus, drappée, dit-il, eft toujours » reprélentée fur le marbre avec deux ceintures , dont la féconde eft placée au- » deflous du bas ventre. Elle fe voit ainfi placée à la Vénus à tête d’après nature » qui eft à côté de Mars au Capitole , & à la belle Vénus , qui étoit autrefois au » Palais Spada. Cette ceinture inférieure eft propre de cette Déeffe léule , & c’eft » celle que les Poètes appellent particulièrement la ceinture de Vénus. Perlonne » n’avoit encore fait cette obfervation. Lorque Junon voulut plaire à Jupiter , elle » la demanda à Vénus , & la plaça dans ton giron , félon l'exprefion d'Homere, c’eft— » à-dire , à l’entour'& au-deffous du ventre , qui eft la place de cette ceinture fur
+
+» lefdites statues.
+
+lüjlx de L’Art, tom^ 1. P. 337.
+
+SUR LES ATTRIBUTS DE VÉNUS. 45 des combats lui-même, qui ne put réfifter à fes attraits, & l’Olympe affemblé fut témoin des amours de Mars & de lu honte de Vulcain. Il n'eft point de notre objet de développer le fens caché & la fuite de cette allégorie que Lucien & Plutarque croient De Afrol. avoir rapport à l'Aftrologie; mais nous nous arrêterons un inf- top'Aâena; tant au titre que Vénus reçut, & aux autres attributs qui lui Poet. furent donnés en conféquence. Homere , ( 1 ) Lucrèce , ( 2 ) Ovide, (3) Nonnus (4) & Stace (5) ont célébré le triomphe de la DéelTe de la beauté fur le Dieu de la guerre. Deux monumens gravés dans le volumineux ouvrage de Montfaucon , , Tem; TPar: une ftatue publiée parGori, trois pierres gravées expliquées II. pl. XLVII. par le même Auteur, deux tableaux trouvés dans les ruines MuXEYOEseae d'Herculanum , & plufieurs autres monumens de l’Antiquité Ibid- Gemm. nous repréfentent ce fujet. Paufanias parle d’une chapelle de Tab. 73. Vénus qui n’étoit fans doute furnommée ‘Apala qu’à caufe de nntpaHep- 1. p. 154. — - — ' - . . ■ — — — . ---- Lacon, p. a 51 » , (1) Odyf, VIII. (2) Nam tu fola potet tranquilla pace tuvare Mortales : quoniam belli fera mimera Mavorf Armipoter.s régit : in gremium qui Jeepè tuum fi Rejicit æterno devicius vulnere Amoris ; Atque ità fufpiciens tereti cervice reposa Pafcit amore avidos inhians in te, Dea, vifut : Eque tuo pendet refupini fpiritus ore. Lucret. 1. (3) Tabula narratur toto notïjjima cœlo Mulciberis capti Marfqae Venufque doits.. Mars pater, infano Veneris turbatus amore, De Duce terribili facius amator erat. Ait. Amat. 11. v. 561, (4) * AczXeos yèg. Kumpis àpiseuei anov ' Açsoç , &c. Dyonifiac. XXXV« (5) Gaudet evans jujjîs, © adhitc temone calenti Fervidus, in hevum torquet Gradivus habenas.. Jamque iter extremum, colique abrupt a tenebat » Cum Venus ante ipfos, nttlla formidine greffum Figit equos. Gejfere retro , jam jamque rigentes Suppliciter pofuere jubas, Thebaid. Lib. III. v. 260,
+
+46
+
+Dissertation
+
+fon affinité avec Mars. Il eft très-vraifemblable que la victoire qu’elle remporta fur Junon & Pâllas lui mérita le titre de Vidrix, ( i ) ainfi que fon pouvoir fur le Dieu de la Guerre ; & Shoch, Tra- c'eft avec raifon qu’un Poète a dit, que la force de Vénus étoit grande, & qu’elle remportoit toujours la victoire. (2) Uneinfcrip- tion trouvée fous la ftatue de cette Déeffe à Rome exprime MuC Flor. très-bien l’afcendant qu’elle avoit fur les autres Dieux. ( 3 ) Les Gemm, antiq. 1 Tab.72.n°.4. monumens nous la reprélentent ordinairement nue ou prelque Antiq? Expliq. nue appuiée fur un cippe , tenant un cafque, & de l’autre main tom. i.planch. une halte, avec un bouclier à fon côté. Sur une médaille de CIV Triftan tom. i. Jules Céfar , elle paroit nue tenant de fa main droite une ftatue P* 26 de la Victoire , de la gauche une halte, ou un bouclier appuié fur un globe. Ailleurs elle tient de la main droite un cafque, de la gauche elle femble lever fon voile, à fon côté eft un cippe fur lequel fe repofe un aigle ; de l'autre côté une en- feigne légionaire plantée en terre. Quelquefois elle eft montée fur une proue de vaiffeau. Toutes ces attitudes qui fe voient fur des médailles Romaines pouvoient être copiées d’après les diverfes ftatues de la Déeffe que les Romains regardoient comme leur mère. Rome en étoit remplie. Une de ces ftatues P. Vicor. avoit donné fon nom à une rue du feptième quartier dit via Mezabarb.in, I t v i CUrS Vatuœ Veneris. Plufieurs médailles d’Impératrices Vaillant in nous préfentent la légende Venus Vicirix , de même que fur Crispin,
+
+(i) Varron en donne une autre raifon. Vi^rix Venus ..., non quod vincere relit Venus y Jed quod rincireG vinciri ipfa. De L. L. p. 15. (1) Meya ri oS-évos & Kvmpeç , exteperct vixes âti. (3) Sol calet igne meo, flagrat Neptunus in undis, Penfa decli Alcidx, Baccham fervire coegi, Quamvis liber erat, feci fervire Tonantem , Qtiamvis liber erat, Martem fine Marte fubegi. Gruter , pag. 60.
+
+Oiscl Toi. XLIX.
+
+SUR LES ATTRIBUTS DE VÉNUS. 47
+
+celles de quelques Empereurs on voit celle de Jupiter Victor, fouvent pour des raifons plutôt relatives à l’Empereur ou à l’Impératrice qu’à la Divinité, comme nous l’avons déjà remarqué. On trouve auffi ce titre fur des Infcriptions. Plutarque nous apprend que Pompée confacraune chapelle en 1 honneur de Vénus Victorieufe. Les Romains lui élevérent un temple , à la dédicace duquel vingt éléphans combattirent dans le Cirque : enfin elle eft qualifiée de KTTPI TPOHAIO4 OPE, dans une Epigramme Grecque. On peut juger par les médailles ici gravées de quelle manière les Romains la repréfen- toient.
+
+Plautill. Valerian. Magn. Urbic.’ Gordian. P. Salonina. Numerian. Gal. Valer. Muratori , t» 1. pag. lviii. Plut. inPomp» Plin. Spanhem. de præft. & ufa , t. 2.p. 750
+
+Soit que l’idée de victoire emporte celle de combat, & par conféquent des armes ; foit que l’on fuppofe que la Déeffe ait enlevé celles de Mars, les Auteurs font fouvent mention de Vénus Armée, laquelle ne doit guères différer de Vénus Victorieufe. Mais fi , pour vaincre , il lui fuffifoit de fe préfenter avec fes charmes, quel devoit être fon avantage lorfqu'elle étoit armée ? ( 1 ) Mofchus ( 2) & Lucrèce ( 3 ) lui donnent des flèches. Dans Sitius Italicus , elle fe fait gloire de les prêter aux Amours. (4) Ses armes en effet étoient affez femblables
+
+(i) ^rmatam vidit Venerem Lacedamone Pallas : Nunc ce rt émus , ait, judice vel P aride. Cui Venus : armatam tu me, temeraria, temnis ; Que, quo te vici tempore, nuda fui. Aufon. Epigram. XL1. (2) ‘Axwisorciy iwoousêsis Kùapidos. Idyll. 2. v. 75. (3) Sic igitur Veneris qui telis accipit itlum. Lucret, (4) — Omnia parvis Si mea tela dcdi, blande meaicata veneno» Sil. lib, VIt.
+
+48 DISSERTATION Pag. 4 u à celles de fon fils : une pierre gravée dans Beger la repréfente faisant des efforts pour les lui enlever, ou ne lui cédant qu’avec peine.
+
+Elle avoit appris à porter le carquois, elle favoit fe fervir de l’arc & des flèches ; ( 1 ) c’eft pour cela que Médée dans Euripide la fupplie de ne jamais en décocher contre elle. (2) On ne peut s’empêcher de reconnoître ici l’allégorie ; le carquois , l’arc & les flèches ne font que des fymboles du pouvoir de la beauté, des charmes du langage , & de mille autres moyens féduifans que le beau Sexe emploie avec tant d’avantage. (3) Les armes de Vénus, toutes sûres qu’elles étoient, ne pouvoient donc pas être regardées comme des armes pro-
+
+(1) Alel fjt.tr qépeiv dedanxe qapérpi, Ti& ri , xœl donixWç Epyov ÈxeConiaç. Julian. Ægypt. Anthol.IV. 12.Ep.21. (2) Mi dor w Neccrot en' kuo Xpvoécv rogov éqins Iméro xpicao cquxTov Tsov. Euripid. Med. (3) Anacréon, dans fon Ode fur les Femmes, a rendu cette pensée avec l’élégance qui lui eft ordinaire ; en voici le sens : La Nature donna des cornes aux taureaux , des pieds aux chevaux pour leur défense; elle enfeigna aux lièvres à prendre la fuite , elle arma les lions de dents menaçantes ; elle apprit aux poifons à nager , aux oifeaux à voler ; enfin , elle accorda la prudence aux hommes. Il ne lui restoit rien pour les femmes : que pouvoit-elle donc faire en leur faveur ? Elle leur fit préfent de la beauté , qui leur tient lieu de toutes fortes d’armes, & à laquelle ni le fer 3 ni la flamme ne peuvent résister.
+
+près
+
+SUR LES ATTRIBUTS DE VÉNUS. 49 près aux combats, & deftinées à répandre le fang des hommes dans les batailles. Cependant il paroîtroit que les habitans de l’ifle de Cypre en ont eu cette idée , puifque, félon Hejychius, ils lui ont donné une épithéte qui ne convient qu’à une Divinité guerriere. ( i ) II eft très-poflible que de certains peuples, les Lacédémoniens, par exemple,l’aient armée de pied en cap. Cette nation donnoit une lance aux Dieux & aux Déeffes qu’elle honoroit, pour faire entendre, dit Plutarque, qu’elle ne reconnoifoit que des Divinités qui préfidoient à la guerre. On lit dans l’Anthologie plufieurs épigrammes fur la ftatue de Vénus armée à Lacédémone : il y eft dit que cette parure fied bien à la maîtreffe du Dieu Mars & à une Lacédémonienne. Lactance raconte une anecdote, qui, félon lui, adonné lieu à la repréfentation de Vénus armée chez les Lacédémoniens , ( 2 ) mais il eft étonnant que Paufanias ne l’ait pas connue , & qu’il n’en dife rien à l’occafion de la petite chapelle bâtie fur une montagne de Laconie, & dans laquelle on voyoit une ftatue de Vénus armée. Cette chapelle, ou ce petit temple , lui parut, dit-il, le plus remarquable de tous ceux qu’il eut vus , en ce qu’il y avoit au deffus une fécondé chapelle où étoit placée une autre ftatue de Vénus nommée Mopod, dont il fait la defcription, fans donner l’explication de ce furnom.
+
+Plutarcht an- tiq. Lacedæm. Inft. Lib. iv. cap. I2.
+
+Lacon. p. 246.
+
+( T ) EIxelos AçpoNir» Kvapioi. (2) Lacedæmonii quum Meffenios obfiderent , & illi furtim deceptis obfefforibus egrefi , ad diripiendam Lacedæmonem cucuriffent , à Spartanis mulieribus fus fugatique funt. Cognitis autem hoftium infidiis, Lacedæmonii fequebantur. His armatæ mulieres obviam longiùs exierunt ; quæ cum viros fuos cernerent pa- rare Ce ad pugnam , quod putarent Melenios efle , corpora tua nudaverunt. At illi uxoribus cognitis, & afpectu in libidinem concitati , ficut erant armati, permifi funt utique promiscuè , nec enim vacabat difcernere. Sic Juvenes ab iifdem anteà mifi , mifti cum virginibus, ex quitus funt Parthenii nati ; propter hujus facti memo- riam ædem Veneri armatæ , fimulacrumque pofuerunt.
+
+Mifcell. La- con. lib. ii. c. xv, & lib. iv. cap. xvi. Lacon.p. 169. Corinth. p. 111. Pittur,t.III, p. 7 U
+
+Bœot. p. 74x5.
+
+50 Dissertation Il ne réfulte rien de celle que l’on trouve dans Meursius, qui a fait deux longs articles fur ce mot. Paufanias fait mention de deux autres statues de Vénus armée , l’une à Cythère, & l’autre à Corinthe. Nous lifons aufli dans Dion, que Jules Céfar portoit une Vénus armée gravée fur fon anneau. Les Editeurs des Antiquités d'Herculanum ont publié un tableau repréfentant une jeune femme vêtue d’une robe rouge : elle a des cheveux blonds, des braffelets d’or, elle eft armée d’un arc & d’une flèche : après avoir fait remarquer que cela peut convenir à Diane, ou à une Nymphe de fa fuite, ou à Atalante ; ce tableau leur rappelle enfin une des épigrammes de l’Anthologie , que nous avons déjà citée, & qui a pour objet Vénus armée. Nous ne hazarderons point un jugement fur cette figure, nous croyons cependant qu’elle n’eft point afez caractérifée pour dire que ce foit Vénus armée. Les Peintres anciens pouvoient faire des portraits & des tableaux de fantaifie comme ceux de notre temps. Les effets de l’amour, bien ou mal ordonné, étant imputés à la même caufe, c'eft-à-dire à Vénus : quelques Interprètes ont cru que les furnoms d'Olpavia, ou de Cœleftis > & de IldvOnuos, ou de Popularis , avoient été donnés à cette Déeffe relativement à la qualité des amours qu'elle infpiroit. (1) Cela revient à la divifion de Platon. ( 2 ) Paufanias dit, que l’on voyoit à Thèbes trois ftatues antiques de Vénus; la première Opava, qui infpire le pur amour exempt de cupidité ; la feconde , Ilavânpos , qui excite l’amour du plaifir des fens ; la troisième, ‘Awoq-poQla , dont la fonction eft de détourner des amours, honteux.
+
+( ( ) On a donné ces deux épithétes à l’Amour pour la même raifon. PLutarch^ in ^mator. p. 764. (1) Voyez au commencement de ce Mémoire,
+
+SUR LES ATTRIBUTS DE VÉNUS. 5I La Déeffe que l’on adoroit en Syrie, & dans prefque tout l’Orient, étoit honorée en Europe fous le nom de Vénus Uranie, Les Arabes l'appelloient Alilat ou Alitta , les Affy- riens MyUtta, les Perfes Mitra, les Phéniciens Aftarté, ( i) les Afcalonites Derceto ou Atergatis, les Chaldéens Delephat, les Babyloniens Salambo, les Sarrafins Cabar. Elle reçut aufi en Orient des noms pris du lieu où elle étoit honorée. Celui de Byblia vient de la ville de Byblos , dans laquelle on lui rendoit un culte fingulier ; & c’étoit là que l’on célébroit les fêtes d’Adonis ; elle avoit un temple fur le mont Liban où l’on croit qu’elle étoit invoquée fous le nom & Architis, Ma- crobe en fait une defcription, (2) qui ne fe trouve peut-être dans aucun autre Auteur. Bochart la confond avec celle qui eft nommée Aphacitis. En rapprochant ces noms , & en conciliant les idées que l’on y attachoit, on verra que toutes ces Divinités qui pa- roiffent dif rentes, ne font autre chofe que la Vénus CéleJïe ou Uranie des Grecs , qui vraifemblablement en eurent con- noiffance par les Phéniciens que le commerce attiroit dans leurs ports. La Vénus Syrienne paffoit pour avoir les deux fexes. Les cérémonies de fon culte étoient variées, & pour les célébrer, on fe fervoit d’habits d’hommes ou de femmes fui- vaut les circonstances, d’où vient fans doute la diftinction de Lunus & de Luna ; c’eft de là qu’on lit dans un ancien Poète
+
+Herodof. Hyd. de Rel, Vet. PerC Suidas. Hefychius. Ifidor. Char. Selden.
+
+Lucian. de Deâ Syrâ.
+
+Phaleg. p. 305. Voy. auffi ibid. col. 743. 749. 750,
+
+Macrob. Sa- turn. 111. c. 8.
+
+(1) T»r de Aserir Toivxes rhv ‘Aqod*y tiw Aéysci. Sanchoniatony qui dit qu’elle eft la fille de Cotlus , ou Oiçavs.) (1) Simulacrum hujus Deæ ( Veneris Architidis ) in monte Libano fingitur ca- plte obnupto, fpecie trifi , faciem manu lævâ intra amictum fuftinens , lacrymæ visione conspicientium manare creduntur. Satwnal > lib. I. cap. 21. G ij
+
+Hesychius. Macrob.
+
+De Diis Syris. Phaleg. De Idololatr. Vaillant Colon. part. i. p. 112. & part. 2 p.1 1o.&p.126
+
+52 Dissertation pollentemqueDeum Venerem ,(1) qu’Ariftophane fefert du mot ‘AQpoNirov au neutre, & Hefychius d’AOpNTos au mafculin.C’eft auflipour cela vraisemblablement que les habitans de l’ifle de Cy- pre repréfentoient Vénus avec de la barbe & des habits de femme. Cela s’accorde encore avec un paffage de Varron fur la caufe de la naiffance des êtres qu’il dit être l’eau & le feu, ( 2 ) celui- ci mâle & l'autre femelle. L’examen des différentes Divinités de l’Orient dont nous venons de parler , leur correspondance avec la Vénus Uranie des Grecs exigeroit des recherches immenfes & de Ion- gues difcusfions , qui d’ailleurs font étrangères à notre fu- jet : on trouveroit fur cela beaucoup d'éclairciffemens dans l’ouvrage de Lucien , qui traite de la Déeffe de Syrie ; & parmi la foule des Critiques modernes qui en ont parlé en fe copiant mutuellement, on pourroit confulter Selden, Bochart & Voflius, qui méritent d’être diftingués des autres. Nous croions encore devoir remarquer que fur des médailles deBéryte on voit une figure fort bizarre pour fa forme & pour fes attributs, que les Antiquaires font convenus de nommer Aftarté.
+
+( r) Il n’y a cependant point d’apparence que ce foit par ce motif que Virgile a fait dire à Enée : Difcedo ac ducente Deo flammam inter ^hofles Expédior. Æneid. XII. Enée ne pou voit, en parlant de fa mere ,en avoir une idée fi fingulière ; & l’on voit que le Poète a pris le genre pour l'efpèce.
+
+SUR LES ATTRIBUTS DE VÉNUS. 53 Quant aux idées des Grecs qu’il nous importe plus de con- noître fur Vénus Célefte , il paroît qu'ils lui avoient donné ce titre, foit parce qu’ils avoient égard à fon origine qu'elle ti- roit de Cœlus, foit parce qu’ils la faifoient préfider au chafte amour , foit enfin parce qu’ils la confidéroient comme la Lune. Nous avons déjà obfervé d’après Paufanias, que les Phéniciens avoient porté en Grèce le culte de la Déelle , que les habitans de ce pays nommèrent depuis dans leur langue Vénus Uranie ; en changeant le nom, ils n’auront pas manqué non plus d’en reftreindre ou d’en étendre, & d’en modifier les acceptions félon leurs caprices : ce font des mélanges fem- blables qui occasionnent principalement la confusion affreufe que l’on trouve dans la Mythologie. Le culte de Vénus Célefte étoit établi à Thèbes en Béo- tie : cette Déeffe étoit en grande vénération en Egire , où l’entrée de fon temple étoit interdite aux hommes : on voyoit à Cythère un autre temple de Vénus Uranie, qui paffoit pour le plus ancien & le plus célébré de tous ceux que Vénus ait eus dans la Grèce , fa ftatue y étoit armée. En Elide on admiroit une ftatue de Vénus Célejle d’or & d’yvoire, ouvrage de Phidias , elle repréfentoit la Déeffe avec le pied pofé fur une tortue , fymbole fort remarquable , dont Paufanias ignore la raifon, & que Plutarque dit avoir rapport à la vie fédentaire & tranquille qui convient aux femmes. Mais cette tortue ne feroit jamais un attribut effentiel de Vénus Célejle , puifque nous venons de voir que celle de Cythère étoit armée. Il n’eft donc pas sûr que la tortue y eût aucun rapport ; il eft (2) Cauffa nafcendi duplex; ignis & aqua .... Mas ignis quod ibi femen; aqua fæmina quod fœtus ab ejus humore & eorum junctione fumit Venus.... Poetæ de Cœlo femen igneum cecidifle dicunt in mare, ac natam è fpumeis Venerem, con- junctione ignis & humoris, V^rro de L, L, p. 15.
+
+Attic.
+
+Paulan. Bœot. Id. Achaic. Id. Lacon, Id. Eliac.
+
+coit.
+
+Stat. Tab. XXX.
+
+.Vaillant,
+
+54 Dissertation même très-poflible que Vénus confidérée fous fon titre de Célefte n’eût point d’attribut diftinctif, & que la feule con- vention eût engagé à qualifier ainfi la Déeffe repréfentée de telle ou telle manière. Il y a des Divinités dont l’attribut eft fixé par le furnom qui leur eft donné : Jupiter Fulgerator doit être armé de la foudre, Jupiter Ammon ne peut être repré- fenté qu’avec des cornes de bélier , la Diane d'Ephéfe eft caractérisée par plusieurs mammelles, par les appuis fur lefquels fes bras font portés , & par les autres fymboles dont fes vête- mens font chargés. Il arrivoit cependant que l’on repréfentoit des Divinités avec un de leurs attributs effentiels , & que le furnom qu’on leur donnoit étoit fouvent peu analogue à cet attribut. Cette obfervation , que nous croions n’avoir été faite juf- qu’ici par aucun Antiquaire, peut s’appliquer à la Vénus Ce- lefie avec le pied pofé fur la tortue. On ne paroîtroit donc pas fondé à prendre pour Vénus Célefie une ftatue de femme, parce que la partie fupérieure de fon corps feroit nue, & l’inférieure drappée , comme celle que l’on voit dans le Cabinet du Grand - Duc. Quoique cette ftatue ait pu être honorée autrefois comme celle de Vénus Célefie , elle n’a cependant point de caractère particulier qui nous indique fu- rement que ce foit elle. Sur trois médailles , dont la première eft de Julia, femme de Severe, la fécondé de Soémias, & la troisième de Magnia Urbica, on voit une femme vêtue & debout portant de la main droite une pomme , tenant de la gauche une hafte, & pour légende VENUS CAELESTIS, ce qui ne marque pas davantage le caractère de Vénus Célefte ; cela confirme au contraire notre fentiment, en ce que cet attribut ne s’accorde point avec les autres dont on vient de parler, Reinesius & Gruter ont recueilli des Infcriptions
+
+SUR LES ATTRIBUTS DE VÉNUS. 55 qui prouvent que les Romains honoroient Vénus fous le titre de Cœleflis. Le fens de cette épithète eft en quelque forte déterminé par fon oppofition à celle de Havônuos. L’une eft toujours prife en bonne part , tandis que l’on attache ordinairement à l’autre une idée défavantageufe. Les Habitans de la ville de Synnades en Phrygie donnèrent la qualification de Ilov- Muos à Jupiter, parce qu’il fe tenoit chez eux une grande affemblée, à laquelle ils faifoient préfider ce Dieu, ou parce que fa ftatue étoit près du lieu où le peuple s'affembloit. Vénus reçut le même titre chez les Athéniens , parce que fa ftatue étoit auffi près de la place publique où fe tenoient les affemblées : Théfée établit fon culte après avoir réuni dans la ville d’Athènes le peuple auparavant difperfé dans les champs , & Solon lui fit bâtir un temple dans une place de cette ville. Mais les Auteurs anciens nous préfentent une autre acception de l’épithète IlavOnuos. Théocrite dans fa treizième épigramme l’oppofe à celle de Célefte. (i) Oppien (2) — : (1) ‘H Kuwpis 2 'Trdy^izocr. iAooxeo tA %ov lzrav Oupaviay. (2) Elap TovTos oÀo? de Tepicuapays xVbepeln , Kat véarod'es lar@picosot yaXnyn. Elap xo Tpnpcvas ZcibJvSai Teelats. "Icco NcypauAols kcot Qopoaciv ScAlovrai, Toupor T dypoTép^ kai ?ro prias op^'v^a-i, Kai xTÜoi eiuxoeTeg 07 tldpi . Kat x.dw'poi zupdevTes looudovci cuecci , Kai Xuapor Àacioii èQicaedSoi ^i/acdpais.. Kot T dvTOLÇ uepoweoci 07 üccpi uCAov ipan^ Elap yap Tavnuos laop/He xuOépea.
+
+Theocrit Epig, 13-
+
+Vaillant Se- lect. Numis. p. 294. Apollodor. de Diis. Harpocration, Suidas.
+
+Paufan. Attic. p. 51. Cyneg. A. v. 382»
+
+Bœot. p.742.
+
+Lucian. Meret. Dialog. 7.
+
+Demofthen. Encom. 13,
+
+56 Dissertation en qualifiant de IIdvnuos la Vénus qui porte les hommes & les animaux à s’unir chacun avec la femelle de leur efpèce, fait affez entendre qu’il veut parler de la Déeffe du plaifir. Par f explication que Paufanias en donne dans fon Voyage de Béotie , on voit que cet Auteur n’en avoit pas une autre idée : ( 1 ) dans celui d’Elide, il fait mention d’une ftatue de Vénus furnommée IIdvOnuos, ouvrage de Scopas, ainfi que le bouc fur lequel elle étoit aflife, & quoiqu'il paroiffe ignorer pourquoi la Déeffe eft aflife fur ce bouc, il eft bien sûr que cet animal très lafcif eft ici le fymbole des plaifirs effrénés. ( 2 ) Dans le Dialogue feptième des Courtifannes, une mère parlant d’un jeune homme qui s’épuifoit en promeffes auprès de fa fille fans lui faire le plus petit préfent, dit à celle-ci avec dérision : fi nous trouvons encore quelque galant de cette efpèce , il faudra que nous faffions le facrifice d’une chèvre blanche à Vénus Populaire. On a une notion affez fatisfaifante de ce que les Anciens ont penfé des deux Vénus, dans une réflexion de Lucien fur les deux Amours qui en font les effets. L’un, dit-il, impétueux , excite dans l’efprit une agitation violente : il eft orageux comme la mer dont il tire fon origine, & les paflions qu’il produit peuvent être comparées à des tempêtes occasion- nées par Vénus Populaire. L’autre au contraire eft Célefte, il nous attire comme avec une chaine d’or ; bien loin de faire des bleffures profondes & incurables , il nous conduit à la jouiffance d’une beauté pure qui ne fouffre point d’altération; fes tranfports ne font qu’élever notre efprit & nous rapprocher des Dieux. Ce texte de Lucien eft encore expliqué & confirmé
+
+u) (?)
+
+Ilaydapov,d‘t, eai reis uigeci Spendiàior vitro tçnero lafcivior hxdo, Ovid,
+
+par
+
+SUR LES ATTRIBUTS DE VÉNUS. 57 par un autre d’Apulée auffi formel. ( 1 ) Ainfi l’amour infpiré par Vénus Populaire étoit cet amour violent & effréné qu'Ho- race a fi bien peint en ces vers : Citai tibi flagrans amor, & libido, Od.lib.i. 25. Quœ folet matres furiare equorum, Sœviet circà jecur ulcerofum. En un mot, tout ce qui avoit rapport à la paffion de l’amour dépendoit abfolument de Vénus. C'eft ce qui a fait attribuer à la vengence de cette Déeffe la fureur utérine qui a porté certaines femmes à des excès incroyables, & les defordres honteux de quelques hommes. C’eft ce qui a fait dire auffi qu'elle étoit redoutable aux perfonnes qui l’avoient offenfée. La proftitu- tion des Propétides fut la peine du mépris qu’elles avoient fait de Vénus. (2) Phedre regarde fa pasfion pour Hyppolite Euripid. in comme un effet de la vengeance de la Déeffe contre toute Hyppolit. 0 ,, , . — Servius ad la famille du Soleil 5 (3 ) vengeance qu éprouvèrent aufti Circé, Eclog. vi. & Æneid. VI. 14. (1) Mitto enim dicere alta illa & divina Platonica , rariffimo cuique piorum gnara , cæterum omnibus profanis incognita : geminam elfe Venerem Deam, pro- prio quamque amore, & diversis amatoribus pollentes. Earum alteramVulgariam, quæ fit percita populari amore , non modo humanis animis, verùm etiam pecuinis & ferinis ad libidinem imperitare , ut immodico trucique perculforum animalium ferva corpora complexu vincientem : altérant verb Cœlitem Venerem , prædita quæ fit optimati amore , folis hominibus , & eorum paucis curare , nullis ad turpitudinem itimulis vel illecebris fectatores fuos percellentem, Apul. Apolog. edit. in ufumDelph. p. 419.420. (2) Sunt tamen obfcena Venerem Propatides aufa Efe negare Deam : pro qua fua, numinis ira Corpora cum forma prima vulgape feruntur. Ovid.Met. 1. 10. v. e3s. (3) Forftan hune generis fato reddamus amorem; Et Venus è tota gente tributa petat. Ovid. Phæd Hyppolit. v. 54. Erigit indicii memorem Cythercia panam. Id. Metam. iv. v. 190. Stirpem perofa Solis invif Venus Per nos catenas vindicat Marris fut. Senec. Hyppolit. 114. H
+
+Liban. Narrat. 15.&16. Apollodor. 1, i. Suidas. Euripid.Scho- liaft. Hygin. L Valer. Flac. lib. 2. &c. Scholiaf. Ho- mer. ad Iliad. lib. v. V; 412. Apollodor. lib, I.
+
+Apollodor. lib.
+
+Lib. 1. c. 10$.
+
+Commentar. in antiq. Mo- num. Marcellin.
+
+58 Dissertation Médée , Pafiphaë & Dircé. (1) La punition des femmes de Lemnos que l’on dit être fondée fur ce qu’elles ne lui offroient plus de facrifices , ou fur d’autres motifs, vient aufi , félon quelques Auteurs, de ce que le filet par le moyen duquel Vulcain découvrit aux Dieux l’adultère de Vénus, avoit été fabriqué dans cette ifle. Egialée fut punie d’une ardente lubricité, parce que Diomède fon mari avoit bleffé Vénus devant Troie. Hyacinthe fut le fruit des amours fecrets de Clio, parce que cette Mufe avoit ofè reprocher à Vénus d’aimer Adonis. Si ce reproche étoit un crime impardonnable , il faut convenir que la punition n’étoit pas proportionnée. Le courroux de Vénus , qui s’étendoit aux defcendans jufqu'aux générations les plus reculées, ne fe concilie pas trop bien non plus avec fa paffion pour Adonis, dont elle avoit pouffé la mère à un incefte. L’Aurore elle-même ne fut point exempte de fes pourfuites ; parce qu’elle avoit partagé les amours de Mars , elle étoit fans cefie tourmentée d’une paffion violente , qui lui fit enlever Orion pour le tranfporter dans Pille de Délos. La vengeance que Vénus tiroit des hommes étoit encore plus cruelle. Les Scythes qui pillèrent fon temple d’Afcalon furent ‘ frappés 5 ainfi que leurs defcendans, de la maladie des femmes, félon Hérodote, qui laiffe à deviner ce que pouvoit être cette maladie. Patin en fa qualité de Médecin fembloit avoir plus de droit qu’un autre de décider la question ; & il n'héfite point de dire , qu’il s’agit de ce que nous appelions la maladie vénérienne. Quelques-uns ont cru que c’étoit l'a-
+
+(1) Senfo Diva dolos, jampridem {ponte requirent Colchida , ©‘ invifigenus omne exfcîndere Phabi, Tum vero optatit potitur. Valer. Place. Argon, lib. VI.
+
+SUR LES ATTRIBUTS DE VÉNUS.
+
+59 mour illicite que des hommes ont les uns pour les autres. Ce dernier fentiment , malgré fa fingularité, pourroit être auto- rifé par l’hiftoire de Philoctète , qui avoit tué Pâris , & dont Vénus fe vengea en lui infpirant ce goût dépravé, fi l’on en croit le Scholiafte de Thucydide, & comme le font entendre AdLib.i. Martial ( i) & Aufone. (2) En voilà plus qu’il n’en faut, ce femble, pour Juftifier l’épithète d'Olg-poQpos, qui eft donnée à Vénus dans une épigramme de l’Anthologie. (3) On Lib.vn.pag. peut ranger dans la même claffe celles de OIMBPH, qui fe 469-edit.1607
+
+(1) Mollis trat facilifque viris Pceantius héros ; Vulnerajic Paridis dicitur ulta Venus. Lib. 2,Epigr. 84. (2) Prœter legitimi genitalia fadera catus, Kepperit ob/ccenas Veneres vitiofa libido. Herculis haredi quant Lemnia fua/it egefias, Quant toga facundi fcenis agitavit ^frani. &c. Aufon. Epigr. 71. (3) Le terme Oîspos a été confacré chez les Grecs pour exprimer les accès violens d’un tempérament de feu. Anacréon se plaignant de la bleffure qu'il a reçue de l’Amour, fait fentir toute l’énergie de l'exprefion ospos. — Kai ue ruTTEt Mécor icœe , woaeg oispoç. Od. III. Apollodore s’en fert {Lib, 11. 10, ) en parlant des troupeaux d’Hercule que Ju- non dispersa rais oîspov évGonev. Et ailleurs ( Lib, n. 3.) à l’occafion d’Io méta- morphosée en vache, il dit que Junon ri Bot oîspov RuGaxas.. Helychius a très bien défini le mot oïspos : ‘AçpoBiolov ripcocis , le defir ardent & preflant de la jouiflan- ce. Suidas rend celui d'Oïspneis par s SxAvuava, qui exprime peut - être moins l’amour des hommes pour les femmes, que la maladie de celles-ci, nommée Nymphomanie , ou fureur utérine. Le mot oïspos eft aufi appliqué aux poiflons. Hérodote II. 93. parlant de certains poifons, dit imeav icly oîspoç Oppien fe fert également de ce terme , Haldeut, 1. 47 3. Elæçe Je yXuxvç oîspos vayxalws Avçodirwe. Les Latins ont imité cette façon de parler , en employant dans le même sens le mot ajlrum» C’eft pour cela qu’on lit dans le Poème de Ciris attribué à Virgile (v. 184.) Horribili praceps impellitur œjlrc. Hij
+
+60 Dissertation Protrept. tom. lit dans Callimaque, (i) de HepCacin, employée par Clément "Rkei Gall. d’Alexandrie, (2) & de , fur laquelle le Préfident Antig: P 166 Bouhier a fait des remarques. (3 ) Au refte, on ne reconnoifoit dans tout l’Orient qu’une Vénus qui étoit la Célejle ou Uranie ; elle préfidoit à la génération, & par conséquent à l’amour des corps ; d’où il s’enfuit que cette diftinction de Vénus Célejle & de Vénus Populaire chez les Grecs ne fervoit qu’à désigner les différens effets Bayle, Dic- d'une même caufe. L’amour, dit un Critique moderne, p. 709.A. * a fait commettre mille fautes à des perfonnes dont elles voyoientfi clairement la honte, qu’elles ont tâché de les prévenir en appellant la raifon à leur fecours, & en faifant bien des fouhaits de ne pas aimer. Il leur paroiffoit naturel de conclure qu’elles n’étoient point la caufe de leur mauvaife conduite , en tant qu’elles avoient un entendement raifonnable. Cette première conclufion les conduifit à celle-ci, qu’une caufe externe & fupérieure à toutes leurs forces les pouffoit ; la fécondé conclufion leur en faifoit faire une troifième, qu’un Dieu étoit une caufe extérieure & néceffitante. Voilà, ajoute l’Auteur, l’origine de la prétendue Divinité de Vénus & de
+
+(i) L’épithète de ne le lit que dans un Fragment de Callimaque cité par le Scholiafte de Nicandre ( in lheriac, ) Kaxaluaxos KvmplSos dpuovil. Elle peint l’amour immodéré qui n’a point même d’égard aux efpèces : tel que celui de Sémiramis pour un cheval, de Pafiphaé pour un taureau, &c. (2) Le furnom de ITtpCacs ou de ITep/Cæco vient felon quelques interprètes, repà +3 à divaricandis cruribus , de forte qu’on pourroit rendre ce mot par celui de diva icatrix, (3) L’épithète de Hasiçicca a été fubstituée par le Préfident Bouhier à celle de zeceqdteca , qui fe lifoit fur une infcription qu’il rapporte; il en fait un fyno- nime de celle de Ilvnuas & de celle de menixoios employée par S. Epiphane. ( An- corat, §. 105.)
+
+fl
+
+SUR LES ATTRIBUTS DE VÉNUS. 61
+
+Cupidon. Cette application, qui eft peut-être trop générale, pourrait fe faire plus particulièrement à Vénus Ilavnuos, que Lucrèce nomme Volgivaga ,(1) & Apulée Kulgaria. ( 2 ) Athénée parle d’une fête que l’on célébrait en fon honneur le quatrième jour du mois. Paufanias eft le feul Auteur ancien, au moins que nous connoiflions , qui ait donné la defcription d’une ftatue de Vénus Populaire , laquelle eft affife fur un bouc. On a publié, il y a quelques années, un beau marbre appartenant autrefois au Duc de Sulli ; il repréfente une femme nue , portée fur une efpèce de bouc marin à travers les eaux; & l’Editeur a cru que c’étoit Vénus ’E^irpocyia,, furnom dont Plutarque a donné une explication aflez vague dans la vie de Théfée, ( 3 ) mais qui peut avoir rapport à la Vénus IlavAnuos de Paufanias. (4) Les Artiftes modernes font convenus d’appeller Vénus Pudique
+
+Lib» xiv. p Eliac.
+
+Explicat. de quelques Mon. finguliers par un Benedicin,
+
+(1) Si non frima novis conturbes wulnera plagis , Volgivagaque vagus Venere ante recentia cures. Lib. iv. (2) V oyez le paflage déjà cité. (3) Plutarque nous apprend que Théfée , fur le point de s’embarquer pour aller combattre le Minotaure , confulta l’Oracle d’Apollon , qui lui fit réponse de prendre Vénus pour guide , & de l’invoquer comme la compagne de fon voyage; que fe difpofant à immoler une chèvre fur le rivage pour fe rendre la Déefe favorable, cette chèvre avoit été tout d’un coup transformée en bouc, & que cette aventure lui avoit fait furnommer Vénus ' F.^riT payiez.. Le même Auteur n’ef pas plus clair en parlant , quelques lignes après , d’une Vénus Âriadne. On ne fait fi Vénus reçut ce furnom de Théfée, parce qu’Ariadne avoit fait présent à ce Héros d’une ftatue de Vénus, ouvrage de Dédale, & dans laquelle il y avoit, dit-on 3 du vif-argent, pour la faire mouvoir ; ou bien fi Théf e auroit donné le nom d’Ariadne à Vénus en reconnoiflance de la facilité avec laquelle la Princefie s’étoit prêtée à fes defirs. Meursius n’a fait qu’embrouiller cette question aulli obfcure qu’elle eft peu im- portante. (4) Voyez aufi Montfaucon, Antiq. tom, i,pl. c, G pl, a. n°. 5.
+
+Antiq. tom. VII. p. 191. ReineC p. 2 27. Gruter, p. 59. 9.
+
+Plutarch. in Cat. min.
+
+Pauiân.Bœot.
+
+62 • Dissertation celle qui porte la main au devant de fa gorge & l’autre plus bas, comme par pudeur , telle que la belle Vénus de Médicis; & M. le Comte de Caylus obferve que la Vénus pudique étoit plus fouvent répétée que l'impudique. Nous ignorons quelles étoient les fonctions de la Vénus qui ef appellée Placida fur les Infcriptions; & fi cette épithète lui a été donnée pour marquer la gradation qui fe trouve dans fes influences à l’égard des defirs qu’elle infpire, c‘eft-à-dire, qu’elle auroit été la Divinité de ceux qui feroient nés avec un tempérament tranquille. (i) Enfin les Anciens reconnurent une Vénus qui détournoit de l’amour déréglé en faifant revenir de fes excès, & rap- pellant les hommes à la raifon. C’étoit avec une forte de juf- tice ; car , fuivant la réflexion de Caton , c’eft à ceux qui ont caufé les grands maux à les faire ceffer. Elle fut appellée chez les Grecs ‘AwogpoQla , & chez les Latins Verticordia ; Ovide explique ce dernier mot, en même temps qu’il en donne l’étymologie; (2) Valere Maxime ne laiffe aucun doute fur le motif qui engagea le Sénat à lui faire ériger une flatue, ( 3 )
+
+(1) Denys le Périégete dit que Vénus Placida procuroit des vents favorables, & qu’elle les appaifoit lorfqu’ils étoient violents. Elle avoit un temple près de Byzance. Mais cet attribut ef peu connu, & n’ef pas fort important. (2) Roma pudicitia proavorum tempore lapfa eft, Cumxam, veteres, confuluifîis anum. Templa jubet Veneri fert, qiùbus ordine faills, Inde Venus -verfo nomine corda tenet. Fart. iv. (3) Merito virorum commemorationiSulpicia Ser. Paterculi filia , Q. Fulvii Flacci uxor adjicitur. Quæ, cum Senatus libris Sibyllinis per Decemviros infpectiscenfuil- fet , ut Veneris Verticordiæ fimulacrum confecraretur , quo facilius Virginum mu- lierumque mentes à libidine ad pudicitiam converterentur , & ex omnibus matronis centum, èx centum decem forte duâæ , de fanctifimâ fæminâ judicium facerent ; cunâis caltitate prælata eil.
+
+Val. Maxiin. Lib. vin. cap. 15. n°. 12.
+
+SUR LES ATTRIBUTS DE VÉNUS. 63 & conféquemment fur l’idée que l’on attachoit à Rome au furnom de Verticordia. Julius Obfequens dit qu’on lui éleva De Prodig. un temple dans la voie nommée Salaria, à l'occalion de l’in- "f77* cefte commis dans le même temps par trois Veftales. Pline Plin.lib.VIr - 1 1 cap. 5. & Solin parlent auffi du furnom de Kerticordia.
+
+En faifant le réfumé de ce qui a été dit jufqu'ici , on verra que nous n’avons fait que développer la première & la principale idée que les Anciens ont eue fur la naiffance de Vénus, & que tous fes attributs, comme fes différentes qualifications en font une émanation. En effet, l’idée d’un être, principe de tous les autres, eff un germe fécond qui renferme tout ce qui peut convenir à la Divinité : il n’y a plus après cela que les applications à faire, & l’on fait que les Grecs ne les ont pas épargnées. Mais on devoir fuppofer que ce premier principe étoit très- Scholiaf. ancien. Auffi Vénus pafoit-elle pour la plus ancienne des ApoAonaui Déeffes , & il y a beaucoup d’apparence que fon culte a été le 15e. vers du admis dans la Grèce , même avant celui de Jupiter. ( i ) On avoit gon.) es TF une grande idée de fa puiffance ; outre les exemples que nous en avons déjà vus, les Poètes pourroient nous en fournir plufieurs autres; (2) l’Auteur des Hymnes qu’on attribue à Homere, Hymn, in Vener.
+
+(l) AAxc x Aioç tri mpecurspc n AqpdiTn. Hcrdoç y09 ourwv ex rôv uidoiws tu Ovpcvs Qicl ytlicQ-ai. Auyaias de 70ÀAS Xove loueras.
+
+(2) ‘4 Jsvà Kuggis. Euripid. Med. Per Venerisfeci Numina magnafdem. Ovid. Amor. lib. 2. Eleg. 8. Proh quanta potertia regni Ef Venus aima tut. Ovid. Met. lib. 3. Fab. 8. Fénelon qui ne déprimoit pas les Anciens, parce qu’il les avoit étudiés, & qu’il favoit les apprécier, l’immortel Fénelon exprime la puiffance de Vénus dans un dilcours qu’il lui fait adreffer à Télémaque. » Ouvre ton cœur, dit-elle, aux plus douces efpérances, » & garde-toi bien de réfifter à la plus puiflante de toutes les Déeffes, qui veut te rendre » heureux. Telem t Liv, 42
+
+Hymn. in Vener.
+
+Phaleg. p. 397. Paufan. Attic,
+
+Strab. lib. ix. p. 398. Stephan. Paufan. Attic. p. 5. Eustath.Iliad. 2. Schol. Arif- toph. ad Nub,
+
+64 Dissertation dit expreffément que, pour le culte, elle a eu la préfance fur tous les Dieux, & que les mortels n ont honoré aucune Divinité plus qu’elle. ( 1 ) Sapho lui adreffant la parole : Grande & immortelle Vénus , dit - elle, qui ave^ des temples dans tous les lieux du monde. De là vient la quantité de fur- noms Topiques qui lui avoient été donnés par les peuples qui avoient pour elle une vénération particulière. Nous rapporterons les plus remarquables en fuivant simplement l’ordre Géographique. Elle fut nommée Zerinthia de l’antre ou de la ville de Zé- rinthe en Thrace , félon le Scholiafte de Lycophron (2) & Bochart. Les Athéniens, qui étoient fi recommandables par leur piété envers les Dieux, rendoient fans doute un culte particulier à Vénus, qui étoit la plus ancienne Divinité de la Grèce. De tous les temples qui lui ont été élevés dans l’Attique, le plus connu & le plus fameux étoit celui qui étoit placé fur le Promontoire Collas, d’où la Déeffe tira fon nom. Strabon, Etienne de Byzance, Paufanias & Euftathe en parlent. On trouve dans le Scholiafte d’Ariftophane plufieurs raifons de ce furnom : la première c’eft qu’un jeune homme de l’Attique ayant échappé à des voleurs à l’aide d’une femme qui l’avoit délivré des liens qui attachoient fes membres xôÀa, il croyoit avoir obligation de ce fecours à la Déelfe , & qu’en conféquence il l’avoit appellée Kolas. La fécondé raifon, qui ne paroît pas plus folide que la première, eft que le Promontoire reffembloit
+
+(1) Hl&ci év violai ©edy Ti[zalo^o? çi. Ko Tapa 'kZgi fyoToiai Ocav mpeoGtpa rérvzTcii. Hymn, in Ven. v. 3 1. (2) ‘Ev Opann dyrpoy , & 6 Zepuvbla ‘A@poNTn tintai. afez
+
+SUR LES ATTRIBUTS DE VÉNUS. 65 allez à un membre viril. Enfin la troisième , c’eft qu’un corbeau ayant enlevé pendant un facrifice la partie antérieure de la victime , nommée KoAn, l’avoit dépofée en ce lieu. (i) Pour décider cette queftion, qui d’ailleurs n'ef pas fort importante , il s’agiroit feulement de favoir fi c’eft la Déeffe qui a donné fon nom au Promontoire, ou fi elle ne le tenoit pas elle-même du Promontoire, ce qui paroît plus vraifemblable. Une des villes qui fe foit le plus fignalée par fa vénération envers Vénus eft celle de Corinthe. C’eft pour cela qu’un Orateur a dit qu’elle étoit véritablement la ville de cette Déeffe. (2) Euripide l’appelle de même ; & quoique Pégafe foit ordinairement le type des médailles de Corinthe, on y voit auffi fouvent celui de Vénus. Son temple dans cette ville, étoit fi riche & fi fréquenté qu’il étoit deffervi par plus de mille femmes que des perfonnes de différent fexe lui avoient confacrées. Le proverbe , il nejl pas permis à tous d‘aller à Corinthe, vient , félon Strabon, de la facilité que trouvoient les étrangers de faire de grandes dépenfes dans cette ville, & fur-tout de fe ruiner avec les Prêtreffes de Vénus. On peut voir dans Paufanias la defcription de tous les monumens que lui ont élevés les Corinthiens, & particulièrement celle du temple de Cenchrée, qui étoit apparemment ce magnifique temple dont parle Strabon, & le plus confidé- rable de tous. Mais, quoique le verbe KopivbiaGouci foit pris dans une acception obfcène par Ariftophane & d’autres Auteurs ; il eft incertain fi l’on doit en attribuer la caufe au culte de Vénus établi à Corinthe, plutôt qu’au libertinage qui eft néceffaire-
+
+Aristid. p. 42, Euripid. apud Strab. lib.VIII, p. 379.
+
+Strab. lib.VIII p. 378.
+
+Corinthiac? p. 114.
+
+Ariftoph. in Plut. Hefychius, Stephan. Euftath. ad lliad, z» 29-
+
+(1) Meursius dans fon ouvrage intitulé Piraus, a fait un long article furie mot Kwniaç. (2) Ss eirtti capôs T$ ‘Appqdirns rhv zoi , *v 3 iqorouazeiv sqeciv.
+
+I
+
+Athen. p. j 71.
+
+Pau fan. Arcad. p. 68^.
+
+In Lyciam Vener. Hymno Ultimo.
+
+Dissertation
+
+66 ment plus marqué dans les grandes villes. Cependant Athénée rapporte une ancienne loi établie à Corinthe, par laquelle il étoit ordonné, que dans les affaires d’importance où la ville devoit s'affembler pour adreffer des prières à Vénus , on y admettroit folemnellement une certaine quantité de Courti- faunes, qui non-feulement joindroient leurs prières à celles du public, mais qui refteroient encore dans le temple après les autres. En général, il eft fort difficile de porter un jugement fur des coutumes qui étoient en pratique dans des temps fi éloignes de nous, & la difficulté ne fait que s’accroître quand le fens des termes n’eft pas bien déterminé ; car nous voyons que le mot eropa, qui eft, félon quelques Ecrivains , le fynonime de Tpvn, eft pris par Athénée lui-même dans une acception très honnête. En Arcadie, Vénus étoit honorée fous le nom de AaNwyevns, félon Hefycliius & Phavorin , parce que c’étoit la tradition du pays, qu’elle étoit née près du fleuve Ladon. Elle avoit un temple fur le mont Cotylius, & un autre en Laconie, où elle étoit révérée fous le nom & Olympia, foit que fon culte fût venu d’Olympie , foit qu’il fût établi fur le mont Olympe en Laconie, foit enfin que par ce mot on eût entendu Vénus Célefte ou Uranie, comme on le voit dans le Pocte Pro- dus. ( 1 ) (1) “Tuvéouey Avxlov xSpa@poornv , ‘Hs Tor' dAezdxoi TeprwÀnbovTeg clpons , Ilarplos 9o@pcN\uoves nyeuovnes, Iepov î0pcavro KCLTCC TroXu'epov dyaXua , ZuuGoX' ENoy , voepolo Cus , voepov vuevaicv , Halg's updevnos , lo Spavins ‘ A@poN\Tns Kat é Fenv vounvay ’OA’J/UWiOy»
+
+sur les Attributs de Vénus. 67 L’épithète AAENTIA qu’on lit dans Lycophron , ou celle ^Alefias, qui eft la même , lui fut donnée à caufe du culte qu’on lui rendoit fur les bords du fleuve Halefus , qui arrofe la ville de Colophon. Athénée nous apprend, que des Courtifannes avoient élevé plufieurs temples à Ephèfe en l’honneur de Vénus, & que des femmes de la même profeflion, qui avoient fuivi Periclès à Sa- mos, lorfqu’il affiégeoit cette ville, avoient deftiné le produit de leur proftitution, qui montoit fort haut, pour faire bâtir en l’honneur de la Déeffe, qu’elles regardoient comme leur protectrice, une cehaplle affez confidérable dans un lieu marécageux, où il fe trouvoit beaucoup de rofeaux. On fait que le culte de la Divinité tutélaire & principale d’un pays n'excluoit pas celui d’une autre Divinité. Ainfi, quoiqu'à Samos Junon fût adorée d’une manière plus fpéciale, cela n’empêchoit pas que le culte de Vénus ne s’y fût introduit par des circonftances particulières. Il y eut dans cette ifle une Vénus connue fous le nom de Dexi- créon, certain charlatan, qui par des cérémonies fuperftitieufes paffa pour avoir fait revenir les femmes de Samos du luxe & de la débauche auxquels elles étoient fingulièrement adonnées. Il y a fur cela un autre fentiment propofé par Plutarque. Un marchand de Samos , nommé Dexicréon , fit un voyage en Cypre pour en rapporter des marchandifes ; mais y étant arrivé, & prêt à charger fon vaiffeau , Vénus lui ordonna de ne prendre que de l’eau, & de partir aufi - tôt. Cet homme fut docile , & en ayant fait provision, pour obéir à la Déeffe , il s’embarqua. Peu de temps après , les autres navigateurs eurent befoin d’eau, il leur en vendit à tous , & fit un profit confidérable. La reconnoiffance le porta à faire ériger une ftatue à Vénus , qui en conferva le nom. Des détails aufii peu intéreffans , ne mériteroient pas d’être I ij
+
+Cafland,
+
+Lib, 13.c. 43
+
+Quæf. Græcs . 305.
+
+68 Dissertation rapportés, fi l’on ne fe faifoit un devoir de ne rien omettre, pourfe conformer aux loix prefcrites par la favante Compagnie, qui a propofé la recherche des attributs & l’explication des noms de Vénus. Celui de Cnidia, qu’elle reçut de la ville deCnide, mérite plus d’attention, parce que la Vénus de Cnide dut fa célébrité à la fa- meufe ftatue que Praxitèle en avoit faite pour les Cnidiens, ouvrage qui étoit regardé comme un des chef-d'œuvres de la Grèce. Cette ftatue avoit fait autant d’honneur à fon Auteur, que le tableau de Vénus Anadyomène en avoit fait au Peintre Apelles. Ces deux monumens, la ftatue de Jupiter Olympien faite par Phidias, & quelques autres ouvrages de grands Maîtres , font voir que le talent des Artiftes contribuoit beaucoup à la réputation de certaines Divinités, de même que les Oracles qu’elles étoient fuppolées rendre dans certains cantons. Praxitèle , pour former fa Vénus, avoit été auffi curieux qu‘ Apelles de beaux modèles. Il importe fort peu de favoir fi c’eft Cratina ou Phryné qui lui fervit pour cet objet ; mais il avoit fi bien imité la nature, que cette belle ftatue paroiffoit comme animée, & qu’un Val. Maxim. jeune homme, dont on cite le nom, ofa la fouiller par fes em- 8; XII: c. n. braffemens. L'épigramme qui a été faite en l’honneur de Pra- Plin. His. nat. xitele à l'occalion de fa Vénus.ef très-ingénieufe , & elle au- roit beaucoup plus de fel, fi on n’avoit pas employé tant de fois la penfée qui la fait valoir. On fait parler Vénus, & en voici le fens : Anthol. lib. Paris, Anchife & le bel Adonis 3V.C 12. PP ont vu nue , mais p ignore où Pt quand Praxitèle a eu cet avantage. S’il eft vrai que Phryné ait fervi de modèle à cet Artifte , com- Lxix,P-591e me le dit Athénée, & qu’il fût vraiment fon amant, cette
+
+69
+
+SUR LES ATTRIBUTS DÈ VÉNUS. circonftance étoit bien capable d’allumer en lui le feu du génie , & de lui faire produire ce chef-d’œuvre qui immortalisa fon Auteur, & rendit fi célébré la ville qui le poffédoit. On faifoit le voyage de Cnide pour voir le temple de Vénus , oui étoit au milieu d’un bois charmant j & la flatue de 7,1 ..4 ,00. Lucian. Amor la Déefe , dont Lucien fait la plus agréable defcription. tom. 1. p. 4080 Mais pour avoir une idée complette de la flatue de Praxitele, 2: [38" il faut lire ce que Pline en a écrit dans le trente-fixième livre de fon Histoire Naturelle. (1) Paufanias fait mention du culte "o**46 fingulier que les Cnidiens rendoient à Vénus. Ils lui ont dédié, dit-il, plufieurs temples où ils l'honorent fous différens noms; le plus ancien de tous eft celui de Vénus Doritide , ( 2 ) un autre fous celui de Vénus Acréenne, (3) un troisième, appellé communément le temple de Vénus Cnidienne y (4) quoique
+
+(1) Praxitelis ætatem inter Statuarios diximus , qui marmoris gloria fuperavit etiam femet : opéra ejus funt Athenis in Ceramico : fed ante omnia , & non folum Praxitelis , verum & in toto orbe terrarum , Venus , quam ut vidèrent multi navigaverunt Cnidum. Duas fecerat fimulque vendebat , alteram velata specie , quam ob id quidem prætulerunt, quorum conditio erat. Coi, cum alteram etiam eodem pretio detuliffet, feverum id ac pudicum arbitrantes: rejectam Cnidii emerunt, immensa differentia famæ. Voluit etiam po/leà a Cnidiis mercari Rex Nicomedes , totum æs civitatis alie- num quod erat ingens, diffoluturum fe promittens. Omnia perpeti maluere , nec im- merito : illo enim figno Praxiteles nobilitavit Cnidum. Ædicula ejus tota aperitur, ut confpici pofit undiquè effigies Des , favente ipsa , ut creditur facto. Nec minor ex quâcumque parte admiratio eft. Ferunt amore captum quemdam, cum delituilfet noftu, fimulacro cohælifle, ejufque cupiditatis indicem elfe maculam. Plin. Lié. XXXVI. (i) La ville de Cnide étoit en Doride , c'eft de là qu'ef formé ce nom. (3) Jupiter, Junon , & plufieurs autres Divinités, ont reçu l'épitète d‘‘Axpaïos 8 d‘ ‘Axpala, qui a rapport aux Promontoires fur lefquels on les adoroit, ou aux citadelles qui étoient (bus leur protection. (4) C’étoit vraisemblablement dans ce temple qu étoit placée la belle flatue fait® par Praxitèle. ,
+
+Infcript. p. 127.
+
+Cabinet du Roi. Voy. auffi Vaillant Nu- milm. Græc.
+
+70 Dissertation les Cnidiens eux-mêmes ne lui donnent point ce nom, mais celui d‘ Euplœenne. En effet, la Vénus de Praxitèle étoit connue fous le nom de Cnidienne , parce que les Cnidiens la pofé- doient ; mais ces peuples qui ne regardoient pas ce nom comme un attribut diftinctif, lui en avoient donné un autre en l’ho- norant comme une Divinité propice aux Navigateurs ; & c’eft ce qu’ils entendoient par le nom EwAola. Il étoit bien naturel de croire qu’une DéefTe qui droit fon origine de la mer, & à laquelle on donnoit tant d’empire fur les eaux, pouvoir être favorable aux Navigateurs : cette opinion, qui étoit reçue chez les Grecs, fut auffi admife par les Romains. (1) Horace n'ignoroit pas combien étoit grande la vénération des Cnidiens pour Vénus, puifqu’en l’invoquant, il la nomme Reine de. Cnide ; (2) Elle étoit fi renommée , que fon culte s’étendit fort loin hors de la Grèce. On lit dans Reinelius une infcription qui commence par ces mots : BONÆ DEÆ VENERI CNIDIÆ. Du temps de Caracalla, le culte des Cnidiens envers leur ancienne DéefTe fubfiftoit encore ; car l’on connoit un médaillon de Cnide frappé pour cet Empereur , où Vénus eft repréfen- tée nue, cachant d’une main ce qui ne doit point être ex- pofé à la vue, & de l’autre foutenant une légère drapperie au deffus d’un vafe. Nous croyons intéreffer les Artiftes en leur mettant fous les yeux une copie de la Vénus de Praxitèle , que
+
+(1) Pande, precor, gemino placatum Caflore pontum Temperet œqiwream dux Cytherea viam.
+
+Numantian. in Itinere,
+
+(1) O Venus Regina Cnidi,
+
+SUR LES ATTRIBUTS DE VÉNUS, 71 l’on ne trouve peut-être fur aucun autre monument. On ne frappoit des médaillons qu’à l’occafion d'événemens confidé- rables & dans des cas extraordinaires ; alors les villes avoient grand foin d’y faire repréfenter ce qui les intéreffoit & ce qui pouvoit le plus contribuer à leur gloire. Il y a donc tout lieu de croire que celle de Cnide , en employant une Vénus pour type de celui-ci, aura choifi la ftatue qui lui faifoit tant d’honneur , ou au moins une copie de cette ftatue, fi elle ne fubfif- toit plus elle-même.
+
+Nous ne finirions pas fi nous voulions parcourir tous les pays tant de la Grèce proprement dite, que de la Grèce d’Afie où le culte de Vénus étoit établi : nous ne citerons plus que le nom de Caftnia ou KAZTNHTHZ qu’elle reçut d’une montagne de Pamphylie , près de la ville d’ Afpendus. Il eft cité dans Callimaque & dans Lycophron. Il eft inutile d'infifter fur quelques épithètes comme celle de Herodot.1ib.2a Za'm ou de Peregrina, de IDsla, de IIpais , & autres aufi Relnerp, 1283
+
+Paufan. Arcad. Id. Attic.
+
+Lib, XII, p. 554.
+
+72 DISSERTATION peu intéreffantes, qu’elle ne reçut que par occasion, & qui n’ont point de rapport à fes attributs. Celle de Callipyge , qui eft de cette efpèce, eft plus remarquable en ce qu’il exifte des ftatues qui la repréfentent. C’eft la Vénus connue parmi les Ar liftes modernes fous le nom trivial de Vénus aux belles feffes. Athénée en raconte l’hiftoire. Deux payfan- nés d’une grande beauté fe difputoient l’avantage d’être le mieux conformées dans la partie qui a donné lieu au furnom dont nous venons de parler. Elles fe fournirent au jugement d’un jeune-homme qu’elles rencontrèrent fur le grand chemin, & après une comparaifon fcrupuleufe, le nouveau Paris fe décida pour la plus jeune dont il devint amoureux. De retour à la ville, il fit part de cette aventure à fon frere, qui s’achemina auffitôt vers la maifon de ces filles, trouva l’aînée fort belle, quoiqu’elle n’eut pas remporté le prix , & elle gagna tout à la fois fon fuffrage & fon cœur. Le pere des jeunes gens leur confeilla de chercher un parti plus digne d’eux ; mais ne pouvant les faire renoncer à leur inclination, il fe rendit enfin à leurs prières, demanda le confentement du pere des deux filles, & l’on croit bien qu’elles ne refuférent pas le leur. Les gens du pays les appellérent Callipyges , & ce fut en mémoire de cet événement que l’on bâtit un temple à Vénus fous ce titre. Athénée ne nous apprend point par qui les frais en furent faits ; il remarque feulement que l’amour du plaifir qui regnoit dans ce temps- là n’en fut pas la moindre caufe. Cette circonftance, auffi plaifante que fingulière , nous a fourni au moins une belle ftatue (i) & une bonne épigramme. (2) (1) On la voit à Rome dans la Farnésine. (2) IIvyas duras expoa rpcy. eiÀoyro ydp dvral Aeçacai TTMNQN dærepowony ueXéay, i Quand
+
+SUR LES ATTRIBUTS DE VÉNUS. 73 QUAND les Romains, imitateurs des Grecs, ne fe feroient pas conformés aux coutumes de ceux-ci pour ce qui regarde en général le culte religieux ; il ne feroit pas étonnant qu’ils eu fient adopté leurs idées fur la Divinité de Vénus dont ils fe glorifioient de tirer leur origine. Nous ne rappellerons point ce que nous avons eu occafion d’en dire : nous verrons feulement quelles furent les différentes circonftances qui favori- férent l'extension de fon culte chez les Romains ou chez d’autres peuples d’Italie , & qui augmentèrent la lifte de fes furnoms. C’eft peut-être parce que les Romains la regardoient comme leur Mère, qu’ils lui élevèrent un temple dans la voie Sacrée fous le titre de Romana. Le Capitole étoit comme un Sanctuaire où les principales Divinités de Rome avoient des temples , des ftatues & des autels. Les motifs qui avoient porté à y établir leur culte furent fans doute les mêmes, qui firent donner à quelques-unes le nom de la montagne, où le peuple fe raffembloit pour leur rendre des hommages. Jupiter, Junon, Minerve y étoient honorés d’une manière fpéciale. Vénus y eut une chapelle
+
+Prud, in Sym- mach.
+
+Kat p n pey yEÀaclv0ls, Acuxn dlaro "vôeev ETAPEQN. Ths Ne AIAINOMENHZ Qom'ccero Xtovén cap llopQupéoto poog uCAXoy îpudpoTépv. ‘H Ôé yaÀlwoca ^ocpcto-ü-ero KV^CLTI xa@o, Tputpep? %P^R caÀevouévn. El rauras de %ecv o xprns ^eaLacLTQ Tvyas, OuxeT' dv 88 éciav heeÀe ras 7rpOTèpcL$. Toup. in SuidamP. 3.& 4. p. 36.
+
+In Caligul. c.7: n°. 1. Id. in Galba , C» 18. n°. 5- Veget.lib.iv. n Q . 9» Nardin. Rom. Vet. Lipen.de Stren. Marlian, &C.
+
+Codin.de Orig. Conftantin. p. 14: Suidas.
+
+Lib. xv. c. 29.
+
+Lactant. lib. 1. Tertullians de Pall. Cyprian. de Idol. Van. Aug. de Civ. Dei. Min. Félix, c. 25»
+
+74 Dissertation dont il eft parlé dans Suétone : Galba, félon le même Auteur , lui fit préfent d’un collier fort précieux. Elle y fut encore révérée fous le titre de Calva , parce que les Dames de Rome , pendant le fiége du Capitole, avoient bien voulu fe priver de leurs cheveux, quelles coupèrent pour fervir aux machines de guerre ; trait de générofité dont on conferva la mémoire par l’édifice élevé en l'honneur de Vénus. On la nomma Calva pour faire entendre que le facrifice que les Dames avoient fait, pour le falutde la patrie, d’un ornement fi cher, ne les en rendoit pas moins aimables qu'auparavant. Cet événement fortuit occafionna un ufage permanent: les femmes qui devenoient chauves , lui confacroient leur peigne comme u à inftrument qui leur devenoit alors inutile. Sur l’épithète de Cluacina , il fuffit d’alléguer le témoignage de Pline. Il dérive ce nom de Cluere , qui fignifie faire une expiation, & il dit que celle qui avoit été faite au lieu où les Romains & les Sabins avoient mis bas les armes , après avoir combattu pour l’enlèvement des Sabines, avoit engagé à nommer Cluacina la ftatue de Vénus qui y fut placée. C’eft la véritable orthographe de ce nom qui eft juftifiée par Plaute ; ( 1 ) celle de Cloacina ne doit point être admife ; elle fe trouve dans Lactance , & quelques Ecrivains Eccléfiafiques quifemblent ne l’avoir adoptée que pour déprimer, à l'occasion de l’étymologie qu'ils en donnent, une Divinité des Anciens. Si la ftatue ou Fima- 1 7 ge de ce qui fait l’objet du culte des Chrétiens fe trouvoit dans des ruines, comme il y en a plus d’un exemple , cet accident devroit-il dégrader l’idée qu'ils s’en feroient formée, & la rendre moins refpectable à leurs yeux ?
+
+(x) Qui perjurum hominem valt convenire, mitto în conihitim : Qui mcndacem > © ^Ivriofum, a^ud Cluacina facrum.
+
+SUR LES ATTRIBUTS DE VÉNUS. 75 Les Auteurs font partagés fur la véritable place du temple de Vénus Cluacina, mais nous ne nous arrêterons point à une difcufion fi peu nécesfaire, & nous croyons qu’il feroit fuperflu de faire l’énumération de tous les autres temples qui lui furent élevés dans Rome , & que l’on trouve décrits par les Auteurs qui ont fait la Topographie de cette ville. Une infcription qui commence par les mots Veneri Gabinœ Murat. Inf- 1 . cript. tom. i. & Albanœ fan^œ, prouve que cette Déeffe étoit honorée en p. LVIII,n°.3. d’autres lieux d’Italie qu’à Rome. Les Siciliens furtout fe diftinguérent par leur refpect envers Vénus, & l’on peut mettre le temple qu’elle avoit fur le mont Eryx au nombre des plus fameux de l’Antiquité. Voici ce qu’en rapporte Diodore de Sicile. Eryx , homme très-illuftre , Lib.iv. fut fils de Vénus & de Buta, Roi d’un petit pays de la Sicile. La naiffance d’Eryx fut caufe qu’une partie des Siciliens le choifirent pour Roi. Il bâtit fur une hauteur une ville confi- dérable à laquelle il donna fon nom ; & au milieu de la citadelle , un temple qu’il dédia à fa mere , & qu’il enrichit d’un grand nombre de préfens magnifiques. Les honneurs que Vénus reçut de fon fils & la vénération que les peuples avoient pour elle, lui furent fi agréables, qu’elle préféra cette ville à toutes les autres, & qu’elle voulut même porter le furnom ^Erycme.. De tous ceux qui examineront de près la fortune de ce temple, il n’y en aura aucun qui n’en foit étonné ; car tous les autres, après avoir eu de la réputation pendant quelque temps , l’ont enfin perdue ou toute entière , ou en partie, par différentes révolutions ; au lieu que celui-ci, quoique très- ancien, n'a jamais celle d’être célébré; & même fa réputation s’eft toujours accrue. Depuis Eryx, Énée qui alloit en Italie , ayant relâché en Sicile, laiffa de grands dons à ce temple, comme étant aufi fils de Vénus. Pendant plu fleurs générations ij
+
+Polyb. lib. 2. c. 7. Cicero Orat. contra Cæcil. Quæft, cap. 16,
+
+Strab. lib, v. p. 272,
+
+76 Dissertation les Siciliens ont offert à Vénus Erycine quantité de facrifices & de présens. Dans la fuite les Carthaginois s’étant rendus maîtres d’une partie de cette ifle, ont entretenu le culte de la Déeffe avec beaucoup de pompe. Enfin les Romains ayant fournis à leur domination la Sicile , ont furpaffé en cela toutes les nations qui avoient poffédé l'ifle avant eux. Ils s’y croyoient plus obligés que d’autres, car rapportant leur origine à cette Déeffe, & lui attribuant le fuccès de toutes leurs en- treprifes, il étoit jufte qu’ils lui en marquaffent leur recon- noillance. A présent même, lorfque leurs Confuls , leurs généraux, en un mot tous ceux qu’ils envoyent en Sicile revêtus de quelque dignité font arrivés à Eryx, ils offrent de magni- ques facrifices dans le temple de Vénus : fe dépouillant enfuite de cette gravité qui convient à leur caractère, ils fe mêlent dans les affemblées de femmes , & s’entretiennent familièrement avec elles, croyant par cette manière gagner les bonnes grâces de la Déeffe , & lui faire agréer leur domination. Enfin le Sénat, pour fignaler fa piété, a ordonné que dix-fept des villes de Sicile qui lui étoiet les plus fidelles , apporteroient de l’or dans fon temple, & qu’il feroit toujours gardé par deux cens hommes. Ses richeffes furent néanmoins pillées parles Gaulois. Les femmes qui étoient au fervice de Vénus Erycine. étoient appellées Libertœ Keneris Erycina. Elles exiftoient encore du temps de Strabon; mais elles étoient bien moins nombreufes , & leur fort étoit fort changé. Le mont Eryx, dit ce Géographe , tout élevé qu’il eft , a des habitans. On y voit un temple de Vénus de la plus grande célébrité, lequel abondoit autrefois en femmes employées au fervice de la Déeffe, & qui lui étoient offertes non - feulement par les; Siciliens, mais encore par différentes nations ; maintenant que. la ville n’a plus tant d'habitans 3 le temple & les Miniftres fe
+
+SUR LES ATTRIBUTS DE VÉNUS.
+
+77
+
+repentent de cette différence. La ftatue de cette Déeffe ef aufi a Rome avec le même titre d’Erycine devant la porte nommée Collma^ & fon temple y eft entouré d’un portique magnifique. On peut conclure de ce récit que c’eft d’après le modèle du temple de Vénus Erycine en Sicile, que l’on en a élevé un à Rome tout-à-fait femblable. C’eft vraisemblablement le defin de cet édifice que l’on a voulu tracer fur une médaille de la famille Confidia , publiée par Vaillant & Parut?. D’un côté elle préfente la tête de Vénus : au revers eft un temple élevé fur une montagne environnée d’une vafte enceinte ; on y lit les lettres ERVC, qui font le commencement du nom de la ville ou de la montagne. o
+
+On connoît encore deux autres médailles de la ville d’Eryce, fur chacune defquelles on voit une colombe. Quoique cet oi- feau foit confacré à Vénus, c’eft cependant un motif particulier qui l’a fait repréfenter fur les médailles d’Eryce. Athénée le rapporte en ces termes. Dans la ville d’Eryx , il y a de certains jours nommés Anagogia s c'eft-à-dire, les jours du départ, que Lib. rx. p. 394 Vénus, félon la tradition , choifit pour aller en Afrique. Alors on n'apperçoit aucune colombe dans le pays, comme fi elles l'euffent quitté pour accompagner la Déeffe. Neuf jours après, temps du retour, & que l’on nomme pour cela Catagogia , une colombe feule, précédant toutes les autres, & femblant an-
+
+Var. Hifor. lib. i. cap. i 5- Hifor. Animal. Aca Erudit, menf. April. an. 1710. pag. 158. Annal. IV. 43. Suet. in Claud. XXV.
+
+Dionys.
+
+Panvin.deLud. Circenf. Georg. Fabric.
+
+78 Dissertation noncer ce retour, va fe repofer dans le temple , où elle eft bientôt fuivie de celles qui étoient reftées, & cet événement répand une joie fingulière parmi les habitans. Elien raconte deux fois la même hiftoire fans y mettre de différence , fi non qu’il ajoute que l’on offroit à cette occalion des facrifices. Ce temple fameux , & l’un des plus célèbres des Anciens, ne fut pas renverfé la nuit de la naiffance de Jéfus-Chrift, comme l’a conjecturé un Auteur moderne , fans doute amateur du merveilleux , mais il fe dégrada par vétufté. Tacite dit que Tibère le fît réparer , Suétone en attribue la gloire à Claude , ce qu’il feroit fort aifé de concilier, fi Tibère avoit commencé l’ouvrage , & que Claude l’eût achevé. Selon Pomponius Mela, Denys & Hygin, Enée feroit le fondateur du temple; l’un d’eux affure même que Vé- nus fut nommée Æneia & non Erycina. Cependant fi l'autorité d’un Hiftorien eft préférable à celle d’un autre , nous admettrons plutôt le témoignage de Diodore, parce qu’il étoit plus à portée de connoître la tradition de fon pays. Virgile (1) & Horace (2) ont célébré Vénus Erycine, le premier ayant égard au culte qui lui étoit rendu en Sicile , le fécond, la confidérant comme une Divinité de Rome. Quelques Auteurs font partagés fur la véritable place de fon temple, quoique Strabon, déjà cité, & Ovide (3 ) ne laiffent nullement douter de fa pofition près de la porte appellée Collina,
+
+(1) Tune vicina ajbi: Erycino in vertice fedes FundAtw Feneri Idaliœ. Æneid. V. v. 759. (2) Sive tu mavis Erycina rident, Quamjo&ut ciicutwolat ^Cupido. Lib. 1. O?. 3. (3) Eft propè Collinanr temp/um venerabile pertam. Impofuit- temple nemina Celjus Eryx. Remed, Amor, v. 549.
+
+SUR LES ATTRIBUTS DE VÉNUS. 79 Il feroit poffible néanmoins qu’il y eût eu deux temples de ce nom dans Rome. Nous l’apprenons en effet de Tite-Live, qui parle d’un temple de Vénus Erycine , dont Fabius fit la dédicace au Capitole , & d’un autre temple de la même Déefe , dont L. Porcius fit la dédicace près de la porte nommée Collina ; & ailleurs il dit qu’un débordement du Tibre, dont le Cirque fut inondé , avoit forcé d'indiquer la célébration des jeux Apolli- naires près du temple de Vénus Erycine, extra portam Colli- nam. Cette queftion, qui avoit divisé tant de Critiques, n’étoit donc pas fi difficile à réfoudre. Nous croyons devoir relever ici Vitruve , qui foutient que c'étoit une coutume obfervée de toute antiquité, de bâtir les temples de Vénus hors de la ville, afin d'oter aux jeunes gens & aux mères de famille, par cet éloignement, plufieurs occafions de débauches. Outre les exemples du contraire , qui ont été produits dans ce Mémoire , il feroit poffible d’en citer encore s’il en étoit befoin. Il s'eft trouvé des Auteurs qui ont confondu fans raifon la Vénus Verticordia avec celle qui étoit furnommée Erycina, quoiqu’elles fuffent fort diftinguées l’une de l’autre. Un de ces Auteurs, dont l’ouvrage a été publié par Sallengre raconte de Vénus Erycine tout ce qui a été dit de Vénus Verticordia par Valere Maxime , qu’il ne cite point. Il n'eft pas fi aif de deviner fur quelle autorité il fe fonde, lorfqu’il dit que c’étoit la coutume de lui offrir au mois d’Août l’image d’un membre viril ; que malgré le peu de décence qui paroilfoit être attaché à cette cérémonie , c’étoit néanmoins la femme ou la fille la plus chafte qui étoit choifie pour en faire les honneurs, & qu’elle feule avoit le droit de toucher à l’offrande, pour la dépoferenfuite dans le fein delà Déeffe. Muratori a publié une infcription qui contient un vœu fait à Vénus Erycine : ce Savant avoue qu’elle lui paroît fufpecte.
+
+Lib. xxx. c, 31. . Lib. xl. c. 34. Lib. xXX,c. 3 8.
+
+Lib. 1. c. 73
+
+Faunusapud Sallengr. An- tiq. t. i.p. 197. 198.
+
+80
+
+Dissertation
+
+P. 127. Mais on en lit une autre dans Reinefius , qui a été trouvée fur le mont Eryx même , & qui par conféquent doit être authentique ; elle eft conçue en ces termes : DEÆ VENERI ERYCINÆ SACRUM. Le culte de Vénus en Sicile nous rappelle qu’elle y étoit encore honorée fous le titre de Longurïa , d’un Lac nommé Longurus. Lycophron eft le feul Auteur qui en parle. Ces fortes de furnoms ifolés, quand ils ne font point accompagnés de circonftances remarquables, & qu’ils ne tiennent point à des coutumes particulières , ne méritent guères que l’on s’y arrête. Si nous en avons omis quelques-uns, ils ne peuvent être que de cette efpèce. Nous terminerons nos recherches par quelques obferva- tions fur certains attributs de Vénus dont nous n’avons pas eu occasion de parler , & dont on fentira encore mieux l’analogie, après toutes les notions qui ont été données de la Divinité à laquelle ils conviennent. Parmi les plantes , le myrte lui étoit confacré , comme le laurier à Apollon, la vigne à Bacchus , le peuplier à Her- Phumut. edit. cule. (i) Les differentes raiforts que l’on en rapporte, font que Gai. p. 65 cet arbufte eft dans la claffe des Aphrodisiaques , qu’il eft d’une forme & d’une odeur très agréables, qu’il croit aifément fur in Jib. v. le bord de la mer. Servius en donne une autre raifon prife Æneid, v. 72. de la fable de Myrrha. Le dernier fentiment eft celui d’Ovide,
+
+Populus Alcide gratijjima , vitis laccho, formoja myrtus Veneri > fua lawea Phœbo. Virgil. Eclog. VII. Y. 62. qui
+
+SUR LES ATTRIBUTS DE Vf NUS. 81 qui dit que la Déeffe ayant été apperçue par des Satyres lorf- qu’elle féchoit fes cheveux fur le rivage , trouva le moyen d’échapper à leurs regards lafcifs en fe couvrant de myrte. (1) Mais la raifon du Scholiafte de Nicandre, qui nous ap- In Alexi- prend qu’elle fut couronnée de myrte, après fa victoire fur Pharmacs Junon & fur Pallas, paroîtroit encore la plus vraifemblable. Virgile en parlant de la couronne de myrte dont Énée fe cei- Æneid. V. v. gnit le front en offrant un facrifice pour fon père, & désignant Georgic. r. v . ailleurs celle qui feroit deftinée à Céfar comme nouveau Dieu, 28, fait allufion à la confécration de cet arbufte à Vénus, en fe fer- vant de l'expreffion myrtus materna. Dans les fêtes galantes, Pervigil. Ve- les jeunes gens de l’un & de l’autre fexe fe raffembloient , félon "ns le langage des Poètes, fous des bocages de myrte , ils en for- moient des couronnes : & les amans malheureux fe promènent 445neid V" v encore dans les Enfers au milieu d’une forêt de myrte. Les fem- Tibull. lib. r; mes quiadoroientla Bonne Déeffe ornoient fa chapelle de toutes ElegtTeYeff: fortes de fleurs & d’arbriffeaux, excepté de myrte , parce qu’il étoit confacré à Vénus, fuivant Plutarque, dans lequel on trouve Plutarch; le récit d’une plaifante hiftoire à ce fujet. On voit aufi dans PtaRemaan: Lucien & dans Athénée combien le myrte étoit cher à la Déeffe. men. Nous ne connoiffons point de monumens où Vénus paroiffe xv, cap. 6, 1 ' repréfentée avec fon arbriffeau favori, fi l’on en excepte une (i) Rite Deam Latia colitis matrejque nurufquei Et vos quîs vil ta longaque veftis abeft-. Aurea marmoreo redimicula folvite collo : Demite divitias : tota lavanda Dea efl. Aurea ficcato redimicula reddite collo. Nunc alii flores, nunc nova danda rofa efl. Vos quoque fub viridi myrtojubet illa lavari : Cauffaque cur jubeat, difcite , certa fubeft. Littore (îccabat rorantes nuda capillos. Viderunt Satyri , turba proterva, Deam. Senüt, € appofîta texit fua corpora myrto. Tut a fuit fado ; vofque referre jubet. Faft. lib. IV. v. 13 j L
+
+82
+
+Dissertation
+
+Muf. Florent, pierre gravée publiée par Gori, & une médaille expliquée par Amkiq.psmym Beger. Nous ne les citons que fur la foi de ces Auteurs,
+
+409: Varro, lib. 4. de L L. Piin. lib. xii. c. 1. & xv. c. 29. Livius, lib. t. Patin Com- mentar.
+
+Anacr. Od 5 3.
+
+Beger Gemm. fans ofer en garantir l’authenticité. Vénus étoit honorée à Rome fous le titre de Murtia ou de Myrte a dans l’onzième quartier. Quelques-uns l’ont furnommée Murcea ( i ) par op- pofition à Strenua ; le mot Murcea paroît être néanmoins une corruption de celui de Murtia. La rofe n'étoit pas moins chère à Vénus que le myrte, ou parce que cette fleur paffe pour la Reine des autres, & qu’elle fait l’ornement des jardins; ou parce qu’elle fut produite lorfque la mer fit naître de fon écume la belle Vénus , & qu’elle la fit fortir du milieu de fes flots ; ou parce que cette fleur, qui étoit blanche d abord, fut teinte du fang qui fortit du pied de la Déeffe bleffée d’une épine, ou enfin parce qu’elle eft née du fang d’Adonis. (2) Nous ne rapporterons point toutes les autres origines de la rofe ; il fuffit de dire avec Anacréon, qu’elle eft le parfum des Dieux, la joie des hommes, l’ornement des Grâces dans la faifon fleurie des amours, qu’elle fait les délices de Vénus, & que l’on prend plaifir à la cueillir, même en fe piquant à fes épines. Delà l’ufage des couronnes de rofes en tant de circonstances , delà les préfens de rofes que les amans faifoient à leurs maîtreffes , delà en un mot la fuperf-
+
+Conft. Cæl. L. n. c. i8. Bion.Epithal. Adon. Ovid. Metam. lib. x. v. 728.
+
+Anacr. Od. 53. tition fingulière de frapper fur fa main avec des feuilles de rofes repliées pour juger du fuccès de fes amours. C'eft d’après ces
+
+pMarkëcn: Ca ~ idées que les Auteurs de l’antiquité , & furtout les Poètes Euripid. Med. ont formé avec une forte de complaifance des couronnes de Act 3. de Ven.
+
+Propert. I. 1. Val. Fiac. 1. VIII. Argon.
+
+rofes pour Vénus , & qu’ils en ont orné fes beaux cheveux. Dans la defcription que fait Anacréon d’un difque où la Déeffe
+
+(1) Quafi marcidos efficiens viros. (2) At cruor in florem mutabitur.
+
+SUR LES ATTRIBUTS DE VÉNUS. 83 étoit repréfentée au milieu des mers , ce Poète dit qu’elle fend, avec une gorge de rofe, les flots où elle brille comme un lis parmi les violettes. ( 1 ) Virgile la peint avec une tête couleur de rofe, (2) & ailleurs avec des lèvres de même couleur , ( 3 ) ce qui eft plus naturel ; mais il eft évident que dans ces manières de parler, les Poètes ont pris la partie pour le tout. Apulée lui donne des pieds de rofe , il lui en couvre même tout le corps. (4) Comme la rofe offre la plus belle des couleurs, il étoit naturel qu'elle fut affectée à la plus belle des Déeffes. C’eft cette couleur précieufe, fymbole de la pudeur qui fied fi bien aux jeunes perfonnes , principalement à celles du fexe. Il femble que ce foit pour unir les rofes aux lis que l’on ait confacré pareillement cette dernière fleur à la Déeffe de la beauté, à laquelle Anacréon la compare ; cette idée au moins feroit plus honnête que la raifon qu’en donne un Auteur cité par Athénée, raifon prife d’un figne qui eft au milieu de la fleur, & que nous nous difpenfons de nommer par refpect pour nos Lecteurs. (5) On mettoit le pavot au nombre des attributs deVénus,comme étant le fymbole de la fécondité & de la population. Les amans fe
+
+Apul, Met, L. 4.
+
+Athen.L.xVî P* 683.
+
+Porphyr. apud Eufeb. Præpar. Ev. lib. nx, c. XI.
+
+(1) Pooéov &‘ ïzeple , Araii; eveple Neipss , Meyc KVIJ.CC Tr@TC Tt/Kfil Meero» œvXaxe; d‘e Kvmpiç , Kptvov os ïoiç , Aaqœiera: yAmaç. Od. 51. (a) Dixit O avertent rojeâ cervice refuljît. Æneid, 1. (3) —rofeoque hxc infuper addidit ore. Æneid. *. (+) Totum revincta corpus rofis micantibus. Apul. Met. lib. 6. (s) — IIoées dè ye xcpu‘ ‘Appoir»s "Hemt y&g XP067 TO d cs ér ulcco Sveidos OwAov Ggouhras S~ltKTtKXCÏ zeqarsqi, L ij
+
+Papaver ex om. ni antiq. erut. Theocrit. Idyll. i. v. 30. Paufan. Corin- thiac. p. 134.
+
+Colut. de rapt. Helen. v. 167. Scholiaf. AriC- toph. in Nub.. act. 3 fcen. 3. ad v. 37. Theocrit. Idyll. 2. v. 121. Lucian. in To- xari. Propert. lib. 2. eleg. ult. v. 71. Philofrat. Icon. tit, Amo- res. Suidas, verbè Eras. Chiliad. 2, Cent. 4.
+
+Phurnut. édit. Gal. P. 65.
+
+‘Anacr. Od.ix.
+
+84 Dissertation fervoient de fes feuilles pour favoir s’ils n'étoient point oubliés des perfonnes dont ils avoient intérêt d’être aimés. On en faifoit aufi des couronnes pour les noces en figne de fécondité. A Sicyone, on voyoit une ftatue d’yvoire de Vénus qui tenoit d’une main des têtes de pavot , & de l’autre une pomme. En effet, ce dernier fruit lui étoit aufi confacré. La pomme qu’elle reçut de Paris, lorfque ce Troyen lui décerna le prix de la beauté, en feroit une raifon fuffifante. D’ailleurs c’é- toit un figne d’amour. Les amans , chez les Grecs & les Romains, avoient coutume d’en faire préfent à leurs maîtreffes plutôt à caufe de l’idée que l’on y attachoit, fans doute, que pour le préfent en lui-même qui paroîtroit un peu modique de nos jours. Le proverbe un® Xnônvar marquoit une invitation de galanterie, & Virgile y fait allufion lorfqu’il dit : Malo me Galathea petit lafciva puella. Et fugit ad falices, & fe cupit ante videri. Le myrte, la rofe, le lis , le pavot & les pommes , quoique d'éfpèces très différentes, convenoient néanmoins à Vénus par de certains rapports. Il en eft de même de trois efpèces d'oifeaux que les Anciens ont fouvent attelés à fon char. Perfonne n’ignore que la colombe étoit deftinée à cette fonction. La prédilection de Vénus pour les colombes vient, félon quelques-uns, de leur aptitude au plaifir & de la manière voluptueufe dont elles fe careffent ; d’autres l’attribuent à leur fingulière fécondité. C’eft une chofe fort commune que de voir le char de Vénus tiré par des colombes» Les Poètes nous les ont fouvent repréfentées comme étant
+
+SUR LES ATTRIBUTS DE VÉNUS. 85 de l’appanage de cette Déeffe. ( i) Sapho qui favoit auffi-bien Hym.inVena que d’autres ce qui concerne ces matières, a mieux aimé faire Athen,R:8914 fervir Vénus par des moineaux. Cette femme étonnante, dont on regrettera fi long-temps les ouvrages, avoit fans doute des raifons pour préférer les moineaux aux colombes : on connoit toute l’ardeur de ces petits oifeaux dans leurs amours. C'eft par l’intérêt que Catulle favoit que Vénus y prenoit, qu'il l'in- vite, ainfi que Cupidon, à partager fa douleur fur la mort du moineau de Lesbie. Enfin les cygnes, ces oifeaux favoris d’Apollon, ont aufi été honorés du noble emploi de promener Vénus dans fon char. (2) Il feroit étonnant que les Poètes, en célébrant la Déeffe de la beauté, euffent négligé de parler d’un ornement qui lui eft effentiel, furtout dans les femmes , & qu’ils n'euffent rien dit de fa belle chevelure. Audi Coluthus ( 3 ) & le Poète
+
+() Vix ea fatus erat, gemina cum forte columbæ Ipfa fub or a viri cœlo venere volantes, Et viridi fédéré folo, tum maximus héros Maternas agnofeit aves. Æneid. VI. Et Venerts domina volucres, mea turba columba. Propert. lib. in. El. 3. v. 31, (2) Illa quidem montât, jundifque per aera cycnis Carpit iter. Ovid. Mec. lib. x. Veda levi curru, médias Cytherea per auras Cypron olorinis nondùm pervenerat alis. Idem. ibid. —- Qua Cnidon Fulgentefque tenet Cycladas 6 Paphon lundis vifit oloribus. Horac. lib. j. Carm. Od. a8. Et molles agitas Venus aurea Cycnos» Seat. lib. 3. Syl. (32 Ovre zEAAsx67019 usb' deusuiw ‘Aqgolins.
+
+86 Dissertation Epiménide ( i ) lui donnent-ils l’épithète de KaX/zouos. Junon & Minerve délibérant fur les moyens de favorifer Jafon dans l'entreprise qu’il avoit formée d’enlever la Toifon d’or, conviennent d’aller trouver Vénus, & de la prier d’engager fon fils à inspirer de l’amour à Médée pour le Chef des Argo- „Arzonaut. 1, nautes. Alors, en entrant chez la Déefe , dit Apollonius , elles la trouvèrent difpofant elle-même avec un peigne d’or, fes cheveux flottans fur fes belles épaules, pour les frifer enfuite en longues boucles. (2) Claudien paroît avoir imité pRe ANupt cette pensée d’Apollonius, lorfqu’ayant fait paffer les mers à v. 99. Cupidon pour aller en Cypre annoncer à fa mère le pouvoir qu’il exerce fur le cœur ^Honorius , il fuppofe que ce Dieu la trouve à fa toilette au milieu des Grâces occupées à la fer- P-551 vir. (3) Spanheim, dans fes Obfervations fur l’Hymne de Callimaque en l’honneur de Pallas, fait mention d’une médaille de Marc-Aurele frappée à Laodicée , dont le type offre Vénus fe peignant : il ajoute que cette médaille fe trouve dans le Cabinet de Florence. Nous ne la connoiffons pas, & il eft bien sûr qu’un type femblable, au revers d’une tête d'Em- Num^Sc p. pereur, n'ef pas ordinaire. Vaillant en a cité une autre de 20. Julia, femme de Septime Sévére, qui préfente, félon lui, le
+
+(i) Voyez. le paflage de ce Poète cité à la page 5, note (i). (2) Aevxoîct d Ixa-Ttf^e xouas ézttuévn uoiç , Kocuet xpuctin dia xexpd. ueAAs Je uæxpss mAoxcuuç. (3) C^fariem tune fortè Vernis fubnixa eorufco Fingebat folio ; dextrâ levâque Sorores Stabant Idaliœ : largos hxc nebiaris imbres Irrigat : hæc morfu numerofi dentis eburno Multifidum diferimen arat ; fed tertia retrà Dat -varias nexus, © jufo dividit orbes Ordine, negle^lam partent ftudiofa relinquens.
+
+SUR LES ATTRIBUTS DE VÉNUS. 87, même type ; il conviendroit mieux, en effet, à une impératrice ; mais il eft douteux que la defcription qu’il en fait foit exacte. Au refte, cette médaille affez rare, a été gravée dans le recueil de Gefner, & publiée par Havercamp ; comme elle a cabinet de h certainement quelque rapport à Vénus, nous avons cru pou- Reine chritis voir la placer ici.
+
+La belle chevelure dont les Poètes ont orné Vénus, & le foin particulier que cette Déeffe étoit fuppofée en prendre, a fait mettre vraifemblablement fous fa protection les femmes nommées Pfecades, dont la fonction étoit de coiffer les Dames & de les parfumer. L’infcription fuivante peut faire croire que Vénus étoit leur Divinité tutélaire.
+
+VENERI SACRVM CASSIA I. L. PSECHAS. ReMp.iMS Le miroir doit être regardé par conféquent comme un Apud Athéna de fes attributs. C’eft pourquoi Sophocle voulant peindre la lib.*V-P.687a Volupté & la Vertu fous l’allégorie de Vénus & de Pallas, il repréfente la première employant des parfums précieux & fe contemplant dans un miroir, tandis que l’autre fe frotte d’huile & s’applique aux exercices du corps. Apulée décrivant la pompe avec laquelle Vénus paroît fur la mer, dit qu’elle eft accompagnée de Néréides & de Tritons qui s'empreffent de lui rendre leurs devoirs, & que l’un de ces Tritons tient un
+
+88
+
+Dissertation
+
+miroir fous les yeux de laDéeffe. ( i ) On voit dans les Antiquités & Flerculanum une jeune femme aflife , tenant un miroir dans lequel elle fe regarde , 6c de l’autre main foulevant une trefle de fes cheveux : nous ne fommes point éloignés de croire que c'eft Vénus, ainfi que le penfent les Editeurs de l’ouvrage. Ce fujet a été traité par des Artiftes modernes, 6c le tableau du Carache, appartenant à Ms. le Duc d’Orléans , eft bien digne d’être propofé pour modèle. On y voit la Déeffe aflife : deux des Grâces debout autour d’elle font occupées à treffer fes cheveux , & la troifième lui préfente un miroir. Les gens de l’art pourroient louer avec raifon la correction du deffin , 6c décrire toutes les beautés de ce tableau ; nous croyons même que c’eft affez en faire l’éloge , que d’indiquer la riche collection dans laquelle il fe trouve 6c que dénommer le Peintre . Nous remarquerons cependant que le miroir n’eft pas dans la forme antique; 6c quoique cette petite négligence ne diminue rien du prix d’un fi bel ouvrage, on ne peut trop re- commander aux Artiftes de fe conformer au Coftume, quand ils Gravelles traitent des fujets de l’antiquité. La pierre gravée fuivante don* * *XIVe nera une idée du miroir des Anciens.
+
+(i) Adfunt Nerei filiæ Chorum canentes , & Portunus cærulis barbis hispidus , & A ces
+
+SUR LES ATTRIBUTS DE VÉNUS. 89 A ces attributs divers, qui font autant de fymboles de gaieté & de volupté, nous n’en avons qu’un de retenue & de pudeur à oppofer. C'ef celui de la tortue , qui eft bien plus , A i n , . — p Paufan: rare 5 puiique 1 on ne connoit que la ftatue décrite par raula- Eliac. 2. c. 253 nias, dont nous avons parlé , qui foit accompagnée de ce ché- reh in tif animal, & c’eft un feul Auteur qui lui donne l’interpréta- Conjugal. Pre- tion du filence & de la vie fédentaire à laquelle les femmes cept. mariées doivent fe condamner. ( i ) On pourroit cependant foupçonner une autre raifon prife de la nature des tortues. Le mâle parmi les tortues terreftres , dit Elien , eft très-ardent 2 flian Bie. pour la propagation de fon efpèce ; la femelle au contraire cap. 19. ne s’y prête qu’avec répugnance ; cet éloignement vient, félon Démoftrate, de ce que la femelle étant alors pofée fur le dos, le poids de fon écaille fait qu’elle a une peine infinie à fe retourner, lorfque le mâle s’eft retiré, & qu’après cela elle refte en proie aux animaux , & furtout à l’aigle. Le même Auteur ajoute , que le mâle employé toutes fortes de ru- fes & de petits foins pour l’engager à fe rendre, & que la femelle finit par oublier le danger pour fe livrer au plaifir. Autant les colombes, les moineaux & les cygnes étoient agréables à Vénus, autant les porcs lui étoient-ils odieux, foit à caufe de la mort d’Adonis, foit parce que c’étoit une
+
+gravis pifcof finuSalacia, & auriga parvulus DelphiniPalæmon ; jam paffim maria perfultantes Tritonum catervæ. Hic concha fonaci leniter buccinat : ille ferico tegmine flagrantiæ Solis obfiftit inimici : alius fub oculis Dominæ fpeculum prægerit. Apul. Metam. lib. IV. (i) On lit dans les emblèmes d'Alciat une épigramme relative à ce fujet, Cernuus armifona prxbet draco colla Minerve ; Vomiportam at exterit Venus tefudinem. Virgo fui fatagit decoris benè provida ; at uxor Frngi filet, nec limen excedit do mus,
+
+M
+
+Lit. III. 95. & 96. Corinthe
+
+90 Dissertation efpèce Immonde ; & il ef remarquable que cette haine étoit pour certains peuples un motif de lui en facrifier , & pour ». quelques autres de les écarter de fes autels. Athénée nous apprend que les Grecs & les Argiens entr’autres lui en im- moloient; Paufanias affure que les habitans de Sicyone lui offroient les cuiffes de toutes fortes de victimes excepté des porcs ; & les Romains n’en facrifioient point du tout, ce qui peut fe concilier en difant que l’offrande des Grecs étoit une efpèce de vengeance tirée de cet animal qui avoît donné la mort au favori de la Déeffe ; & que les Romains s'abfte- noient d’en offrir, pour ne point fouiller fes regards par la pré- fence d’une victime auffi dégoûtante.
+
+I o ut ce qu’on vient de lire fe réduit donc à une feule idée. Vénus eft la Nature modifiée fous une infinité de formes , & indiquée par mille attributs divers. Nous avons effaié d'enchaîner les idées puifées dans les Auteurs de l’Antiquité, de rapprocher les plus éloignées en apparence, & d’en former un fyftême. Si, malgré nos efforts , on remarque quelqu'in- cohérence, il faut l’attribuer aux fictions des Poètes & aux opinions populaires du temps qui fe font gliffees à travers la doctrine plus fimple des premiers Philofophes. Quant à la partie historique , nous avons mis à contribution tout ce dont on pouvoit emprunter des lumières, les Auteurs & les Mo- numens. Nous avons évité certains détails qui pouvoient avoir rapport à Vénus , tels que fon mariage avec Vulcain , fes amours avec Adonis, & autres femblables, qui n'étoient point de notre fujet. Il eût été facile d’étendre cet ouvrage, mais une Differtation fuffit, & nous aurions fait un volume, fi nous euftions mis en ufage toutes nos recherches.
+
+SUR LES ATTRIBUTS DE VÉNUS. 91 Après avoir difcuté cette queftion avec toute l’attention dont nous fommes capables, il ne nous refte plus qu’un defir à former ; c’eft de n’avoir point ennuié nos Lecteurs, auxquels nous avons épargné, autant qu’il a été poflible, une érudition inutile & fatigante,
+
+APPROBATION. J’ai lu par l’ordre de Monfeigneur le Garde des Sceaux un Manufcrit ayant pour titre Differtation fur les Attributs de Vénus, qui a obtenu TAccefit, &c. & je n’y ai rien trouvé qui pût en empêcher l'imprefion. Ce 15 Octobre 1775. DUPUY.
+
+TABLE DES MATIERES.
+
+A gapenor , conduit une colonie à Paphos ; il y fait élever un temple en l’honneur de Vénus. page 22 ALCAMENE , Sculpteur d’Athènes. Sa Vénus des Jardins. 32 Allégories, celle de Vénus &de l’Amour eft une des plus ingénieufes. 3 o Son défaut. 3 o 3 1 Amour , illicite , infpiré à Philoctète par Vénus. 59 Influence de Vénus fur tout ce qui avoit rapport à la paf- fion de l’amour. 57 Reflexion de Lucien fur les deux fortes d’amour. <6
+
+Ses effets bien ou mal ordonnés imputés à la même caufe. 5o — Déréglé ; Vénus ‘Awogpoqla faifoit revenir de fes excès. 62 Reflexion de Caton à ce fujet. 62 — Immodéré de quelques femmes. 60 Anacréon. Son Ode fur les Femmes. 48 ; Anchise. Ses amours avec Vénus. 35 — Et Vénus représentés fur une médaille. 35 Anthologie. Épigrammes de l’Anthologie fur Vénus Ana- dyomène. 9 1 o Épigramme fur la Vénus de Praxiteles. 68: APELLES. Son tableau de Vénus Anadyomène, 9 13 14 15 A*POATTH. Nom Grec de Vénus, e
+
+94 TABLE Différentes étymologies de ce mot. r8 ATT’H. Poiffon agréable à Vénus. 19 APULÉE. Confond Vénus avec Cérès, Diane & Proferpine. s Armes de Vénus, ce qu’elles fignifient. 48 Artistes. Leur talent contribua beaucoup à la réputation de certaines Divinités. 68 Ils doivent fe conformer au Coftume quand ils traitent des fuets de l’Antiquité. 88 Astarté. Médailles fur lefquelles elle ef repréfentée. 5 2 Athéniens. Leur piété envers les Dieux. 64 Attributs. Remarque fur les Attributs des Divinités. 5 4 Augustin, (St.) Étymologie ridicule qu’il donne du mot Venus. 29 Avril. Si ce mois étoit confacré à Vénus, & pourquoi. 32 Varron mis en oppofition avec Ovide à ce fujet. 32 33 Les Fêtes de Vénus commençoient le premier jour de ce mois. 3334 B
+
+Bacchus. Affocié à Vénus. 44 Bossuet , attaque injuftement la mémoire du Légiflateur Solon. 41 Il calomnie tout un grand peuple. 41 Il n’entend point la queftion. 411 Bouc. Raifon pour laquelle Vénus IIdvânuos eû repréfentée aflise fur un bouc. 56 C
+
+Callipyge, ou aux belles feffes ; épithéte de Vénus. 72 Ce qui a donné lieu à ce furnom. " 7 2 Statue de Vénus Callipyge. 7 2 Ef repréfentée au Cul-de-lampe de cette Differtation.
+
+DES MATIÈRES. 9s Capitole. Nom de cette montagne donné à plufieurs Di- vinités qui y étoient honorées. 73 Carache. Son tableau de la toilette de Vénus, appartenant à Mz. le Duc d’Orléans. 88 N’a pas employé dans ce tableau la forme antique du miroir. 8 8 Caylus. ( M. le Comte de ) fa defcription d’un monument de bronze repréfentant Vénus Anadyomène. 10 Quel elt l’objet du prix qu’il a fondé dans l’Académie des Belles-Lettres. 3 CÉRÈS, ce mot employé pour fignifier du pain. 31 César ( Jules ) portoit une Vénus armée , gravée fur for anneau. 5o Sa vénération envers Vénus. 3 5 Il inftitue des jeux & des spectacles en ion honneur. 3 s On voit fouvent la tête de Vénus fur fes médailles. 35 Ceste de Vénus; belle defcription qu’en fait Homere. 44 Chasteté. Cérémonie fingulière pour laquelle elle étoit re- quife, félon un Auteur. 79 Cheveux. Ornement effentiel à la beauté, fur-tout dans les Femmes. 85 Les Dames Romaines coupent leurs cheveux pour fervir aux machines de guerre. 74 Cicéron. Il admet quatre Vénus. s Cincius. Son ouvrage fur les Faites. 32 Cinyre , Auteur du culte de Vénus en Cypre. 21 avoit réuni en fa perfonne le Sacerdoce & la Royauté. 26 Clément d’Alexandrie. Auteur indécent dans le récit qu’il fait de la naiffance de Vénus. 6 & 7 Cnide. On en faifoit le voyage pourvoir la ftatue de Vénus, ouvrage de Praxiteles. 69 COLOMBE. Oifeau chéri de Vénus. 84
+
+TABLE
+
+Colonne. Signe repréfentatif de Bacchus. 24 Coquille. Un des Attributs de Vénus. 28 Corinthe. Cette ville s’eft diftinguée par fa vénération envers Vénus. ' 65 Le temple de Vénus dans cette ville. 65 Ce qui a donné lieu au proverbe : II nejlpas permis à tous daller à Corinthe, 6$ Cos. Ce fut pour les habitans de cette ifle qu’A pelles fit la Vé- nus Anadyomène. 14 15 COURTISANNES. A Corinthe étoient chargées dans certaines circonftances d'adreffer des prières à Vénus. 66 Coutumes des Anciens : Difficulté qu’il y a de porter un jugement fur des coutumes pratiquées dans des temps fi éloignés de nous. 66 CYGNES attelés au char de Vénus. 8; Çypre. Vénus paffe pour avoir pris naiffance dans cette ifle. 22 Le premier pays de la Grèce où Vénus ait été honorée. 27 Comment Callimaque désigne cette ifle. 1 o Les habitans de Cypre vendoient de petites flatues aux Pellerins que la dévotion conduifoit chez eux. 20 Cythère. Il y avoit dans cette ifle un temple de Vénus Ura- 1 • nie, , 19 Médaille de Cythère, qui a pour type une Vénus. 19 Çythéréenne. (Vénus) étoit la Nephtis de l’Egypte, félon M. de Paw, 19 D
+
+DAMOPHON. (Sculpteur) la flatue qu’il fit de Vénus 39 DEXICRÉON. ( Charlatan ) donne fon nom à une ftatue de « Vénus. 67. Dieux.
+
+DES MATIÈRES. 97 Dieux. Quelles étoient les idées des Anciens fur eux. 3 Discrétion. Vénus l’exige dans les myftères amoureux. 38. Dorade. Confacrée à Vénus. 19 - 4 E Eau. Principe de tout, fuivant Thaïes. 27 Ecclésiastiques ( Ecrivains ) indiqués. 43 — Peu verfés dans l’Antiquité : manquent de critique : fe laiffent emporter à l’excès de leur zèle , & pourquoi. 20 2 1 — Se fervent fouvent d'exprefions fort libres quand ils parlent des Divinités des Anciens. 4 — Profitent des plus petites circonftances, pour déprimer les Divinités des Anciens. 74 Éloquence. Ce don accordé à Vénus. 43 ÉPIMÉNIDE. Quelle origine il donne à Vénus, $ i Fables. Quelles font celles que l’on doit préférer. 2 Femmes. ( Maladie des ) ce que c’eft , félon le Médecin Patin. 5 8 Fénelon. Son refpect pour les Anciens. 63 Fureur utérine , eft l'effet de la violence du tempérament. 59 G Galanterie. Si les Anciens en ont mêlé dans le culte qu’ils ont rendu à Vénus ? 38 Colgi. Village fous la protection de Vénus» 22
+
+9% TABLE J J ardins. Vénus en avoit la préfidence. 31 Idalium. Médaille de cette ville fur laquelle Vénus eft re- présentée. 27 Jupiter Kpnrayevns. 20 K KINTAAat. Nom des Prêtreffes de Vénus en Cypre. 21
+
+LACÉDÉMONIENS. Ils repréfentoient leurs Dieux & leurs Déef- fes avec une lance, & pourquoi. 49 LaÏs. Vénus lui apparut en. fonge. 38 Plaifante reflexion de Bayle à ce fujet. 3 8 Aventure de. cette Courtifanne en Theffalie. 42 Lis. Confacré à Vénus. 83 Cette fleur contient le figne d’une chofe qu’il ne feroit pas honnête de nommer. 83 Lucrèce. Invocation qu'il fait à Vénus, comparée avec des vers d’Ovide. 30 M
+
+Mars. Amours de Mars & de Vénus. 45 Mèdicis. (Vénus de) Defcription qu’en fait l’Abbé Winkel- mann. 1 6 Le Dauphin & les Amours qui lui fervent d’appui ne paroiffent pas de la même main que la ftatue. 1 6 17 ■— Repréfentée au Fleuron du titre de cette Diferta- don. ' - .
+
+D E S MA T I É R E S. 99 Mercure. Affocié à Vénus. 43 Meursivs. Commentateur diffus & obfcur. 98 61 Miracle , attribué à une petite ftatue qu’un homme avoit achetée en Cypre. 20 Miroir. Attribut de Vénus. 87 Sa forme antique. 88 Moineaux, employés à tirer le char de Vénus. 87 Sapho les préféré aux colombes. 8 y Mythologie. Son obfcurité. 2 53 Son avantage fur les autres fauffes Religions. 2 Attaquée par des ignorans. 2 3 Elle fert d’aliment aux Beaux-Arts. 3 Myrte confacré à Vénus. Bq N Neptune. Ce mot employé pour lignifier des poilions. 3 1
+
+O Orrpor. Explication de ce mot. 59 P P avot. Étoït au nombre des Attributs de Vénus. 83 Superfiition de frapper fur fa main avec des feuilles de pavot, pour favoir fi l’on étoit heureux dans fes amours. 84 Paphienne. Voye^ Vénus Paphienne. Paphos. Deux villes de ce nom, l’une ancienne & l’autre nouvelle. 22 Son culte envers Vénus. 22 23 Médailles de Paphos. Poye^ Vénus Paphienne. N ij
+
+100 TABLE Passion aveugle d’un jeune homme pour la ftatue de Vénus à Cnide. 68 Phéniciens , portèrent en Grèce le culte de Vénus Uranie. 53 Pierres. Signes repréfentatifs des Dieux. 24 Platon , reconnoiloit deux Vénus. s POMME, attribut de Vénus. 84 Les amans en faifoient préfent autrefois à leurs maî- treffes. 84 Ce préfent paroîtroit un peu modique de nos jours. 84 Porcs.- Ilsétoient odieux à Vénus. 89 C’étoit une raifon pour certains peuples de lui en immo- ler, & pour d’autres de les écarter de fes Autels. 90 Poupées. Les jeunes filles offroient leurs poupées à Vénus, lorfqu’elles étoient fur le point de fe marier. 3 7 Praxiteles. Decription de fa Vénus par Pline. 69 Sa Vénus fur un médaillon de Caracalla frappé à Cnide. 71 Il avoit fi bien imité la nature qu'unjeune homme fe cacha la nuit dans le temple, pour affouvir fa paffion avec cette ftatue. 68 Priape. Affocié à Vénus. 32 Propagation. Influence de Vénus fur la propagation de l'ef- pèce humaine. 3 i Propétides, furent les premières qui fe foient proftituées. 42 Argument que l’on tire de leur proftitution pour prouver qu’elle n'étoit point en ufage. 42 — Punies par Vénus , & comment. 57 Prostitution. Elle ne fut jamais confacrée par la Religion chez aucun peuple policé. 42 Psecades. Femmes dont la fonction étoit de coiffer les Dames & de les parfumer. 87 Elles étoient fous la protection de Vénus. 87
+
+DES MATIÈRES. 101 PYGMALION n’a point violé la ftatue de Vénus Paphienne. 22 R
+
+Romains , imitateurs des Grecs pour le culte des Dieux. 73 Ils tiroient vanité de defcendre de Vénus par Enée. 35 Rose. Cette fleur étoit chère à Vénus, & pourquoi. S2 On prend plaifir à la cueillir, même en fe piquant à fes épines. 82 Superftition fingulière de frapper fur fa main avec des feuilles de rofes repliées , pour juger du fuccès de fes amours. 8 2 Les Poètes en donnant une tête de rofe & une gorge de rofe à Vénus , prenoient la partie pour le tout. 8 3 Couleur de rofe, fymbole de la pudeur. 83
+
+S Scopas , Sculpteur ; fa ftatue de Vénus TclvSnuos. 56 Scythes. Comment punis par Vénus, pour avoir pillé fon temple d’Afcalon. 58 Solin. Fragment de fon Poème intitulé Ponticon. 29 Superstition. Sa force. 2 5 Surnoms de Vénus. Il feroit inutile de les citer tous. 71 72 Lifte des principaux. Voyez Vénus.
+
+T Titien, (le) Sa Vénus Anadyomène , nommée vulgairement Vénus à la Coquille. 13 Voyez le Frontifpice de cette Differtation. Tortue. Statue de Vénus avec le pied pofé fur une tortue. 89
+
+102
+
+TABLE
+
+D’où vient l'aversion de la tortue femelle pour fe joindre au mâle. 89 — N'ef pas un attribut effentiel de Vénus Uranie. 53
+
+V énus. Différentes étymologies de ce mot. 29 — Nait de l’accident arrivé à Codas. 6 — Sa puiffance fur la mer. 6 — Fille de la mer. 9 — Pourquoi les Poëtes ont feint qu’elle droit fon origine de la mer. 28 La première forme fous laquelle on l’ait repréfentée chez les Grecs, vient de la première idée qu’ils en ont eue. 17 VÉNUS. Fille de Jupiter & de Dioné. 1 Ce que l’on doit penfer de la prétendue exiftence de cette Divinité. 3 Son Hiftoire doit entraîner dans des détails qui peuvent paroître licencieux. 4 Origine de cette Divinité, félon Bayle. 60 Son origine eft obfcure. 4 y Idée que les Poëtes s’en font formée. 41 Sa naiffance dans l'ifle de Cypre , ce qu’elle lignifie. 19 20 Sa puiffance. 63 Sa vengeance funefte à ceux qui méprifent fes loix. 41 Redoutable à ceux qui l'ont offenfée. 57 Sa vengeance contre toute la famille du Soleil. 57 — Anadyomène. Si la Vénus de Médicis eft une Vénus Anadyomène. 16 Ses cheveux doivent paroître mouillés. 17 Gori prétend , fans raifon, qu’elle eft représentée
+
+DES MATIÈRES. 103 fur une pierre gravée du Cabinet de Florence. 17 Abus de prendre des femmes nues pour des Vénus. 17 Vénus. Déeffe de la volupté, mère des Amours. 40 Déeffe des ris & des jeux. 44 Quel étoit fon cortège. 43 44 C’eft une abfurdité que de dire qu’elle ait été Courti- faune. 2 I Ce qui a donné lieu de dire que c’étoit une Courtifanne. 41 ■— Pudique. 41 — Paphienne. Les Éditeurs des Antiquités $ Herculanunt ont publié une efpèce de pyramide qu’ils croient, fans raifon , être Vénus Paphienne. 25 Son temple. 23 Defcription de fa ftatue par Tacite. 23 C’étoit un Cône & pourquoi. 23 Sa figure fur les médailles. 25 M. l’Abbé Broder croit, fans raifon, que c’eft un Phallus. 24 Son oracle. 26 Sa forme bizarre longtemps employée malgré les progrès de l’art. 25 Son culte fe répandit dans des pays fort éloignés de Paphos. 26 II fut admis à Sardes. 26 VÉNUS. Mife au nombre des Divinités Infernales. 40 — Genitrix. Comment elle eft repréfentée fur les médailles. 3 6 Statue de Vénus Genitrix publiée par Gori. 36 Les Grecs lui adreffoient des vœux pour obtenir des enfans. 3 6 Les filles & les veuves lui faifoient des facrifices avant
+
+leurs noces. 36 37 — Confondue avec Junon & pourquoi. 39 Sa métamorphofe en poiffon. 28 — Nom par lequel on entendoit la Nature elle-même. 29 — Et Pfyché. 3 1
+
+— Ce mot employé pour signifier des légumes. 3 1 :— Regardée comme la caufe des productions de la terre.
+
+104 TABLE & de la fécondité des hommes. 34 — Sa toilette. 86 — La plus ancienne des Déeffes. 63 Son culte établi en Grèce avant celui de Jupiter. 63 — Victorieufe. Comment elle eft repréfentée fur les médailles. 46 47 — Célefte. Gori a donné ce nom à une ftatue du Cabinet de Florence, fans autorité. 54 Vénus Célefte, ce que les Grecs entendoient par cette Divinité.. 5 ? — Erycine. Infcription en fon honneur. 8 o Son temple re- préfenté fur une médaille de la famille Confidia. 77 Vifion- naire qui a écrit que ce temple avoit été renverfé la nuit de la naiffance de Notre Seigneur J. C. 78 Réparé par Tibère ou par Claude. 78 — Syrienne paffoit pour avoir les deux fexes. 5 1 Qu’elle en eft la raifon. 5I 5 2 — De Cypre paffoit pour avoir les deux fexes. 20 Ce que cela fignifioit. 20 - Hortenfis. Pierre gravée qui la repréfente, félon Gori. 3 2
+
+Vénus, Ses Epithètes ou furnoms.
+
+Acréenne.
+
+69
+
+Alveas,
+
+33
+
+Æneia.
+
+78
+
+Albana.
+
+7 $
+
+AAENTIA. ?
+
+Alefias, 5
+
+67
+
+* AXyevns.
+
+6
+
+Alma.
+
+30
+
+Amathufia^
+
+27
+
+‘AvaNvoulyn,
+
+1O5
+
+DES MATIÈRES. ‘AvaOvouevn. 8 ‘AvSpQovos. 41 n’eftpas proprement une épithète.
+
+^VOO-IOL,
+
+41
+
+Aphacitis.
+
+51
+
+‘A@poyevea.
+
+6
+
+‘AwogpoQla.
+
+62
+
+Architis,
+
+51
+
+‘Apaa.
+
+45
+
+Ariadne.
+
+61
+
+Armée.
+
+47
+
+Aftarté.
+
+51
+
+Aurea,
+
+30
+
+Alilat ou Alitta.
+
+St
+
+BaciXcca.
+
+30
+
+Byblia.
+
+51
+
+Cabar.
+
+S»!
+
+Cœleflis.
+
+50 54 55
+
+Calva,
+
+74
+
+Cluacina & non Cloacina, 74
+
+Cnidia.
+
+68 70 71
+
+Colias,
+
+64
+
+Cypris.
+
+20
+
+Cythéréenne.
+
+19
+
+KaÀXixouos.
+
+86
+
+KapaoQopos.
+
+32
+
+KAZTNHTHZ.
+
+71
+
+‘Ey Knc0s.
+
+52
+
+Kparca Kuwp%,
+
+27
+
+Xpuav.
+
+30
+
+Delephat,
+
+51
+
+106 T A BALTE Derceto ou Atergatis. 51 Aivaid. i AoÀowAonos, 39 Doritide. 69 Eyx£10s. . 49 . 61 ' 40 72 j X O Erycina. 75 76 77 78 r Era.^cL. 39 EoAoa. . 70 Gabina, 7 5 Genitrix. 34 Teverepa. &c. 34 Idalia. « 27 Juno. . 3 9 40
+
+AdÔwyens. . 66 Libentina. ) . ( 37 Lubentina. J . ) - 5, _ ■ Limenia. ) • g Limnefia. 5 ) Lon^uria. . 80 Marina. . 8 Melœnis. 3 7 MAXovTis. . 3 3 Mitra. . ■ 51 Migonitis. 3 7 MqpQo. 49 Mylitta. .. 51 Myrtea. I wel g. Mut lia. MyXxala. . 3^
+
+DES MATIÈRES. 107
+
+Nuu@n.
+
+57
+
+Oigpo@opos.
+
+59
+
+Olympia,
+
+66
+
+Opawa.
+
+50
+
+Ilavayabos.
+
+30
+
+HolvclÎtiol.
+
+30
+
+IlavOnuos.
+
+50
+
+Icvbea.
+
+30
+
+ïlccai^dècract.
+
+60
+
+HepiGadin. ■
+
+6g
+
+Pelaÿa.
+
+8
+
+Uayrlct.
+
+8
+
+Tlovroylyeicc,
+
+6
+
+HiouueOns. ?
+
+ey
+
+iXouunons. J
+
+7
+
+Phyfica, Placida.
+
+43 62
+
+IloÀuxolvog.
+
+60
+
+Popularis.
+
+5o
+
+IDOla ou év TAlvo.
+
+71
+
+IIdpvn , n’eft point une épithète.
+
+11
+
+& 42
+
+IIpazis.
+
+71
+
+Pudique.
+
+61
+
+Romana,
+
+75
+
+Salambo.
+
+51
+
+lupos.
+
+58
+
+OaÀaccia.
+
+8
+
+GIMBPH.
+
+59
+
+) T powd.00000s.
+
+47
+
+Verticordia>
+
+62
+
+108 TABLE DES MATIÈRES.
+
+Vlclrix. Volglyaga. Vulgaria. Ze’vn , ou Peregrina. Zawpos. Zerinthia. Vin. Lait de Vénus.
+
+46 61, 6r 71 3° 64 41
+
+Fm de la Table des Matières^
+
+CORRECTIONS. Page 14, ligne 21, In vidit, lifez Invidit. Page 16, citation vis-à-vis de la féconde ligne. Tom. xxvi, lifez Tab, XXVI. Page 17 , ligne 15 , fur un plan , lifez fui un terrein. Page 48 , ligne 2 , ou ne lui cédant, lifez ou ne les lui cédant. Page 69 , ligne première de la note (3) épitète, lifez épithète. Page 72 , ligne 12 , la plus jeune , lifez l’aînée. ibid. ligne 14, l’aînée, lifez la plus jeune. Page 84 » citation vis-à-vis de la ligne 2 , Theocrit, Idy II, 2, v. 30. lifez Idyll, 3, v. 2s.
+
