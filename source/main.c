@@ -126,3 +126,121 @@ int main(void) {
 
     return 0;
 } */
+
+// MAIN FINAL ?!?!?! ( spoiler : non )
+
+int main(int argc, char **argv) {
+
+    //  Valeurs par défaut 
+
+    size_t topN = 20;
+    int algo = 1; // 1 = algo1, 2 = algo2, ? = algo3
+    char *outfile = NULL;
+    char *perffile = NULL;
+
+    char **files = (char **)malloc(sizeof(char*) * argc);// Tableau temporaire pour stocker les fichiers
+    if (!files) {
+        fprintf(stderr, "Erreur allocation tableau fichiers\n");
+        return 1;
+    }
+    int nfiles = 0;
+
+    // On lit les arguments de l'execution
+    for (int i = 1; i < argc; ++i) {
+        if (strcmp(argv[i], "--help") == 0) {
+            print_help(argv[0]);
+            free(files);
+            return 0;
+        } else if (strcmp(argv[i], "-n") == 0 && i + 1 < argc) {
+            topN = (size_t)atoi(argv[++i]);
+            if (topN == 0) topN = 20;
+        } else if (strcmp(argv[i], "-a") == 0 && i + 1 < argc) {
+            ++i;
+            if (strcmp(argv[i], "algo1") == 0) algo = 1;
+            else if (strcmp(argv[i], "algo2") == 0) algo = 2; // A modifier pour l'ajout d'algo
+            else {
+                fprintf(stderr, "Algorithme inconnu '%s'\n", argv[i]);
+                free(files);
+                return 1;
+            }
+        } else if (strcmp(argv[i], "-s") == 0 && i + 1 < argc) {
+            outfile = argv[++i];
+        } else if (strcmp(argv[i], "-l") == 0 && i + 1 < argc) {
+            perffile = argv[++i];
+        } else {
+            files[nfiles++] = argv[i]; // Argument normal -> fichier
+        }
+    }
+
+    if (nfiles == 0) {
+        fprintf(stderr, "Aucun fichier fourni. Utilisez --help.\n");
+        free(files);
+        return 1;
+    }
+
+    // 
+    for (int fi = 0; fi < nfiles; ++fi) {
+        const char *input = files[fi];
+
+        InfoMem mem = {0,0,0};
+
+        char *texte = ouvrir_file(input);
+        if (!texte) {
+            fprintf(stderr, "Impossible de lire '%s'\n", input);
+            continue;
+        }
+
+        normalisation_texte_v2(texte);
+
+        Dico *dico = initDico(16, &mem);
+        if (!dico) {
+            fprintf(stderr, "Erreur initDico pour %s\n", input);
+            free(texte);
+            continue;
+        }
+
+        size_t total_mots = compter_mots(texte);
+
+        clock_t t0 = clock();
+        ajouterMotTexteADico(texte, dico, &mem);
+
+        if (algo == 2) { // Tri pour algo2
+            trierDicoParOccurences(dico);
+        }
+        clock_t t1 = clock();
+        double elapsed = (double)(t1 - t0) / CLOCKS_PER_SEC;
+
+        // Affichage ou fichier
+        if (afficher_resultats(dico, topN, outfile, input) != 0) {
+            fprintf(stderr, "Erreur écriture résultats pour %s\n", input);
+        }
+
+        
+        if (perffile) { // Perf
+            ecrire_perf_csv(perffile,
+                            (algo == 1) ? "algo1" : "algo2", // A modifier pour l'ajout d'algo
+                            input,
+                            total_mots,
+                            dico->nb_mots,
+                            elapsed,
+                            mem.cumul_alloc,
+                            mem.cumul_desalloc,
+                            mem.max_alloc);
+        }
+
+        // Récapitulatif
+        printf("Fichier : %s | algo: %s | total_mots : %zu | distinct : %zu | time : %.6fs | max_mem : %zu bytes\n",
+               input,
+               (algo == 1) ? "algo1" : "algo2", // A modifier pour l'ajout d'algo
+               total_mots,
+               dico->nb_mots,
+               elapsed,
+               mem.max_alloc);
+
+        freeDico(dico, &mem);
+        free(texte);
+    }
+
+    free(files);
+    return 0;
+}
