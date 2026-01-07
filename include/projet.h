@@ -54,8 +54,7 @@ int comparerMots(const void* mot1, const void* mot2);
 void trierDicoParOccurences(Dico* dico);
 
 //? files
-char* ouvrir_file(const char* path);
-//char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len); //ce prototype pour une nouv version de la fnct avec les myMalloc/free pas encore modifiée
+char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len);
 int normalisation_texte_v2(char* s);
 int switch_fr(unsigned char b2);
 

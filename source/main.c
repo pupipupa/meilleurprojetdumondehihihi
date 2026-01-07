@@ -194,18 +194,22 @@ int main(int argc, char **argv) {
         normalisation_texte_v2(texte);
 
         //!ALGO 3 ARBRES:
+        if (algo == 3) {
+            Arbre arbre;
+            arbre.racine = NULL;
+            arbre.nb_mots_uniques = 0;  
 
-        Arbre arbre;
-        arbre.racine = NULL;
-        arbre.nb_mots_uniques = 0;  
-        
-        inserer_texte_dans_arbre(texte, &arbre, &mem);
-        TopK topk = creer_topK((int)topN, &mem);
-        parcours_arbre(arbre.racine, &topk);
-        print_topk(&topk);
-        
-        detruire_topK(&topk, &mem);
-        liberer_arbre(arbre.racine, &mem);
+            inserer_texte_dans_arbre(texte, &arbre, &mem);
+            TopK topk = creer_topK((int)topN, &mem);
+            parcours_arbre(arbre.racine, &topk);
+            print_topk(&topk);
+
+            detruire_topK(&topk, &mem);
+            liberer_arbre(arbre.racine, &mem);
+            free(texte);
+            continue;
+        }
+
 
         Dico *dico = initDico(16, &mem);
         if (!dico) {

@@ -365,7 +365,7 @@ size_t compter_mots(const char *texte) // BUT : compte le nombre de mots dans un
 //? le fichier:
 
 //!1:
-char* ouvrir_file(const char* path){
+char* ouvrir_file(const char* path, InfoMem* mem, size_t* out_len){
     FILE *f;
     long len_long; //NOTE: FTELL выдает всегда ЛОНГ 
     //unsigned long long fread_resultat; //смотри не ансигнед лонг ебанный а как раз таки сайз ти ебанный тоже 
@@ -398,7 +398,7 @@ char* ouvrir_file(const char* path){
     // ПРОВЕРКА ЕЛАСИ СРАБОТАЛО 
     rewind(f);
 
-    char* ch = (char*)malloc(len+1); //ANCHOR: НИКОГДА НАХУЙ НЕ ЗАБЫВАЙ +1 ПЖЖЖЖЖЖЖЖЖЖ ДЛЯ '\0'
+    char* ch = (char*)myMalloc(len + 1, mem); //ANCHOR: НИКОГДА НАХУЙ НЕ ЗАБЫВАЙ +1 ПЖЖЖЖЖЖЖЖЖЖ ДЛЯ '\0'
     // ПРОВЕРКА НА МАЛЛОК 
     if(ch == NULL){
         fprintf(stderr, "Erreur: la mémoire pas alloué\n");
@@ -411,13 +411,16 @@ char* ouvrir_file(const char* path){
     if(fread_resultat != len){
         //printferror
         fprintf(stderr, "Erreur: le fread n'est pas passé \n");
-        free(ch);
+        myFree(ch, mem, len + 1);
         fclose(f); 
         return NULL;
     }
 
     ch[len] = '\0';
     fclose(f);
+    if (out_len != NULL) {
+        *out_len = len + 1;
+    }
     return ch;
 }
 
